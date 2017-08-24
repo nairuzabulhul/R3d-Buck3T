@@ -222,7 +222,9 @@ __C Programming:__
   
   Notes:
   
-     -  [Vulnerability Assessment]()
+     -  [Networking](https://github.com/nairuzabulhul/RoadMap/blob/master/PTS/Networking.md)
+     -  [Web Application](https://github.com/nairuzabulhul/RoadMap/blob/master/PTS/Web%20Application.md)
+     -  [Vulnerability Assessment](https://github.com/nairuzabulhul/RoadMap/blob/master/PTS/Vulnerability%20Assessement.md)
 
 
 ### Projects
