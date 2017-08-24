@@ -16,6 +16,7 @@
 
 - [Wireshark Essentials by James Baxter](https://www.amazon.com/Wireshark-Essentials-James-H-Baxter/dp/1783554630)
 
+- [Kali Linux: Wireless Penetration Testing Beginner's Guide by Vivek Ramachandran (Author), Cameron Buchanan](https://www.amazon.com/Kali-Linux-Wireless-Penetration-Beginners/dp/1783280417/ref=sr_1_1?s=books&ie=UTF8&qid=1503563753&sr=1-1&keywords=wireless+by+vivek)
 
 ### Online Courses
 
@@ -192,17 +193,20 @@ __C Programming:__
 - [Firewall Rules]()
 
 
+----------------------------------------------------------------------------------------------------------------------------
 
 ## Level 2:
 
 
 ### Books:
 
-- [Effective Python for Penetration Testing by ]()
+- [Effective Python for Penetration Testing by Rejah Rehim](https://www.amazon.com/Effective-Python-Penetration-Testing-Rejah/dp/1785280694)
+
 
 
 ### Online Courses
 
+- [PTS]
 
 
 ### Projects
