@@ -61,8 +61,10 @@ __Windows__:
                                          <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
 
 
-### Programming & Scripting :
-__Python :__
+### Programming & Scripting 
+
+
+__Python__
 
   - [Import Python](http://importpython.com/books/) - A collection of Python books from novice to expert <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
                    <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
@@ -115,7 +117,7 @@ __Python :__
   
   - [Python Developer Career Path ](https://www.packtpub.com/mapt/skill-plans/programmer/python-developer)
   
-__JavaScript :___
+__JavaScript__
 
 - [Free Code Camp ](https://www.freecodecamp.com/) <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
                    <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
