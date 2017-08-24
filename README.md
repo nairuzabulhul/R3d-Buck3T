@@ -14,6 +14,8 @@
    
 -  [Black Hat Python](https://www.amazon.com/Black-Hat-Python-Programming-Pentesters/dp/1593275900/ref=sr_1_1?ie=UTF8&qid=1480898714&sr=8-1&keywords=black+hat+Python)
 
+- [Wireshark Essentials by James Baxter](https://www.amazon.com/Wireshark-Essentials-James-H-Baxter/dp/1783554630)
+
 
 ### Online Courses
 
