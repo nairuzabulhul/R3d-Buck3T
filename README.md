@@ -220,6 +220,10 @@ __C Programming:__
 
 - [PTS]
 
+      Note:
+      
+      - [Vulnerability Assessment]()
+
 
 ### Projects
 
