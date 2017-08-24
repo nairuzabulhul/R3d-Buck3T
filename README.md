@@ -45,6 +45,7 @@ __Linux__:
 
 __Windows__:
 
+- [Common Windows Commands]()
 
 
 
@@ -59,7 +60,6 @@ __Windows__:
 
 
 ### Programming & Scripting :
-
 __Python :__
 
   - [Import Python](http://importpython.com/books/) - A collection of Python books from novice to expert <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
@@ -113,7 +113,6 @@ __Python :__
   
   - [Python Developer Career Path ](https://www.packtpub.com/mapt/skill-plans/programmer/python-developer)
   
-
 __JavaScript :___
 
 - [Free Code Camp ](https://www.freecodecamp.com/) <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
@@ -150,7 +149,7 @@ __JavaScript :___
                                               <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
                                                                       
                                                                        
-__C Programming:___
+__C Programming:__
 
 - [C programming Tutorials by NewBoston ](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKIXv8Yr6nhGJ9Vlcjyymq)
                                        <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
@@ -195,6 +194,8 @@ __C Programming:___
 
 ### Books:
 
+- [Effective Python for Penetration Testing by ]()
+
 
 ### Online Courses
 
@@ -202,4 +203,4 @@ __C Programming:___
 
 ### Projects
 
-
+- [PyCogs]()
