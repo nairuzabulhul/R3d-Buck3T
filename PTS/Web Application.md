@@ -34,6 +34,35 @@
               openssl -s_client -connect www.cnn.com:443 -quiet >> to reduce the verbosity of the output 
 
 
+__Kismet__ packet sniffer for IEEE 802.11
+
+__HTTP Cookie__:
+
+- __Host Only__ the server will only send a cookie for the specific hostname
+
+- __HTTP Only__ when a server installs a cookie with HTTP-only attribute, the client will set HTTP only flag for the cookie.
+
+__secure cookie__: cookies that only sent over HTTPS connection
+
+__Session__: is a mechanism that lets the website store variables specific to the visitor server side
+>>> Includes ---------------> Session ID, Session Value
+        
+__Same Origin Policy__:
+>>> the same-origin policy is an important concept in the web application security model. Under the policy, a web browser permits scripts contained in a first web page to access data in a second web page, but only if both web pages have the same origin.
+
+__Intercept Proxy__:
+
+>>> is a tool that lets you analyze and modify requets and responses between HTTP client and server
+
+
+### Tools:
+
+- BurpSuite : __Target, Scope, Proxy, Spider, Repearter__
+- FireBug
+- OWASP (ZAP)
+-
+
+
 ### BurpSuite Tools:
 
 - __Proxy:___
@@ -56,3 +85,6 @@
     
     __Repeater__: 
             - Checks how the application behaves 
+
+
+### HTTP Status Codes:
