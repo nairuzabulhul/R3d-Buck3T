@@ -88,3 +88,23 @@ __Intercept Proxy__:
 
 
 ### HTTP Status Codes:
+
+|  __Code__ | __Status__   |  
+|-----------|--------------|
+| __200__   |  OK          |  
+| __202__   | Accept       | 
+| __301__   | Moved Permenantly   | 
+| __302__   |  Found          |  
+| __304__   | Not Modified       | 
+| __305__   | Use Proxy   | 
+| __400__   | Bad Request|
+| __401__    | Unauthorized|
+| __402__    | Forbidden  |
+| __404__   | Not FOund  | 
+| __407__   | Proxy Authentication Required|
+| __408__   | Requets Timeout |
+| __500__   |  Intrernal Server Error          |  
+| __501__   |  Not Implemented      | 
+| __502__   | Bad Gateway  | 
+| __503__   | Service Unavailable | 
+| __504__   | Gateway Timeout | 
