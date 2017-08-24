@@ -87,7 +87,7 @@ __Intercept Proxy__:
             - Checks how the application behaves 
 
 
-### HTTP Status Codes:
+### [HTTP Status Codes:](https://www.cheatography.com/kstep/cheat-sheets/http-status-codes/)
 
 |  __Code__ | __Status__   |  
 |-----------|--------------|
