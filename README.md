@@ -219,10 +219,10 @@ __C Programming:__
 ### Online Courses
 
 - [PTS]
-
-      Note:
-      
-      - [Vulnerability Assessment]()
+  
+  Notes:
+  
+     -  [Vulnerability Assessment]()
 
 
 ### Projects
