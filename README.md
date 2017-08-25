@@ -10,6 +10,7 @@
 
 - [10 things InfoSec professionals need to know about networking](https://artplusmarketing.com/10-things-infosec-professionals-need-to-know-about-networking-d159946efc93)
 
+
 ### Books :
 
 -  [Volient Python ](https://www.amazon.com/Violent-Python-Cookbook-Penetration-Engineers/dp/1597499579/ref=pd_sim_14_1?_encoding=UTF8&pd_rd_i=1597499579&pd_rd_r=5C5E512J452R8PW2PE6H&pd_rd_w=LhlpR&pd_rd_wg=KSEN0&psc=1&refRID=5C5E512J452R8PW2PE6H)
@@ -55,6 +56,14 @@
 - [CompTIA Security + Courses by PluralSight](https://www.pluralsight.com/paths/comptia-security-plus) __good for general concetps__ [1-6] 
 
    - 1 DONE
+   
+   
+ - [Web Application Penetration Testing Fundamentals by Mike Woolard](https://app.pluralsight.com/library/courses/web-app-pentesting-fundamentals/table-of-contents) __pluralsight__
+
+
+- [Ethical Hacking: Hacking Web Applications by Troy Hunt](https://app.pluralsight.com/library/courses/ethical-hacking-web-applications/table-of-contents) __pluralsight__
+
+
 
 ### OS Commands:
 
@@ -203,11 +212,11 @@ __C Programming:__
 
 ### Projects:
 
-- [Open Gate]()
+- [Open Gate](https://github.com/nairuzabulhul/OpenGate)
 
-- [KeyPlexer]()
+- [KeyPlexer](https://github.com/nairuzabulhul/KeyPlexer)
 
-- [Firewall Rules]()
+- [Firewall Rules](https://github.com/nairuzabulhul/Firewall_Rules)
 
 
 ----------------------------------------------------------------------------------------------------------------------------
