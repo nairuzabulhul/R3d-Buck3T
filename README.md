@@ -295,3 +295,7 @@ __C Programming:__
 ### Reviews:
 
 - [Offensive Security Certified Professional (OSCP) Review by Jim Wilbur](https://www.jimwilbur.com/2017/07/oscp-review/)
+
+- [My experience with the OSCP certification Daniel Tomescu](https://securitycafe.ro/2016/03/17/my-experience-with-the-oscp-certification/)
+
+- []
