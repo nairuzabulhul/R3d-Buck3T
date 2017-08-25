@@ -52,6 +52,9 @@
                     <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
                     <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
 
+- [CompTIA Security + Courses by PluralSight](https://www.pluralsight.com/paths/comptia-security-plus) __good for general concetps__ [1-6] 
+
+   - 1 DONE
 
 ### OS Commands:
 
@@ -216,11 +219,15 @@ __C Programming:__
 
 - [Effective Python for Penetration Testing by Rejah Rehim](https://www.amazon.com/Effective-Python-Penetration-Testing-Rejah/dp/1785280694)
 
+- [Burp Suite Essentials](https://github.com/nairuzabulhul/E-Books/blob/master/Web%20Development/Burp%20Suite%20Essentials.pdf)
+
+- [The Web Application Hacker's Handbook Finding and Exploiting Security Flaws Kindle Edition by Dafydd Stuttard](https://github.com/nairuzabulhul/E-Books/blob/master/Web%20Development/%5BThe%20Web%20Application%20Hacker's%20Handbook%20Finding%20and%20Exploiting%20Security%20Flaws%20Kindle%20Edition%20by%20Dafydd%20Stuttard%20-%202011%5D.pdf)
+
 
 
 ### Online Courses
 
-- [PTS]
+- [PTS]()
   
   Notes:
   
@@ -228,8 +235,40 @@ __C Programming:__
      -  [Web Application](https://github.com/nairuzabulhul/RoadMap/blob/master/PTS/Web%20Application.md)
      -  [Pentesting](https://github.com/nairuzabulhul/RoadMap/blob/master/PTS/Pentesting.md)
      -  [Vulnerability Assessment](https://github.com/nairuzabulhul/RoadMap/blob/master/PTS/Vulnerability%20Assessement.md)
+     
+- [Web Application Penetration Testing with Burp Suite By Sunny Wear](https://www.pluralsight.com/courses/web-application-penetration-testing-with-burp-suite) __PluralSight__
+
+- [Debugging the Web with FireBug, WebDeveloper, and Fiddler By Shawn Wildermuth](https://www.pluralsight.com/courses/web-debug) __PluralSight__
+
+
 
 
 ### Projects
 
 - [PyCogs]()
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+## Level 3
+
+
+### Books:
+
+
+
+
+### Online Courses:
+
+- [PTP]()
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+## Level 4
+
+
+
+### Reviews:
+
+- [Offensive Security Certified Professional (OSCP) Review by Jim Wilbur](https://www.jimwilbur.com/2017/07/oscp-review/)
