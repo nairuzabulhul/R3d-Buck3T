@@ -17,3 +17,9 @@
     
     
     
+### OpenSSL:
+
+    >>> openssl s_client -connect hostName:portNumber
+    
+    
+__s_client__: establishes SSL/TLS connection
