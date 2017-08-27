@@ -263,6 +263,17 @@ __C Programming:__
 - [PyCogs]()
 
 
+
+### Tools &Commands :
+
+- [General Commands](https://github.com/nairuzabulhul/RoadMap/blob/master/Commands/Commands.md)
+
+- [Nmap]()
+
+- [Ncat]()
+
+- [fping]()
+
 &nbsp;
 &nbsp;
 &nbsp;
