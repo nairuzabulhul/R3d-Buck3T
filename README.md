@@ -274,6 +274,10 @@ __C Programming:__
 
 - [fping]()
 
+- [Telnet]()
+
+- [Open_SSL]()
+
 &nbsp;
 &nbsp;
 &nbsp;
