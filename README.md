@@ -3,27 +3,28 @@
 
 ### General Terminology:
 
-- [100 Top Computer Security Questions and Answers](https://github.com/nairuzabulhul/.CodeBits/blob/master/Security/100%20Security%20Questions.md)
+- [100 Top Computer Security Questions and Answers](https://github.com/nairuzabulhul/.CodeBits/blob/master/Security/100%20Security%20Questions.md)  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
 
 - [100 Top Networking Questions and Answers](https://github.com/nairuzabulhul/Algorithms_in_Python/blob/master/InterviewQuestions/Top%20100%20Networking%20Interview%20Questions%20%26%20Answers.md)  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
 
 
-- [10 things InfoSec professionals need to know about networking](https://artplusmarketing.com/10-things-infosec-professionals-need-to-know-about-networking-d159946efc93)
+- [10 things InfoSec professionals need to know about networking](https://artplusmarketing.com/10-things-infosec-professionals-need-to-know-about-networking-d159946efc93)  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
 
 
 ### Books :
 
 -  [Volient Python ](https://www.amazon.com/Violent-Python-Cookbook-Penetration-Engineers/dp/1597499579/ref=pd_sim_14_1?_encoding=UTF8&pd_rd_i=1597499579&pd_rd_r=5C5E512J452R8PW2PE6H&pd_rd_w=LhlpR&pd_rd_wg=KSEN0&psc=1&refRID=5C5E512J452R8PW2PE6H)
    
--  [Black Hat Python](https://www.amazon.com/Black-Hat-Python-Programming-Pentesters/dp/1593275900/ref=sr_1_1?ie=UTF8&qid=1480898714&sr=8-1&keywords=black+hat+Python)
+-  [Black Hat Python](https://www.amazon.com/Black-Hat-Python-Programming-Pentesters/dp/1593275900/ref=sr_1_1?ie=UTF8&qid=1480898714&sr=8-1&keywords=black+hat+Python) <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> __Intermediate Python__
 
-- [Wireshark Essentials by James Baxter](https://www.amazon.com/Wireshark-Essentials-James-H-Baxter/dp/1783554630)
+- [Wireshark Essentials by James Baxter](https://www.amazon.com/Wireshark-Essentials-James-H-Baxter/dp/1783554630)  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> 
 
-- [Kali Linux: Wireless Penetration Testing Beginner's Guide by Vivek Ramachandran (Author), Cameron Buchanan](https://www.amazon.com/Kali-Linux-Wireless-Penetration-Beginners/dp/1783280417/ref=sr_1_1?s=books&ie=UTF8&qid=1503563753&sr=1-1&keywords=wireless+by+vivek)
+- [Kali Linux: Wireless Penetration Testing Beginner's Guide by Vivek Ramachandran (Author), Cameron Buchanan](https://www.amazon.com/Kali-Linux-Wireless-Penetration-Beginners/dp/1783280417/ref=sr_1_1?s=books&ie=UTF8&qid=1503563753&sr=1-1&keywords=wireless+by+vivek)  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> __Beginners__
+
 
 ### Online Courses
 
-- [ Volume I : The Complete Cyber Security Course by Nathan House](https://www.udemy.com/the-complete-internet-security-privacy-course-volume-1/)
+- [ Volume I : The Complete Cyber Security Course by Nathan House](https://www.udemy.com/the-complete-internet-security-privacy-course-volume-1/)  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> __Intermediate Level__
 
 
 - [ Volume II: The Complete Cyber Security Course by Nathan House](https://www.udemy.com/network-security-course/) --> __Intermediate Level__  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
