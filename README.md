@@ -59,11 +59,10 @@
    - 1 DONE
    
    
- - [Web Application Penetration Testing Fundamentals by Mike Woolard](https://app.pluralsight.com/library/courses/web-app-pentesting-fundamentals/table-of-contents) __pluralsight__
+ - [Web Application Penetration Testing Fundamentals by Mike Woolard](https://app.pluralsight.com/library/courses/web-app-pentesting-fundamentals/table-of-contents) __pluralsight__ __(90% Theory, 10% hands-on)__  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> 
 
 
-- [Ethical Hacking: Hacking Web Applications by Troy Hunt](https://app.pluralsight.com/library/courses/ethical-hacking-web-applications/table-of-contents) __pluralsight__
-
+- [Ethical Hacking: Hacking Web Applications by Troy Hunt](https://app.pluralsight.com/library/courses/ethical-hacking-web-applications/table-of-contents) __Pluralsight__  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> __Theory__
 
 
 ### OS Commands:
@@ -240,7 +239,7 @@ __C Programming:__
 
 ### Online Courses
 
-- [PTS]()
+- [PTS]()  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> __Hands-on Courses__
   
   Notes:
   
