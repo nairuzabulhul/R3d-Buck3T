@@ -27,3 +27,9 @@
     
     
 __s_client__: establishes SSL/TLS connection
+
+
+
+### Linux:
+ 
+    >>>  ls -ld .?*    ----> Show hidden files 
