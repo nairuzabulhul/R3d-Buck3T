@@ -11,6 +11,8 @@
 - [SANS Institute InfoSec Reading Room](https://www.sans.org/reading-room/whitepapers/testing/scanning-windows-deeper-nmap-scanning-engine-33138)
 
 
+- [SOLDIERX.COM](https://www.soldierx.com/tutorials)
+
 ### Linux
 
 
