@@ -101,3 +101,9 @@ __Fingerprint the OS__:
     >> nmap --script-args=unsafe=1 --script smb-check-vulns.nse -p 445 10.0.0.1
     
     >> nmap --script smb-check-vulns.nse -p 445 10.0.0.1
+    
+    
+    
+__Resources__:
+
+- [Nmap Scripts ](http://ninjaos.org/user_guides/nmap_scripts.pdf)
