@@ -45,3 +45,7 @@ __s_client__: establishes SSL/TLS connection
     
     >>> nmap -Pn IP_address           ------> scanning without sending pings 
     
+    >>> nmap -O IP_address           ------> scan with OS fingerprinting 
+    
+    >>> nmap -A IP_address         --------> 
+    
