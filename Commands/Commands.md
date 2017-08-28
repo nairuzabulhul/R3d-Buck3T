@@ -14,6 +14,10 @@
     
     >>> ssh username@hostName -p portNumber 
     
+    >>>  ssh userName@hostName -t /bin/sh -p portNumber  --> log with out .bashrc file
+    
+    .bashrc file: 
+    
     
     
     
