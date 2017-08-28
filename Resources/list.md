@@ -8,6 +8,8 @@
 
 - [7 Nmap NSE Scripts for Recon](https://hackertarget.com/7-nmap-nse-scripts-recon/)
 
+- [SANS Institute InfoSec Reading Room](https://www.sans.org/reading-room/whitepapers/testing/scanning-windows-deeper-nmap-scanning-engine-33138)
+
 
 ### Linux
 
