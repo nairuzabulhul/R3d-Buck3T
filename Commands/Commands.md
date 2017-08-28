@@ -33,3 +33,15 @@ __s_client__: establishes SSL/TLS connection
 ### Linux:
  
     >>>  ls -ld .?*    ----> Show hidden files 
+
+
+### Nmap :
+
+    >>> nmap -sT IP_address             ----> TCP scan (active scanning), complete handshake
+    
+    >>> namp -sS Ip_address            -----> Stealth scan(No logs), as the handshakes is NOT completed 
+    
+    >>> nmap -sV IP_address           ------> probing services on the ports
+    
+    >>> nmap -Pn IP_address           ------> scanning without sending pings 
+    
