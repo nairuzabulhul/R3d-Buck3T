@@ -114,3 +114,26 @@ __Exploiting PUT:__
         
 
         
+__Cross Site Scripting__:
+
+- A vulnerability that let's an attacker control some content of a web application 
+    - Modify the content on the run-time 
+    - inject malicious content
+    - Steal cookies, thus session
+
+__XXS vulnerability__ happens when a web application uses unfiltered user input to build the output content 
+
+__User Input__:
+
+- Head requets
+- Cookies
+- POST parameters
+- GET parameters
+
+__Types of XSS__:
+
+- __Reflected__ 
+
+>>> happens when the injection of a malicious payload carried inside the request that is sent to the vulnerable website
+
+- Persistsent
