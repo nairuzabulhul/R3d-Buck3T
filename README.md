@@ -236,6 +236,12 @@ __C Programming:__
 - [The Web Application Hacker's Handbook Finding and Exploiting Security Flaws Kindle Edition by Dafydd Stuttard](https://github.com/nairuzabulhul/E-Books/blob/master/Web%20Development/%5BThe%20Web%20Application%20Hacker's%20Handbook%20Finding%20and%20Exploiting%20Security%20Flaws%20Kindle%20Edition%20by%20Dafydd%20Stuttard%20-%202011%5D.pdf)
 
 
+- [Linux Bible](https://github.com/nairuzabulhul/E-Books/blob/master/Linux/Linux%20Bible%2C%209th%20Edition.pdf)
+
+- [Google Dorks](http://shop.oreilly.com/product/9780128029640.do)
+
+- [Nmap 6 Cookbook: The Fat Free Guide to Network Security Scanning](https://www.amazon.com/Nmap-Cookbook-Network-Security-Scanning/dp/1507781385/ref=sr_1_1?s=books&ie=UTF8&qid=1504015056&sr=1-1&keywords=nmap+6)
+
 
 ### Online Courses
 
