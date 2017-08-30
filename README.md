@@ -284,9 +284,19 @@ __C Programming:__
 
 - [Open_SSL]()
 
-- Dirbuster
+- [Dirbuster]()
 
 - [Nessus]() 
+
+- [BurpSuite]()
+
+- [OWASP ZAP]()
+
+- [Wireshark]()
+
+- [Sysinternal whois]()
+
+- [p0f]()
 
 
 &nbsp;
