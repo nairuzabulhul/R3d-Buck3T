@@ -341,3 +341,5 @@ __C Programming:__
 - [My experience with the OSCP certification Daniel Tomescu](https://securitycafe.ro/2016/03/17/my-experience-with-the-oscp-certification/)
 
 - [OSCP-prep](https://github.com/ibr2/OSCP-Prep/blob/master/Practicing%20CTF)
+
+- [OSCP Survival Guide](https://github.com/frizb/OSCP-Survival-Guide)
