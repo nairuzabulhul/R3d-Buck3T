@@ -49,3 +49,8 @@ __s_client__: establishes SSL/TLS connection
     
     >>> nmap -A IP_address         --------> 
     
+### Netcat
+
+Listening to localhost 
+
+    >>> nc -l 1234
