@@ -344,3 +344,5 @@ __C Programming:__
 - [OSCP-prep](https://github.com/ibr2/OSCP-Prep/blob/master/Practicing%20CTF)
 
 - [OSCP Survival Guide](https://github.com/frizb/OSCP-Survival-Guide)
+
+- [OSCP by John Kennedy](https://www.nebraskacert.org/csf/CSF-Oct2016.pdf)
