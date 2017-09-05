@@ -241,7 +241,7 @@ __C Programming:__
 
 - [Google Dorks](http://shop.oreilly.com/product/9780128029640.do)
 
-   - [Chapter2: Advanced Operators]()
+   - [Chapter2: Advanced Operators](https://github.com/nairuzabulhul/RoadMap/blob/master/BooksNotes/Google%20Dorks/gooDorks.md)
 
 - [Nmap 6 Cookbook: The Fat Free Guide to Network Security Scanning](https://www.amazon.com/Nmap-Cookbook-Network-Security-Scanning/dp/1507781385/ref=sr_1_1?s=books&ie=UTF8&qid=1504015056&sr=1-1&keywords=nmap+6)
 
