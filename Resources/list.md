@@ -21,5 +21,5 @@
 
 - [Penetration Testing Tools Cheat Sheet](https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/)
 
--[Top 5 Security Tools —August 2017](https://medium.com/hack-with-github/top-5-security-tools-august-2017-bbae4e155c59)
+- [Top 5 Security Tools —August 2017](https://medium.com/hack-with-github/top-5-security-tools-august-2017-bbae4e155c59)
 
