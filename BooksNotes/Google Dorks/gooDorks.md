@@ -23,11 +23,13 @@ __Notes__
 
 
 __Intitle__ [*****]
+
 ▪ Finds strings in the title of a page
 
 ▪ Mixes well with other operators▪ Best used with Web, Group, Images, and News searches
 
 __Allintitle__
+
 ▪ Finds all terms in the title of a page
 
 ▪ Does not mix well with other operators or search terms
@@ -35,6 +37,7 @@ __Allintitle__
 ▪ Best used with Web, Group, Images, and News searches
 
 __Inurl__
+
 ▪ Finds strings in the URL of a page
 
 ▪ Mixes well with other operators
@@ -42,6 +45,7 @@ __Inurl__
 ▪ Best used with Web and Image searches
 
 __Allinurl__
+
 ▪ Finds all terms in the URL of a page
 
 
@@ -51,6 +55,7 @@ __Allinurl__
 ▪ Best used with Web, Group, and Image searches
 
 __Filetype__
+
 ▪ Finds specific types of files based on file extension
 
 ▪ Synonymous with ext
@@ -62,6 +67,7 @@ __Filetype__
 ▪ Best used with Web and Group searches
 
 __Allintext__
+
 ▪ Finds all provided terms in the text of a page
 
 ▪ Pure evil – don’t use it
@@ -69,6 +75,7 @@ __Allintext__
 ▪ Forget you ever heard about allintext
 
 __Site__
+
 ▪ Restricts a search to a particular site or domain
 
 ▪ Mixes well with other operators
@@ -76,6 +83,7 @@ __Site__
 ▪ Can be used alone▪ Best used with Web, Groups and Image searchse
 
 __Link__
+
 ▪ Searches for links to a site or URL
 
 ▪ Does not mix with other operators or search terms
@@ -84,6 +92,7 @@ __Link__
 ▪ Best used with Web searches
 
 __Inanchor__
+
 ▪ Finds text in the descriptive text of links
 
 ▪ Mixes well with other operators and search terms
@@ -91,6 +100,7 @@ __Inanchor__
 ▪ Best used for Web, Image, and News searches
 
 __Daterange__
+
 ▪ Locates pages indexed within a specific date range
 
 ▪ Requires a search term
@@ -102,11 +112,13 @@ __Daterange__
 ▪ Might be phased out to make way for as_qdr
 
 __Numrange__
+
 ▪ Finds a number in a particular range▪ Mixes well with other operators and search terms
 
 ▪ Best used with Web searches▪ Synonymous with ext.
 
 __Cache__
+
 ▪ Displays Google’s cached copy of a page
 
 ▪ Does not mix with other operators or search terms
@@ -114,6 +126,7 @@ __Cache__
 ▪ Best used with Web searches
 
 __Info__
+
 ▪ Displays summary information about a page
 
 ▪ Does not mix with other operators or search terms
@@ -121,6 +134,7 @@ __Info__
 ▪ Best used with Web searches
 
 __Related__
+
 ▪ Shows sites that are related to provided site or URL
 
 ▪ Does not mix with other operators or search terms
@@ -128,6 +142,7 @@ __Related__
 ▪ Best used with Web searches
 
 __Stocks__
+
 ▪ Shows the Yahoo Finance stock listing for a ticker symbol
 
 ▪ Does not mix with other operators or search terms
@@ -135,11 +150,13 @@ __Stocks__
 ▪ Best provided as a Web query
 
 __Define__
+
 ▪ Shows various definitions of a provided word or phrase
 
 ▪ Does not mix with other operators or search terms
 
 ▪ Best provided as a Web query
+
 
 ### Booleans:
 
@@ -227,11 +244,6 @@ __Extension Walking__
        
 __Note__: Know the extension type of the program you are searching for 
 
-__To-do__: 
-- add most of the configuration files 
-- Filter out common words or phrases such as exmaple, test, how-to, sample
-- Filter out CVS files to execlude files that are not config 
-- Exploit-DB has good queries for configuration file 
 
 
 __Locating files:__
