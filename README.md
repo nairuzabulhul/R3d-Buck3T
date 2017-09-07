@@ -307,6 +307,12 @@ __C Programming:__
 
 - [p0f]()
 
+- [Nexpose]
+
+- [sQLmap]
+
+- [Firebug]
+
 
 &nbsp;
 &nbsp;
