@@ -232,6 +232,8 @@ __C Programming:__
 
 - [Effective Python for Penetration Testing by Rejah Rehim](https://www.amazon.com/Effective-Python-Penetration-Testing-Rejah/dp/1785280694)
 
+   - [Chpater9 : Automation of tools ]()
+   
 - [Burp Suite Essentials](https://github.com/nairuzabulhul/E-Books/blob/master/Web%20Development/Burp%20Suite%20Essentials.pdf)
 
 - [The Web Application Hacker's Handbook Finding and Exploiting Security Flaws Kindle Edition by Dafydd Stuttard](https://github.com/nairuzabulhul/E-Books/blob/master/Web%20Development/%5BThe%20Web%20Application%20Hacker's%20Handbook%20Finding%20and%20Exploiting%20Security%20Flaws%20Kindle%20Edition%20by%20Dafydd%20Stuttard%20-%202011%5D.pdf)
@@ -245,6 +247,7 @@ __C Programming:__
 
 - [Nmap 6 Cookbook: The Fat Free Guide to Network Security Scanning](https://www.amazon.com/Nmap-Cookbook-Network-Security-Scanning/dp/1507781385/ref=sr_1_1?s=books&ie=UTF8&qid=1504015056&sr=1-1&keywords=nmap+6)
 
+- [Coding for Penetration Testers, Second Edition: Building Better Tools 2nd Edition](https://www.amazon.com/Coding-Penetration-Testers-Second-Building/dp/0128054727/ref=dp_ob_title_bk)
 
 ### Online Courses
 
