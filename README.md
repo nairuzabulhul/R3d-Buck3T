@@ -274,6 +274,9 @@ __C Programming:__
 - [Debugging the Web with FireBug, WebDeveloper, and Fiddler By Shawn Wildermuth](https://www.pluralsight.com/courses/web-debug) __PluralSight__
 
 
+- [SQL Injection by Tron Hunt](https://www.pluralsight.com/courses/ethical-hacking-sql-injection)
+
+- [Play by Play: Exploring the Internet of Vulnerabilities](https://www.pluralsight.com/courses/play-by-play-exploring-internet-of-vulnerabilities)
 
 
 ### Projects
