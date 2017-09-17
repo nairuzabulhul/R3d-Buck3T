@@ -278,6 +278,7 @@ __C Programming:__
 
 - [Play by Play: Exploring the Internet of Vulnerabilities](https://www.pluralsight.com/courses/play-by-play-exploring-internet-of-vulnerabilities)
 
+- [SQL Injection by Cybrary](https://www.cybrary.it/skill-certification-course/sql-injection-certification-training-course) <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
 
 ### Projects
 
