@@ -38,8 +38,6 @@ Tools used :
 	
 
 
-	
-
 John
 
 - Linux:
@@ -54,5 +52,14 @@ John
 	- unshadow /etc/passwd /etc/shadow > hashes.txt 
 
 	hashes is the created files to dump all the hashes there
+
+
+
+### John the Ripper:
+
+	- john --wordlist=/usr/share/john/password.lst hashes
+
+	- John --show hashes 
+
 
 
