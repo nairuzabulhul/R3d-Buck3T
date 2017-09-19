@@ -3,29 +3,29 @@
 
 ### Searchsploit :
 
-        Ex: searchsploit nameofVuln OS_type
+> - searchsploit nameofVuln OS_type
         
-            searchsolit rpc windows
+> - searchsolit rpc windows
             
-            searchsploit MS08-067 windows
+> - searchsploit MS08-067 windows
 
 
 
 ### Metasploit :
 
 
-    EX:
-        search vlunerabilityName
-        search OSType
+> - search vlunerabilityName
         
-        use pathof the exploit
+> - search OSType
         
-        show payloads
+> - use pathof the exploit
+
+> - show payloads
+
+> - set payloads typeofPayload
         
-        set payloads typeofPayload
+> - set RHOST
         
-        set RHOST
+> - set RPORT 
         
-        set RPORT 
-        
-        exploit
+> - exploit
