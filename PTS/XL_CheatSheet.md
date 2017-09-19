@@ -1,6 +1,54 @@
 
+### Telent :
+
+> - telent hostName portNumber
+
+&nbsp;
+### SSH
+
+>- ssh usernmae@hostname -p portNumber -i ssh_key_file
+    
+>- ssh username@hostName -p portNumber 
+    
+>-  ssh userName@hostName -t /bin/sh -p portNumber  --> log with out .bashrc file  
+    
+    
+&nbsp;       
+    
+### OpenSSL:
+
+> - openssl s_client -connect hostName:portNumber
+    
+&nbsp;
+
+### Linux:
+ 
+> - ls -ld .?*    ----> Show hidden files 
 
 
+&nbsp;
+### Nmap :
+
+>-  nmap -sT IP_address             ----> TCP scan (active scanning), complete handshake
+    
+>-  namp -sS Ip_address            -----> Stealth scan(No logs), as the handshakes is NOT completed 
+    
+>-  nmap -sV IP_address           ------> probing services on the ports
+    
+>-  nmap -Pn IP_address           ------> scanning without sending pings 
+    
+>-  nmap -O IP_address           ------> scan with OS fingerprinting 
+    
+>-  nmap -A IP_address         --------> 
+   
+   
+&nbsp;
+
+### Netcat
+
+>-  nc -l 1234
+
+&nbsp;
 ### Manual SQL
 
 >- ' and 1=1; -- -  | True returns something
