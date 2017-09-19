@@ -23,3 +23,8 @@
 
 - [Top 5 Security Tools —August 2017](https://medium.com/hack-with-github/top-5-security-tools-august-2017-bbae4e155c59)
 
+
+
+### Bash Scripting:
+
+- [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
