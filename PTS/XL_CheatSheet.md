@@ -188,3 +188,150 @@ __Meterpreter Commands:___
 >- upload filePath 			 | upload files to the other machine 
 
 > - help 				 | to show all the meterpreter commands 
+
+
+&nbsp;
+
+#### Null Session : allows annoymous connection the windows machine
+
+__if netbios-ssn is open, check if a null session can be connected__
+
+
+__Things to look for when enumerating file share server___:
+
+
+- User enumeration
+
+- Share enumeration
+
+- Group and member enumeration
+
+- Password policy extraction
+
+- OS information detection 
+
+- An nmblookup run
+
+- Printer information extraction
+
+
+
+__enum4linux__:
+
+
+> - enum4linux -n 192.168.2.66    | check if the file server is open
+
+__nmblooup is used to query NetBios names and map them to IP addresses in an network__
+
+__Flag <20> means that the file server service is open__
+
+
+> - enum4linux -P 192.168.2.66    | check the password policy 
+
+__Password policies are used for generating password list or bruteforce the server___
+
+
+> - enum4linux  -s /usr/share/enum4linux/share-list.txt 192.168.2.66  | bruteforce the shares in case you did not get them from the above commands
+
+> - enum4linux -a 192.168.66.2 | runs all of the above commands in one time 
+
+
+#### samrdump
+
+__Path: /usr/share/doc/python-impacket-doc/examples/__ 
+
+__It lists system user accounts, available resource shares and other sensitive information exported through this service.__
+
+
+> - python samrdump   192.168.99.44   | information about the accounts associated with the IP address
+
+
+#### Nmap
+
+> - nmap -script=smb-enum-shares 192.168.9.33             | retrieves information about the users and passwords
+
+
+> - nmap -script=smb-enum-users 192.168.2.33              | Checks the users that are connected on the session
+
+> - nmap -script=smb-enum-brute 192.168.3.44   		  | This script will bruteforece the username and passsword of the vulnerable machine 
+
+
+
+
+#### nbtstat
+
+__Windows command line tool that can display information about a traget__
+
+
+> - nbtstat -A 10.130.40.80    | display general commands about the user 
+
+__flag <00> means that the machine is a workstation__
+
+__flag <20> means that the file server is open__
+
+__Unique means that the machine has only one IP address__
+
+
+
+#### Net VIEW
+
+
+__ ___
+
+> - NET VIEW 192.168.40.66   		| enumerate the file shares 
+
+
+
+#### smbclient 
+
+
+__enumaration tool for Linux___
+
+
+> - smbclient -L //10.186.60.50 -N     | enumerates the shares provided by a host
+
+
+__ -L allows to look at what services are available on a target__
+
+__ -n forces the tool to not ask for a password__
+
+
+> - smbclient //10.189.60.40/$IPC -N
+
+
+
+#### net use 
+
+__ checking for NUll Session with WINDOWS___
+
+
+> - net use \\10.189.40.70\$IP '' /u:''
+
+
+__if the returned message is successfully completeted, otherwise you are not___
+
+
+
+
+#### ENUM 
+
+__a command line utility that can retreive information from a system vulnerable to null session attacks__
+
+
+> - enum -S 192.168.29.90  		| enumerates the shares 
+
+
+> - enum -U 192.168.70.80 	 	| enumerates the users
+
+
+> - enum -P 192.168.70.40 		| enumerate the password policy 
+
+
+
+
+
+
+
+
+
+
