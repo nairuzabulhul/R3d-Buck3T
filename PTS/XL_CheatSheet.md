@@ -192,6 +192,7 @@ __Meterpreter Commands:___
 
 &nbsp;
 
+__ __
 #### Null Session : allows annoymous connection the windows machine
 
 __if netbios-ssn is open, check if a null session can be connected__
@@ -274,9 +275,6 @@ __Unique means that the machine has only one IP address__
 
 
 #### Net VIEW
-
-
-__ ___
 
 > - NET VIEW 192.168.40.66   		| enumerate the file shares 
 
