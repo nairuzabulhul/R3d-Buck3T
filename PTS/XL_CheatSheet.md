@@ -193,7 +193,9 @@ __Meterpreter Commands:___
 &nbsp;
 
 __ __
-#### Null Session : allows annoymous connection the windows machine
+### Null Session : 
+
+__allows annoymous connection to windows machine__
 
 __if netbios-ssn is open, check if a null session can be connected__
 
@@ -217,7 +219,7 @@ __Things to look for when enumerating file share server___:
 
 
 
-__enum4linux__:
+### enum4linux
 
 
 > - enum4linux -n 192.168.2.66    | check if the file server is open
@@ -237,7 +239,7 @@ __Password policies are used for generating password list or bruteforce the serv
 > - enum4linux -a 192.168.66.2 | runs all of the above commands in one time 
 
 
-#### samrdump
+### samrdump
 
 __Path: /usr/share/doc/python-impacket-doc/examples/__ 
 
@@ -247,7 +249,7 @@ __It lists system user accounts, available resource shares and other sensitive i
 > - python samrdump   192.168.99.44   | information about the accounts associated with the IP address
 
 
-#### Nmap
+### Nmap Scripts
 
 > - nmap -script=smb-enum-shares 192.168.9.33             | retrieves information about the users and passwords
 
@@ -259,7 +261,7 @@ __It lists system user accounts, available resource shares and other sensitive i
 
 
 
-#### nbtstat
+### nbtstat
 
 __Windows command line tool that can display information about a traget__
 
@@ -274,13 +276,13 @@ __Unique means that the machine has only one IP address__
 
 
 
-#### Net VIEW
+### Net VIEW
 
 > - NET VIEW 192.168.40.66   		| enumerate the file shares 
 
 
 
-#### smbclient 
+### smbclient 
 
 
 __enumaration tool for Linux___
@@ -298,7 +300,7 @@ __ -n forces the tool to not ask for a password__
 
 
 
-#### net use 
+### net use 
 
 __ checking for NUll Session with WINDOWS___
 
@@ -311,7 +313,7 @@ __if the returned message is successfully completeted, otherwise you are not___
 
 
 
-#### ENUM 
+### ENUM 
 
 __a command line utility that can retreive information from a system vulnerable to null session attacks__
 
