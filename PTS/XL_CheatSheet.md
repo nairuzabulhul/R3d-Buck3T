@@ -263,7 +263,7 @@ __It lists system user accounts, available resource shares and other sensitive i
 &nbsp;
 
 
-### nbtstat
+### NBSTAT
 
 __Windows command line tool that can display information about a traget__
 
@@ -284,7 +284,7 @@ __Unique means that the machine has only one IP address__
 
 &nbsp;
 
-### smbclient 
+### SMB Client  
 
 
 __enumaration tool for Linux___
@@ -313,9 +313,9 @@ __Download the file to the local machine__
 
 &nbsp;
 
-### net use 
+### NET USE 
 
-__ checking for NUll Session with WINDOWS___
+__Checking for NUll Session with WINDOWS__
 
 
 > - net use \\10.189.40.70\$IP '' /u:''
