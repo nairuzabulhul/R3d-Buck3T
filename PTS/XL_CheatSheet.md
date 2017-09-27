@@ -256,7 +256,7 @@ __It lists system user accounts, available resource shares and other sensitive i
 
 > - nmap -script=smb-enum-users 192.168.2.33              | Checks the users that are connected on the session
 
-> - nmap -script=smb-enum-brute 192.168.3.44   		  | This script will bruteforece the username and passsword of the vulnerable machine 
+> - nmap -script=smb-brute 192.168.3.44   		  | This script will bruteforece the username and passsword of the vulnerable machine 
 
 
 
@@ -297,6 +297,10 @@ __ -n forces the tool to not ask for a password__
 
 
 > - smbclient //10.189.60.40/$IPC -N
+
+__Connecting to the shared drive___
+
+> - smbclient //192.168.99.77/DirName  |  if you get smb prompt, means you are inside the share, | check the mapping and listing of the enumeration 
 
 
 
