@@ -300,8 +300,14 @@ __ -n forces the tool to not ask for a password__
 
 __Connecting to the shared drive___
 
-> - smbclient //192.168.99.77/DirName  |  if you get smb prompt, means you are inside the share, | check the mapping and listing of the enumeration 
+> - smbclient //192.168.99.77/DirName  
 
+ if you get smb prompt, means you are inside the share, | check the mapping and listing of the enumeration 
+
+
+__Download the file to the local machine__
+
+> - get fileName  /root/path/local/machine
 
 
 ### net use 
