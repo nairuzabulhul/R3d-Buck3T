@@ -62,21 +62,21 @@
 &nbsp;
 ### Tmux:
 
-Ctrl+b " - split pane horizontally.
+> - Ctrl+b " - split pane horizontally.
 
-Ctrl+b % - split pane vertically.
+> - Ctrl+b % - split pane vertically.
 
-Ctrl+b arrow key - switch pane.
+> - Ctrl+b arrow key - switch pane.
 
-Hold Ctrl+b, don't release it and hold one of the arrow keys - resize pane.
+> - Hold Ctrl+b, don't release it and hold one of the arrow keys - resize pane.
 
-Ctrl+b c - (c)reate a new window.
+> - Ctrl+b c - (c)reate a new window.
 
-Ctrl+b n - move to the (n)ext window.
+> - Ctrl+b n - move to the (n)ext window.
 
-Ctrl+b p - move to the (p)revious window.
+> - Ctrl+b p - move to the (p)revious window.
 
-Ctrl+b q - move between the panes
+> - Ctrl+b q - move between the panes
 
 &nbsp;
 
