@@ -249,6 +249,7 @@ __C Programming:__
 
 - [Coding for Penetration Testers, Second Edition: Building Better Tools 2nd Edition](https://www.amazon.com/Coding-Penetration-Testers-Second-Building/dp/0128054727/ref=dp_ob_title_bk)
 
+&nbsp;
 ### Online Courses
 
 - [PTS]()  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> __Hands-on Courses__
@@ -280,6 +281,12 @@ __C Programming:__
 
 - [SQL Injection by Cybrary](https://www.cybrary.it/skill-certification-course/sql-injection-certification-training-course) <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
 
+- [Web Pentesting by Zaid Sabih Udemy]()
+
+   - [General Note from the course](https://github.com/nairuzabulhul/RoadMap/blob/master/Web%20Applications/General%20Notes.md)
+   
+&nbsp;   
+   
 ### Projects
 
 - [NetMAP]()
