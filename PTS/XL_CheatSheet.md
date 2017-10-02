@@ -21,9 +21,13 @@
     
 &nbsp;
 
-### Linux:
+### Linux General Commands:
  
-> - ls -ld .?*    ----> Show hidden files 
+> - ls -ld .?*   		 ----> Show hidden files 
+
+> - diff fileName1 fileName2 	-----> show the difference between the two files
+
+> - df -h  			----> check the space on the machine
 
 
 &nbsp;
@@ -47,6 +51,7 @@
 ### Netcat
 
 >-  nc -l 1234
+
 
 &nbsp;
 ### Manual SQL
@@ -379,7 +384,21 @@ __a command line utility that can retreive information from a system vulnerable 
 &nbsp;
 
 
+### ARP Spoofing:
 
+
+> - echo 1 > /proc/sys/net/ipv4/ip_forward      |  enabling IP forwarding of packets, it is very essential step before starting ARP 							 spoofing
+
+> arpspoof - interfaceName -t addressOFTarget -r addressofWebSever/anotherTarget  
+
+
+-t forFirstthetarget  | -r forSecondTarget
+
+
+> - 
+
+
+__Note__ Use wireshark to see the connection | oncomign and outgoing packets
 
 
 
