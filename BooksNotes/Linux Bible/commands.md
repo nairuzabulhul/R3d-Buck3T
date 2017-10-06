@@ -1,6 +1,4 @@
-### Common Commands:
-
-
+## Power User
 
 ### Virtual Console :
 
@@ -10,7 +8,7 @@
 
 ### Common Commands:
 
-> date  &nbsp;&nbsp; | get the date
+> date  &nbsp;&nbsp; | get &nbsp;the &nbsp;date
 
 > pwd  &nbsp;&nbsp; | current path 
 
@@ -60,10 +58,27 @@
 
     > locate &nbsp; command
     
+&nbsp;    
 - __grep__: get text from a file 
 
-    > grep &nbsp; string
+    > grep &nbsp; string &nbsp; filePath
+
+    __Ex: grep test /etc/services__
     
+    > grep &nbsp; string &nbsp; folderPath
+    
+    __Ex: grep  &nbsp; -rli &nbsp; desktop &nbsp; folderPath__
+    
+    > grep &nbsp; -vi &nbsp; string &nbsp; folderPath 
+    
+    __Display everything except the string provided__
+
+    > ip &nbsp; addr &nbsp; show &nbsp; | &nbsp; grep &nbsp;net 
+    
+    __extracts net from the result of the first command__
+    
+    
+&nbsp;
 - __Find__: find specific files by name 
 
     > find &nbsp; folederPath &nbsp; -name &nbsp;  fileName
@@ -96,13 +111,19 @@ When searching files that are in root directories or need root permission, add /
 
 Ex: find /etc /dev/null
 
-### 
+### Managing Running Processes:
 
+> ps &nbsp; u 
 
+__u to show username__
 
+> ps &nbsp; aux &nbsp; | &nbsp;less 
 
+### Killing processes:
 
+> kill &nbsp; PID#
 
+> kill &nbsp;-9 &nbsp; PID#
 
 
 
