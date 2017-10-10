@@ -15,6 +15,13 @@
     
 &nbsp;       
     
+### Nessus:
+
+>- /etc/init.d/nessusd start          | start the service 
+
+
+### Nessus:
+
 ### OpenSSL:
 
 > - openssl s_client -connect hostName:portNumber
