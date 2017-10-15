@@ -57,11 +57,9 @@
     
 
 
-
-
-
-
 &nbsp;
+&nbsp;
+------------------------------------------------------------------------------------------------------------------------------------
 ## Enumeration 
 ### Null Session : 
 
@@ -86,8 +84,8 @@ __Things to look for when enumerating file share server___:
 
 - Printer information extraction
 
-&nbsp;
 
+&nbsp;
 ### enum4linux
 
 
@@ -107,8 +105,9 @@ __Password policies are used for generating password list or bruteforce the serv
 
 > - enum4linux -a 192.168.66.2 | runs all of the above commands in one time 
 
-&nbsp;
 
+
+&nbsp;
 ### samrdump
 
 __Path: /usr/share/doc/python-impacket-doc/examples/__ 
@@ -118,8 +117,9 @@ __It lists system user accounts, available resource shares and other sensitive i
 
 > - python samrdump   192.168.99.44   | information about the accounts associated with the IP address
 
-&nbsp;
 
+
+&nbsp;
 ### Nmap Scripts
 
 > - nmap -script=smb-enum-shares 192.168.9.33             | retrieves information about the users and passwords
@@ -129,11 +129,10 @@ __It lists system user accounts, available resource shares and other sensitive i
 
 > - nmap -script=smb-brute 192.168.3.44   		  | This script will bruteforece the username and passsword of the vulnerable machine 
 
+
+
 &nbsp;
-
-
-### NBSTAT
-
+### nbstate [Windows]
 __Windows command line tool that can display information about a traget__
 
 
@@ -145,17 +144,17 @@ __flag <20> means that the file server is open__
 
 __Unique means that the machine has only one IP address__
 
-&nbsp;
 
-### Net VIEW
+
+&nbsp;
+### net view [Windows]
 
 > - NET VIEW 192.168.40.66   		| enumerate the file shares 
 
+
+
 &nbsp;
-
-### SMB Client  
-
-
+### smb Client  [Linux]
 __enumaration tool for Linux___
 
 
@@ -171,6 +170,7 @@ __ -n forces the tool to not ask for a password__
 
 __Connecting to the shared drive___
 
+
 > - smbclient //192.168.99.77/DirName  
 
  if you get smb prompt, means you are inside the share, | check the mapping and listing of the enumeration 
@@ -180,8 +180,9 @@ __Download the file to the local machine__
 
 > - get fileName  /root/path/local/machine
 
-&nbsp;
 
+
+&nbsp;
 ### net use [windows]
 
 > - net use \\10.189.40.70\$IP '' /u:''
@@ -191,7 +192,7 @@ __Note: if the returned message is successfully completeted, otherwise you are n
 
 
 &nbsp;
-### ENUM [Windows]
+### enum [Windows]
 
 __a command line utility that can retreive information from a system vulnerable to null session attacks__
 
