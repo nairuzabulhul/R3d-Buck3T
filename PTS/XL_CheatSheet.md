@@ -221,16 +221,20 @@ __Methods__:
 &nbsp;
 __Tools:__
 
-	- Nessus
+- __Nessus__	
+
+- __Nexpose__
 	
-	- Nexpose
 	
+
 &nbsp;
 ### Nessus:
 
->- /etc/init.d/nessusd start          | start the service 
+>- /etc/init.d/nessusd start  &nbsp; &nbsp;      | &nbsp; &nbsp; start the service 
 
+>- Network Scan 
 
+>-  Web Applicaiton Scan 
 
 
 &nbsp;
