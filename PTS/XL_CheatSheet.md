@@ -325,7 +325,7 @@ mysql -u userName -pPassword -h HOSTIP DBName
 
 &nbsp;
 ----------------------------------------------------------------------------------------------------------------------------------
-##Windows Commands:
+## Windows Commands:
 
 - find *.txt /s &nbsp;  &nbsp; | &nbsp; find all the txt files in this directroy 
 
