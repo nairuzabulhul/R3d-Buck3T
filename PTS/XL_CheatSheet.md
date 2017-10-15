@@ -63,14 +63,11 @@
 
 &nbsp;
 ## Enumeration 
-
-&nbsp;
-## Null Session : 
+### Null Session : 
 
 __allows annoymous connection to windows machine__
 
 __if netbios-ssn is open, check if a null session can be connected__
-
 
 __Things to look for when enumerating file share server___:
 
