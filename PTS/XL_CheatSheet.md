@@ -182,20 +182,16 @@ __Download the file to the local machine__
 
 &nbsp;
 
-### NET USE 
-
-__Checking for NUll Session with WINDOWS__
-
+### net use [windows]
 
 > - net use \\10.189.40.70\$IP '' /u:''
 
+__Note: if the returned message is successfully completeted, otherwise you are not___
 
-__if the returned message is successfully completeted, otherwise you are not___
 
 
 &nbsp;
-
-### ENUM 
+### ENUM [Windows]
 
 __a command line utility that can retreive information from a system vulnerable to null session attacks__
 
@@ -207,8 +203,6 @@ __a command line utility that can retreive information from a system vulnerable 
 
 
 > - enum -P 192.168.70.40 		| enumerate the password policy 
-
-
 
 
 
@@ -239,7 +233,7 @@ __Tools:__
 
 
 
-
+&nbsp;
 ------------------------------------------------------------------------------------------------------------------------------------
 ## Web Exploitation 
 
