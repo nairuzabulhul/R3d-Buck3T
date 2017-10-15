@@ -216,8 +216,22 @@ __a command line utility that can retreive information from a system vulnerable 
 
 
 &nbsp;
+----------------------------------------------------------------------------------------------------------------------------------
 ## Vulnerability Assessment 
 
+__Methods__:
+
+- decide which type of scan can be used to get clear vulnerability assessment 
+
+
+&nbsp;
+__Tools:__
+
+	- Nessus
+	
+	- Nexpose
+	
+&nbsp;
 ### Nessus:
 
 >- /etc/init.d/nessusd start          | start the service 
@@ -226,9 +240,7 @@ __a command line utility that can retreive information from a system vulnerable 
 
 
 
-
-
-&nbsp;
+------------------------------------------------------------------------------------------------------------------------------------
 ## Web Exploitation 
 
 ### Manual SQL
