@@ -314,31 +314,27 @@ mysql -u userName -pPassword -h HOSTIP DBName
 
 
 
-
-
-
-
-
+&nbsp;
 ----------------------------------------------------------------------------------------------------------------------------------
 ## Password Cracking :
 
 __Toosls__:
 
-- Online:
+- __Online__:
 
 	- [Cracking Station](https://crackstation.net/)
 	
 	- [Hash Killer](https://hashkiller.co.uk/)
 	
-- Offline:
+- __Offline__:
 
 	- Hydra
 	
 	- John 
 	
-- Crunch for creating custom word list 
+- __Crunch__ for creating custom word list 
 
-- Ophcrack for NTLM/LM hashes 
+- __Ophcrack__ for NTLM/LM hashes 
 
 
 &nbsp;
@@ -363,7 +359,7 @@ __Unshadow__
 
 
 ### Crunch 
-
+&nbsp;
 
 
 
