@@ -326,9 +326,9 @@ __Toosls__:
 
 - Online:
 
-	- Cracking Station
+	- [Cracking Station](https://crackstation.net/)
 	
-	- 
+	- [Hash Killer](https://hashkiller.co.uk/)
 	
 - Offline:
 
@@ -336,7 +336,9 @@ __Toosls__:
 	
 	- John 
 	
-- Cruch for creating custom word list 
+- Crunch for creating custom word list 
+
+- Ophcrack for NTLM/LM hashes 
 
 
 &nbsp;
@@ -359,6 +361,8 @@ __Unshadow__
 
 > - John --show hashes 
 
+
+### Crunch 
 
 
 
