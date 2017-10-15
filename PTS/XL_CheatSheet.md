@@ -323,6 +323,14 @@ mysql -u userName -pPassword -h HOSTIP DBName
 
 > - df -h  			----> check the space on the machine
 
+&nbsp;
+----------------------------------------------------------------------------------------------------------------------------------
+##Windows Commands:
+
+- find *.txt /s &nbsp;  &nbsp; | &nbsp; find all the txt files in this directroy 
+
+- 
+
 
 
 &nbsp;
