@@ -319,10 +319,27 @@ mysql -u userName -pPassword -h HOSTIP DBName
 
 
 
-
-&nbsp;
+----------------------------------------------------------------------------------------------------------------------------------
 ## Password Cracking :
 
+__Toosls__:
+
+- Online:
+
+	- Cracking Station
+	
+	- 
+	
+- Offline:
+
+	- Hydra
+	
+	- John 
+	
+- Cruch for creating custom word list 
+
+
+&nbsp;
 ### Hydra:
 
 > -  hydra targetWebsite http-post-form "/login.php:user=^USER^&pwd=^PASS^:invalid credentials" -L /usr/share/ncrack/minimal.usr -P /usr/share/seclists/Passwords/rockyou-15.txt  -f -v
@@ -350,8 +367,7 @@ __Unshadow__
 
 
 
-
-&nbsp;
+--------------------------------------------------------------------------------------------------------------------------------------
 ## System Exploitaiton 
 
 ### Metaploit:
