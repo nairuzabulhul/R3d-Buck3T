@@ -605,7 +605,9 @@ __Methods___:
 
 - Download Telnet and FTP files from whireshark is by saving the files as Hexdumps 
 
-- For cusotme protocols, filter out the common port and protocols and start analyzing from there
+- For cusotme protocols, filter out the common port and protocols and start analyzing from there:
+	
+	EX: __tcp && !(tcp.port == 22) && !(tcp.port == 80)__
 
 - For checking requests length form the server, check the 4 byte numbers that starts wiht 00 00 00 
 
