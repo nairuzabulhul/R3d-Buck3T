@@ -507,7 +507,7 @@ __Meterpreter Commands:___
 
 &nbsp;
 ---------------------------------------------------------------------------------------------------------------------------------
-### ARP Spoofing:
+## ARP Spoofing:
 
 
 > - echo 1 > /proc/sys/net/ipv4/ip_forward      |  enabling IP forwarding of packets, it is very essential step before starting ARP 							 spoofing
@@ -522,6 +522,41 @@ __Meterpreter Commands:___
 
 
 __Note__ Use wireshark to see the connection | oncomign and outgoing packets
+
+
+&nbsp;
+-----------------------------------------------------------------------------------------------------------------------------------
+## Cryptography :
+
+__Methhods_:
+
+- 
+
+- 
+
+- 
+
+
+&nbsp;
+__Tools__
+
+- 
+
+- 
+
+- 
+
+
+&nbsp;
+---------------------------------------------------------------------------------------------------------------------------------------
+## Stegnagraphy 
+
+
+__Methods__
+
+
+&nbsp;
+__Tools__
 
 
 
