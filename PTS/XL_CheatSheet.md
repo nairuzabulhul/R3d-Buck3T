@@ -530,11 +530,7 @@ __Note__ Use wireshark to see the connection | oncomign and outgoing packets
 
 __Methhods_:
 
-- 
-
-- 
-
-- 
+- Identify the the type of cipher 
 
 
 &nbsp;
@@ -554,11 +550,104 @@ __Tools__
 
 __Methods__
 
+- first step is stringing the file to see if it containes something interesting 
+
+- 
+
 
 &nbsp;
 __Tools__
 
+- strings &nbsp; &nbsp; &nbsp; 
+
+- steghide 
+
+- 
+
+&nbsp;
+-----------------------------------------------------------------------------------------------------------------------------------
+## Log Analysis:
+
+__Methods__:
+
+- Bash scripting is a faster way to get the required output 
+
+	- Sample 1 [log analaysis [Nginx]]() 
+	
+	- Sample 2 [log analysis[Squid]]()
+
+- For Squlite use python scripting or a tool 
+
+	- [Sample of Python Script]()
 
 
 
+&nbsp;
+__Tools__:
+
+- Bash 
+
+- notepad ++
+
+- Sqlite3 on Linux 
+
+
+&nbsp;
+----------------------------------------------------------------------------------------------------------------------------------------
+## Netowrk Analysis:
+
+
+__Methods___:
+
+- Use filtering for reducing the noise
+
+- For FTP and Telent use TCP stream to get detailed inforamtion about the packets
+
+- Download Telnet and FTP files from whireshark is by saving the files as Hexdumps 
+
+- For cusotme protocols, filter out the common port and protocols and start analyzing from there
+
+
+&nbsp;
+__Tools:___
+
+- Wireshark
+
+
+
+&nbsp;
+--------------------------------------------------------------------------------------------------------------------------------------
+## Reverse Engineering [Exploitation]:
+
+
+- __Methods:__
+
+
+
+&nbsp;
+- __Tools:__
+
+- 
+
+- 
+
+&nbsp;
+---------------------------------------------------------------------------------------------------------------------------------------
+## Wireless packet Analysis:
+
+- __Methods__:
+
+- 
+
+- 
+
+&nbsp;
+- __Tools__:
+
+- 
+
+- 
+&nbsp;
+
+&nbsp;
 
