@@ -607,6 +607,8 @@ __Methods___:
 
 - For cusotme protocols, filter out the common port and protocols and start analyzing from there
 
+- For checking requests length form the server, check the 4 byte numbers that starts wiht 00 00 00 
+
 
 &nbsp;
 __Tools:___
