@@ -376,6 +376,14 @@ __Unshadow__
 
 > - John --show hashes 
 
+
+__Note__: to use John with custom wordlist, save the words in the same file john uses [password.lst]__
+
+> - John --wordlist=/usr/share/john/password.lst --formate=raw-md5 hashes.txt | &nbsp; specify the hash formate __important__
+
+> - John --wordlist=/usr/share/john/password.lst --formate=NT hashes.txt      | &nbsp; specify the hash formate __important__ 
+
+
 &nbsp;
 ### Crunch 
 
