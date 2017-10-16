@@ -528,7 +528,7 @@ __Note__ Use wireshark to see the connection | oncomign and outgoing packets
 -----------------------------------------------------------------------------------------------------------------------------------
 ## Cryptography :
 
-__Methhods_:
+__Methhods__:
 
 - Identify the the type of cipher 
 
@@ -597,7 +597,7 @@ __Tools__:
 ## Netowrk Analysis:
 
 
-__Methods___:
+__Methods__:
 
 - Use filtering for reducing the noise
 
@@ -631,7 +631,7 @@ __Tools:___
 &nbsp;
 - __Tools:__
 
-- 
+- Easy Python Decompiler [Windows]
 
 - 
 
