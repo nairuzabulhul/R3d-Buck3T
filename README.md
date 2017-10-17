@@ -342,7 +342,7 @@ __C Programming:__
 
 ### Books:
 
-
+-[The Network Security Test Lab: A Step-by-Step Guide](https://www.amazon.com/Network-Security-Test-Step-Step-ebook/dp/B013SX649G/ref=sr_1_3?ie=UTF8&qid=1508269868&sr=8-3&keywords=Network+security)
 
 
 ### Online Courses:
