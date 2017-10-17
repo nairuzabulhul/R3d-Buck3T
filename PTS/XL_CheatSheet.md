@@ -564,6 +564,8 @@ __Methods__
 
 - If not save it as pic file to see if that works
 
+- Use File to deretmine the content of the file 
+
 
 &nbsp;
 __Tools__
