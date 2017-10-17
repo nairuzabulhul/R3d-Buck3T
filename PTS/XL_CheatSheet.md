@@ -558,7 +558,11 @@ __Methods__
 
 - first step is stringing the file to see if it containes something interesting 
 
-- 
+- Use Digital Ink Tool with different modes.
+
+- when save the output result, try to save first as text file and see if the output is valid
+
+- If not save it as pic file to see if that works
 
 
 &nbsp;
