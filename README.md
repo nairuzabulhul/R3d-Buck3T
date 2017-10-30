@@ -346,7 +346,21 @@ __C Programming:__
 &nbsp; 
 #### Hands-on:
 
-- [Pentesterlab]()
+- [Pentesterlab]() 
+
+
+&nbsp;
+### Network Security:
+
+#### Courses:
+
+
+
+#### Hands-on:
+
+- [Network Analysis By CyberSkyline (Cybrary)]()
+
+- [Log Analysis by CyberSkyline (Cybrary)]()
 
 
 &nbsp;
@@ -373,6 +387,8 @@ __C Programming:__
 
 
 - [Debugging the Web with FireBug, WebDeveloper, and Fiddler By Shawn Wildermuth](https://www.pluralsight.com/courses/web-debug) __PluralSight__
+
+- [Pentester Academy]()
 
 
 
