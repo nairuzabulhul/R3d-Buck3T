@@ -320,7 +320,7 @@ __C Programming:__
 
 - __System Security__
 
-- __Wifi Secuirty__ 
+- __Wifi Security__ 
 
 - __Ruby & Metasploit__
 
@@ -340,9 +340,10 @@ __C Programming:__
 
 - [CEH Web Security Section by ]()
 
-- [SQL Injection by Tron Hunt](https://www.pluralsight.com/courses/ethical-hacking-sql-injection __PluralSight__
+- [SQL Injection by Tron Hunt](https://www.pluralsight.com/courses/ethical-hacking-sql-injection) __PluralSight__
 
 
+&nbsp; 
 #### Hands-on:
 
 - [Pentesterlab]()
