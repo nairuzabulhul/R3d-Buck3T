@@ -334,9 +334,9 @@ __C Programming:__
  
 - [Web Pentesting by Zaid Sabih ]() __Udemy__
 
-   - [General Note from the course](https://github.com/nairuzabulhul/RoadMap/blob/master/Web%20Applications/General%20Notes.md)
+   - [Course Notes](https://github.com/nairuzabulhul/RoadMap/blob/master/Web%20Applications/General%20Notes.md)
    
-- [Web Application Penetration Testing with Burp Suite By Sunny Wear](https://www.pluralsight.com/courses/web-application-penetration- testing-with-burp-suite) __PluralSight__
+- [Web Application Penetration Testing with Burp Suite By Sunny Wear](https://www.pluralsight.com/courses/web-application-penetrationtesting-with-burp-suite) __PluralSight__
 
 - [CEH Web Security Section by ]()
 
