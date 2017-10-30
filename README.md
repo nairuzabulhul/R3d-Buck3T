@@ -232,12 +232,8 @@ __C Programming:__
 
 - [Effective Python for Penetration Testing by Rejah Rehim](https://www.amazon.com/Effective-Python-Penetration-Testing-Rejah/dp/1785280694)
 
-   - [Chpater9 : Automation of tools ]()
+   - [Chapter9 : Automation of tools ]()
    
-- [Burp Suite Essentials](https://github.com/nairuzabulhul/E-Books/blob/master/Web%20Development/Burp%20Suite%20Essentials.pdf)
-
-- [The Web Application Hacker's Handbook Finding and Exploiting Security Flaws Kindle Edition by Dafydd Stuttard](https://github.com/nairuzabulhul/E-Books/blob/master/Web%20Development/%5BThe%20Web%20Application%20Hacker's%20Handbook%20Finding%20and%20Exploiting%20Security%20Flaws%20Kindle%20Edition%20by%20Dafydd%20Stuttard%20-%202011%5D.pdf)
-
 
 - [Linux Bible](https://github.com/nairuzabulhul/E-Books/blob/master/Linux/Linux%20Bible%2C%209th%20Edition.pdf)
 
@@ -245,9 +241,6 @@ __C Programming:__
 
    - [Chapter2: Advanced Operators](https://github.com/nairuzabulhul/RoadMap/blob/master/BooksNotes/Google%20Dorks/gooDorks.md)
 
-- [Nmap 6 Cookbook: The Fat Free Guide to Network Security Scanning](https://www.amazon.com/Nmap-Cookbook-Network-Security-Scanning/dp/1507781385/ref=sr_1_1?s=books&ie=UTF8&qid=1504015056&sr=1-1&keywords=nmap+6)
-
-- [Coding for Penetration Testers, Second Edition: Building Better Tools 2nd Edition](https://www.amazon.com/Coding-Penetration-Testers-Second-Building/dp/0128054727/ref=dp_ob_title_bk)
 
 &nbsp;
 ### Online Courses
@@ -269,30 +262,12 @@ __C Programming:__
      - [System Attacks]()
      
      - [Network Attacks]()
-     
-- [Web Application Penetration Testing with Burp Suite By Sunny Wear](https://www.pluralsight.com/courses/web-application-penetration-testing-with-burp-suite) __PluralSight__
-
-- [Debugging the Web with FireBug, WebDeveloper, and Fiddler By Shawn Wildermuth](https://www.pluralsight.com/courses/web-debug) __PluralSight__
 
 
-- [SQL Injection by Tron Hunt](https://www.pluralsight.com/courses/ethical-hacking-sql-injection)
-
-- [Play by Play: Exploring the Internet of Vulnerabilities](https://www.pluralsight.com/courses/play-by-play-exploring-internet-of-vulnerabilities)
-
-- [SQL Injection by Cybrary](https://www.cybrary.it/skill-certification-course/sql-injection-certification-training-course) <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
-
-- [Web Pentesting by Zaid Sabih Udemy]()
-
-   - [General Note from the course](https://github.com/nairuzabulhul/RoadMap/blob/master/Web%20Applications/General%20Notes.md)
-   
-&nbsp;   
-   
-### Projects
-
-- [NetMAP]()
+- [SQL Injection by Cybrary](https://www.cybrary.it/skill-certification-course/sql-injection-certification-training-course)&nbsp; <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">  <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10"> __Quick general overview about SQL injection[Not deep]__
 
 
-
+ 
 ### Tools &Commands :
 
 - [General Commands](https://github.com/nairuzabulhul/RoadMap/blob/master/Commands/Commands.md)
@@ -333,32 +308,78 @@ __C Programming:__
 &nbsp;
 &nbsp;
 &nbsp;
-&nbsp;
-&nbsp;
-
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Level 3
 
 
+### [PTP Roadmap by eLearningSecurity]((https://www.elearnsecurity.com/course/penetration_testing/) :
+
+- __Web Security__ 
+
+- __Network Security__ 
+
+- __System Security__
+
+- __Wifi Secuirty__ 
+
+- __Ruby & Metasploit__
+
+
+&nbsp; 
+### Web Security :
+
+#### Courses:
+
+- [PTP NOTES]()
+ 
+- [Web Pentesting by Zaid Sabih ]() __Udemy__
+
+   - [General Note from the course](https://github.com/nairuzabulhul/RoadMap/blob/master/Web%20Applications/General%20Notes.md)
+   
+- [Web Application Penetration Testing with Burp Suite By Sunny Wear](https://www.pluralsight.com/courses/web-application-penetration- testing-with-burp-suite) __PluralSight__
+
+- [CEH Web Security Section by ]()
+
+- [SQL Injection by Tron Hunt](https://www.pluralsight.com/courses/ethical-hacking-sql-injection __PluralSight__
+
+
+### Hands-on:
+
+- [Pentesterlab]()
+
+
+&nbsp;
 ### Books:
 
--[The Network Security Test Lab: A Step-by-Step Guide](https://www.amazon.com/Network-Security-Test-Step-Step-ebook/dp/B013SX649G/ref=sr_1_3?ie=UTF8&qid=1508269868&sr=8-3&keywords=Network+security)
+- [The Network Security Test Lab: A Step-by-Step Guide](https://www.amazon.com/Network-Security-Test-Step-Step-ebook/dp/B013SX649G/ref=sr_1_3?ie=UTF8&qid=1508269868&sr=8-3&keywords=Network+security)
 
 
-### Online Courses:
+-  [The Web Application Hacker's Handbook Finding and Exploiting Security Flaws Kindle Edition by Dafydd Stuttard](https://github.com/nairuzabulhul/E-Books/blob/master/Web%20Development/%5BThe%20Web%20Application%20Hacker's%20Handbook%20Finding%20and%20Exploiting%20Security%20Flaws%20Kindle%20Edition%20by%20Dafydd%20Stuttard%20-%202011%5D.pdf)
 
-- [PTP]()
+
+- [Burp Suite Essentials](https://github.com/nairuzabulhul/E-Books/blob/master/Web%20Development/Burp%20Suite%20Essentials.pdf)
+         
+- [Nmap 6 Cookbook: The Fat Free Guide to Network Security Scanning](https://www.amazon.com/Nmap-Cookbook-Network-Security-Scanning/dp/1507781385/ref=sr_1_1?s=books&ie=UTF8&qid=1504015056&sr=1-1&keywords=nmap+6)
+
+- [Coding for Penetration Testers, Second Edition: Building Better Tools 2nd Edition](https://www.amazon.com/Coding-Penetration-Testers-Second-Building/dp/0128054727/ref=dp_ob_title_bk)
+
+
+
+&nbsp;
+#### Extra Courses:
+
+- [Play by Play: Exploring the Internet of Vulnerabilities](https://www.pluralsight.com/courses/play-by-play-exploring-internet-of-vulnerabilities)
+
+
+- [Debugging the Web with FireBug, WebDeveloper, and Fiddler By Shawn Wildermuth](https://www.pluralsight.com/courses/web-debug) __PluralSight__
+
 
 
 &nbsp;
 &nbsp;
 &nbsp;
-&nbsp;
-&nbsp;
-
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Level 4
-
 
 
 ### Reviews:
