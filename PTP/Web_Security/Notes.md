@@ -33,6 +33,14 @@ __The general rule is:__
 
 - use a __CNAME record__ if you want to alias a name to another name, and you don’t need other records (such as MX records for emails) for the same name
 
+
+(sub)Domain / Hostname | Record Type | Target / Destination |
+---------------------- | ------------| -------------------- | 
+mydomain.com	         |  A	         |   111.222.333.444
+www.mydomain.com	     |  CNAME	     |   mydomain.com
+ftp.mydomain.com	     |  CNAME	     |   mydomain.com
+mail.mydomain.com	     |  CNAME	     |   mydomain.com
+
 - use an __ALIAS record__ if you are trying to alias the root domain (apex zone) or if you need other records for the same name
 
 - use the __URL record__ if you want the name to redirect (change address) instead of resolving to a destination.
