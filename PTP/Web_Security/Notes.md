@@ -1,5 +1,5 @@
 
-#### Differences between the A, CNAME, ALIAS and URL records
+## Differences between the A, CNAME, ALIAS and URL records
 
 __A, CNAME, ALIAS and URL records__ are all possible solutions to point a host name (name hereafter) to your site. However, they have some small differences that affect how the client will reach your site.
 
