@@ -268,8 +268,7 @@ __Finding ISP organization__:
 
 
 - __Ugly URL:__ are the ones that carry srting parameters and values that are meaningful to the web server but not representative
-		
-		of the content of the page. __Ex: www.example.com/read_doc.php?id=100__
+		of the content of the page. Ex: www.example.com/read_doc.php?id=100
 		
 		
 		
