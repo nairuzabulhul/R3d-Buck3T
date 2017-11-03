@@ -253,7 +253,8 @@ __Finding ISP organization__:
 	- __Wappalyzer__
 	
 	
-	- __Netcat__: allows to establish connection to the web server . once it is establish, use __HEAD HTTP__ to get web server 			      inforamtion. __Server and X-Powered are the most important fields that can reveal the server type, version and 			      the technology__ 
+	- __Netcat__: allows to establish connection to the web server . once it is establish, use __HEAD HTTP__ to get web server 			      inforamtion. __Server , X-Powered and Cookies are the most important fields that can reveal the server type,
+		     version and the technology__ 
 	
 	- __Httprint__: 
  
