@@ -185,8 +185,11 @@ Also, sessions expire shorter than cookies
 			
 			
 - nslookup -querytype =ANY  google.com --> retrive all the records 
-		    
-		    
+
+
+- nslookup -type=NS microsoft.com  --> retrieves Name server information about the website   
+
+
 - Check domain, per-domain, and sub-domians as sometimes they poin to different IP addresses
 			
 	Ex: google.com --> Domain 
@@ -211,7 +214,19 @@ __Finding ISP organization__:
 &nbsp;
 &nbsp;
 &nbsp;
-__Infrastructure:__
+---------------------------------------------------------------------------------------------------------------------------------
+#### Infrastructure:
   
+- Web Servers behind hosting of web applications : Mirecosoft IIS, Apache 
+
+- Knowing the backend servers [version] helps predicting the hosting OS and its version  
+
+- IIS components usually called ISAPI extensions works as Dynamic libraries, extending the functionalies of the web server
+
+- HTTP Headers can reveal some of the backend technologies of the server [GET Requests/ Responses]
+
+- Netcraft can help in giving information about the web server and its top level technologies as well as some histrorical information
+  about the site
+
 - 
-  
+   
