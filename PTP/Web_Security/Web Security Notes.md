@@ -138,8 +138,10 @@ Also, sessions expire shorter than cookies
 	      
 	      - __Web Interface:___ http://whois.domaintools.com/ 
 	      
-    &nbsp;		     
-    - __DNS__:
+ &nbsp;	
+ &nbsp;
+ &nbsp;
+ __DNS__:
     
     	     - TLD : Top Level Domain: e.g --> com, net.gov, fri, uk, us
 	     
@@ -171,7 +173,9 @@ Also, sessions expire shorter than cookies
 			
 			- one name has refer to multiple hosts to share the load 
     
- &nbsp;		
+ &nbsp;	
+ &nbsp;
+ &nbsp;
  __NSlookup:__
     
 - nslookup google.com   --> __forward lookup hostname to IP 
@@ -192,14 +196,20 @@ Also, sessions expire shorter than cookies
 				
 	
 &nbsp;
+&nbsp;
+&nbsp;
 __Finding ISP organization__:
     
+    
 - arin.net, whoisdomaintools.com, rip.net 
+
 		     
 - __Netcraft__ provides a wealth of information about cetain domains 
 		     
 
 
+&nbsp;
+&nbsp;
 &nbsp;
 __Infrastructure:__
   
