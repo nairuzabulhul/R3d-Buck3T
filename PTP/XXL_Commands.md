@@ -42,7 +42,7 @@ __Whois:__
 
 __Netcat:__
 
-- __nc IPaddress__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+- __nc IPaddress  PortNumber__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |  &nbsp;  &nbsp; EX:  &nbsp; nc 162.124.56.44 80 
 
 - __HEAD / HTTP /1.0__  
 
