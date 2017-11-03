@@ -247,17 +247,20 @@ __Finding ISP organization__:
 
 - Internal Fingerprinting when a web server is not connected to the internet :
  
- 	- Whatweb
+ 	- __Whatweb__
 	
-	- Wappalyzer
 	
-	- Netcat
+	- __Wappalyzer__
 	
-	- Httprint
+	
+	- __Netcat__: allows to establish connection to the web server . once it is establish, use __HEAD HTTP__ to get web server 			     inforamtion
+			
+		     - Server and X-Powered are the most important fields that can reveal the server type, version and the technology 
+	
+	- __Httprint__: 
  
 - __Mod Security:__ is a firewall for web application
  
 
-- 
  
  
