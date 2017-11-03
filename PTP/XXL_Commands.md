@@ -50,4 +50,20 @@ __Netcat:__
 &nbsp;
 &nbsp;
 &nbsp;
+
+__Whatweb:__
+
+- whatweb &nbsp; -h  &nbsp; &nbsp; | &nbsp; Help Summary 
+
+- whatweb &nbsp; IPaddress  | &nbsp; Ex: whatweb  &nbsp; 228.98.35.56
+
+- whatweb &nbsp; URL &nbsp; |  &nbsp; Ex: whatweb  &nbsp;  www.google.com
+
+- whatweb &nbsp; -v  &nbsp IPaddress  &nbsp |  &nbsp shows readable output Ex: whatweb  &nbsp; -v  &nbsp; 228.98.35.56
+
+
+
+&nbsp;
+&nbsp;
+&nbsp;
 ----------------------------------------------------------------------------------------------------------------------------------------
