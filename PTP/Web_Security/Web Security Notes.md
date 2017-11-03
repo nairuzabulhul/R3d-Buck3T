@@ -134,8 +134,41 @@ Also, sessions expire shorter than cookies
                 
               - The protocol runs on TCP PORT 43
                
-               
+              - __Whois command__: whois www.google.com
+	      
+	      - __Web Interface:__ http://whois.domaintools.com/ 
+	      
+	     
+    - __DNS__:
     
-    - 
+    	     - TLD : Top Level Domain: e.g --> com, net.gov, fri, uk, us
+	     
+	     - DNS queries produce a list of records: A, AAAA, NS, SOA, CNAME, MX, PTR 
+	     
+	     - TTL [Time to Live]: is the minimum time determined in SOA record 
+	     
+	     - DNS records :
+	     
+	     	- __SOA:__ Start of Authority is a type of record that defined certain values like serial numbers, TTL values 
+		
+		
+		- __NS:__  Name Server allow using domains instead of IP addresses.
+		
+		
+		- __A__: maps the hostname to IP address . Zone with A records is called __forward Zone___
+		
+		- __AAAA__: maps the hostname to IPv6
+		
+		- __PTR:__ maps the IP address to the hostname. .Zone with PTR is calledd __reverse zone__
 
-
+		- __MX:__ specifies a host that accepts emails 
+		
+		- __CNAME:__ maps alias hostname to A record 
+		
+		- __DNS Advantages:__
+		
+			- resolves IP address to hostnames. 
+			
+			- one name has refer to multiple hosts to share the load 
+			
+    - __NSlookup:__
