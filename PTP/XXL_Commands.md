@@ -59,7 +59,7 @@ __Whatweb:__
 
 - whatweb &nbsp; URL &nbsp; |  &nbsp; Ex: whatweb  &nbsp;  www.google.com
 
-- whatweb &nbsp; -v  &nbsp IPaddress  &nbsp |  &nbsp shows readable output Ex: whatweb  &nbsp; -v  &nbsp; 228.98.35.56
+- whatweb &nbsp; -v  &nbsp; IPaddress  &nbsp; |  &nbsp; shows readable output Ex: whatweb  &nbsp; -v  &nbsp; 228.98.35.56
 
 
 
