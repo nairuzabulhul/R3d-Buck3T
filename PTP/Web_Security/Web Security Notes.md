@@ -215,7 +215,7 @@ __Finding ISP organization__:
 &nbsp;
 &nbsp;
 ---------------------------------------------------------------------------------------------------------------------------------
-#### Infrastructure:
+### Infrastructure:
   
 - Web Servers behind hosting of web applications : Mirecosoft IIS, Apache 
 
@@ -253,8 +253,7 @@ __Finding ISP organization__:
 	- __Wappalyzer__
 	
 	
-	- __Netcat__: allows to establish connection to the web server . once it is establish, use __HEAD HTTP__ to get web server 			      inforamtion. Server and X-Powered are the most important fields that can reveal the server type, version and the
-		      technology 
+	- __Netcat__: allows to establish connection to the web server . once it is establish, use __HEAD HTTP__ to get web server 			      inforamtion. __Server and X-Powered are the most important fields that can reveal the server type, version and 			      the technology__ 
 	
 	- __Httprint__: 
  
