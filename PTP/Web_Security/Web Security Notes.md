@@ -228,5 +228,28 @@ __Finding ISP organization__:
 - Netcraft can help in giving information about the web server and its top level technologies as well as some histrorical information
   about the site
 
-- 
-   
+- __Servers Checklist__ : 
+
+	- Server IP
+	
+	- Server OS
+	
+	- Uptime stats
+	
+	- IP address owners 
+	
+	- Host provider
+
+ - Internal Fingerprinting when a web server is not connected to the internet :
+ 
+ 	- Whatweb
+	
+	- Wappalyzer
+	
+	- Netcat
+	
+	- Httprint
+ 
+ - __Mod Security: __ is a firewall for web application 
+ 
+ 
