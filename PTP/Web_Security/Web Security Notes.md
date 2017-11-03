@@ -1,0 +1,141 @@
+#### HTTP Request :
+
+
+- Host: header allows a web server to host a multiple wesbites on a single IP address 
+
+- User-Agent that reveals the browser version, operatign system and language to the remote web server
+
+- Accept: is used by the browser to specify which document type is expected. In this example, it is an httml file
+
+- Accept-Encoding: restrcits the content codings that are acceptable in the response. 
+
+- Keep-alive: indicares that all requests  to the web server will continue to be send through the 
+		
+	      established connection without initiating a new connection every time 
+
+
+
+#### HTTP Response:
+
+
+- HTT/1.1 Status Code : the status code indicates the status response 
+
+- Date: the date and time of the response
+
+- Cache-Control: it shows the caching rule by the web server. 
+
+- Content-Type: end outpt format of the web pages 
+
+- Conent-Encoding: has to do with how the web server process the web pags [compressing]
+
+- Server: shows the type of the host web server 
+
+- Content-Length: shows reponse length in bytes
+
+
+#### Encoding:
+
+
+- Charsets : ASCII, Unicode
+
+- Unicode: Universal Charset Set allows the use of computers in any language
+
+
+
+
+#### Same Origin Policy: 
+
+
+The policy prevents scripts or a documents from getting and setting properties of another 
+
+document from different origin. 
+
+
+The policy is requested when cross-site HTTP requests are initiated from within client side scripts,
+
+or when AJAX is running 
+
+ 
+
+ 
+#### Cookies:
+
+__HTTP__ by itself is a stateless protocol means that it cannot retain the connection by its own. It needs a session 
+
+or cookie to keep the connection established
+
+
+__HostOnlyFlag:__
+
+when a cookie does not contain a domain value, it is assumed that the host-only-flag is set to true.  The cookie
+
+with the host-only-flag value will be sent only to the target domain that set it.
+
+
+
+__HttpOnlyFlag__: 
+
+is used to force the browser to send the cookie only through HTTP
+
+This flag prevents the cookie from being read via JS, Flash, Java or any other non-HTML technology.
+
+
+__Secure flag__:
+
+The browser forces the cookie to be sent only through HTTPS. This prevents from sending the cookie in clear text
+
+
+
+
+#### Session:
+
+- Session IDs are sometimes determined by the platform :
+	
+	- PHP ID 
+
+	- JS ID 
+
+	- Session ID
+
+
+__Each development language has it own default session parameter name and ID__
+
+
+
+
+
+#### The difference between Session and Cookie :
+
+
+- Cookie : variables are stored on the client side
+
+
+- Session: variabeles are stored on the server side
+
+
+
+Also, sessions expire shorter than cookies
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+## Section 2: Gathering information :
+
+
+- Finding the target IP address, domain and emails :
+
+    - __Whois :__ 
+    
+              - lookups are used to look up domain ownership details from different databases. it uses WHOIS protocol. 
+          
+                There are web interface clients as well as command line. Ex: www.whois.com
+                
+              - The protocol runs on TCP PORT 43
+               
+               
+    
+    - 
+
+
