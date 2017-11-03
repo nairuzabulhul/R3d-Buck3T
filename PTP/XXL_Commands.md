@@ -61,7 +61,13 @@ __Whatweb:__
 
 - whatweb &nbsp; -v  &nbsp; IPaddress  &nbsp; |  &nbsp; shows readable output Ex: whatweb  &nbsp; -v  &nbsp; 228.98.35.56
 
+&nbsp;
+&nbsp;
+&nbsp;
 
+__Httprint:__
+
+- 
 
 &nbsp;
 &nbsp;
