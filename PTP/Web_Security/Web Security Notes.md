@@ -219,14 +219,19 @@ __Finding ISP organization__:
   
 - Web Servers behind hosting of web applications : Mirecosoft IIS, Apache 
 
+
 - Knowing the backend servers [version] helps predicting the hosting OS and its version  
+
 
 - IIS components usually called ISAPI extensions works as Dynamic libraries, extending the functionalies of the web server
 
+
 - HTTP Headers can reveal some of the backend technologies of the server [GET Requests/ Responses]
+
 
 - Netcraft can help in giving information about the web server and its top level technologies as well as some histrorical information
   about the site
+
 
 - __Servers Checklist__ : 
 
@@ -240,7 +245,7 @@ __Finding ISP organization__:
 	
 	- Host provider
 
- - Internal Fingerprinting when a web server is not connected to the internet :
+- Internal Fingerprinting when a web server is not connected to the internet :
  
  	- Whatweb
 	
@@ -250,6 +255,9 @@ __Finding ISP organization__:
 	
 	- Httprint
  
- - __Mod Security: __ is a firewall for web application 
+- __Mod Security:__ is a firewall for web application
+ 
+
+- 
  
  
