@@ -195,9 +195,9 @@ Also, sessions expire shorter than cookies
     &nbsp;
     - __Finding ISP organization__:
     
-    	- arin.net, whoisdomaintools.com, rip.net 
+    		- arin.net, whoisdomaintools.com, rip.net 
 		     
-	- __Netcraft__ provides a wealth of information about cetain domains 
+		- __Netcraft__ provides a wealth of information about cetain domains 
 		     
 
 
