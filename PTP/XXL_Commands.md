@@ -36,8 +36,14 @@ __WHOIS:__
 - whois -h  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | __shows all WHOIS options__
 
 
+&nbsp;
+&nbsp;
+&nbsp;
+__Netcat:__
 
+- __nc IPaddress__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 
+- __HEAD / HTTP /1.0__  
 
 
 &nbsp;
