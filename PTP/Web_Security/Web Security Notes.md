@@ -118,7 +118,7 @@ Also, sessions expire shorter than cookies
 
 
 
-
+ &nbsp;
 ------------------------------------------------------------------------------------------------------------------------
 
 ## Section 2: Gathering information :
@@ -138,7 +138,7 @@ Also, sessions expire shorter than cookies
 	      
 	      - __Web Interface:__ http://whois.domaintools.com/ 
 	      
-	     
+    &nbsp;		     
     - __DNS__:
     
     	     - TLD : Top Level Domain: e.g --> com, net.gov, fri, uk, us
@@ -170,5 +170,40 @@ Also, sessions expire shorter than cookies
 			- resolves IP address to hostnames. 
 			
 			- one name has refer to multiple hosts to share the load 
-			
+    
+    &nbsp;		
     - __NSlookup:__
+    
+    	- Example : 
+			- nslookup google.com   --> __forward lookup hostname to IP 
+		
+		
+		    	- nslookup -type=PTR 127.98.56.34 --> __reverse lookup IP to hostname 
+			
+			
+			- nslookup -querytype =ANY  google.com --> retrive all the records 
+		    
+		    
+		    	- Check domain, per-domain, and sub-domians as sometimes they poin to different IP addresses
+			
+				Ex: google.com --> Domain 
+				
+				Ex: www.google.com --> pre-domain
+				
+				
+	
+    &nbsp;
+    - __Finding ISP organization__:
+    
+    		     - arin.net, whoisdomaintools.com, rip.net 
+		     
+		     - __Netcraft__ provides a wealth of information about cetain domains 
+		     
+
+
+
+  &nbsp;
+  - __Infrastructure:__
+  
+  		- 
+  
