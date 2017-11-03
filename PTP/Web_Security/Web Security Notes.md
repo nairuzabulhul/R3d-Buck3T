@@ -244,22 +244,46 @@ __Finding ISP organization__:
 	- IP address owners 
 	
 	- Host provider
+	
+	- Cookies PHPID, JSID, ASPID [technologies]
 
 - Internal Fingerprinting when a web server is not connected to the internet :
  
- 	- __Whatweb__
+ 	- __Whatweb__ : a command line tool that helps recognizing the technologies, Web server versio, blogging platforms, JS libs
+			
 	
-	
-	- __Wappalyzer__
+	- __Wappalyzer__ is a web plugin-based tool that works both on Chrome and Firefox. The plugin shows the information about the 
+			 web server, JavaScript, OS and frameworks 
 	
 	
 	- __Netcat__: allows to establish connection to the web server . once it is establish, use __HEAD HTTP__ to get web server 			      inforamtion. __Server , X-Powered and Cookies are the most important fields that can reveal the server type,
 		     version and the technology__ 
 	
+	
 	- __Httprint__: 
+ 
  
 - __Mod Security:__ is a firewall for web application
  
 
+
+- __Ugly URL:__ are the ones that carry srting parameters and values that are meaningful to the web server but not representative
+		
+		of the content of the page. __Ex: www.example.com/read_doc.php?id=100__
+		
+		
+		
+- __Engine friendly URL:__ Ex: www.example.com/read/Buffer_Overflow.html
  
  
+ 
+- URL Write Rule on Apache : __mod_rewrite, .htaccess__ 
+
+
+- URL Write Rule on IIS: __Ionic Isapi Rewrite , Helicon Isapi Rewrite__
+
+
+- Enumerating Sub-domains
+
+
+- Finding Virtual hosts: 
