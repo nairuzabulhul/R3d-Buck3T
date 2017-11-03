@@ -136,7 +136,7 @@ Also, sessions expire shorter than cookies
                
               - __Whois command__: whois www.google.com
 	      
-	      - __Web Interface:__ http://whois.domaintools.com/ 
+	      - __Web Interface:___ http://whois.domaintools.com/ 
 	      
     &nbsp;		     
     - __DNS__:
@@ -171,39 +171,37 @@ Also, sessions expire shorter than cookies
 			
 			- one name has refer to multiple hosts to share the load 
     
-    &nbsp;		
-    - __NSlookup:__
+ &nbsp;		
+ __NSlookup:__
     
-    	- Example : 
-			- nslookup google.com   --> __forward lookup hostname to IP 
+- nslookup google.com   --> __forward lookup hostname to IP 
 		
 		
-		    	- nslookup -type=PTR 127.98.56.34 --> __reverse lookup IP to hostname 
+- nslookup -type=PTR 127.98.56.34 --> __reverse lookup IP to hostname 
 			
 			
-			- nslookup -querytype =ANY  google.com --> retrive all the records 
+- nslookup -querytype =ANY  google.com --> retrive all the records 
 		    
 		    
-		    	- Check domain, per-domain, and sub-domians as sometimes they poin to different IP addresses
+- Check domain, per-domain, and sub-domians as sometimes they poin to different IP addresses
 			
-				Ex: google.com --> Domain 
-				
-				Ex: www.google.com --> pre-domain
+	Ex: google.com --> Domain 
+			
+	Ex: www.google.com --> pre-domain
 				
 				
 	
-    &nbsp;
-    - __Finding ISP organization__:
+&nbsp;
+__Finding ISP organization__:
     
-    		- arin.net, whoisdomaintools.com, rip.net 
+- arin.net, whoisdomaintools.com, rip.net 
 		     
-		- __Netcraft__ provides a wealth of information about cetain domains 
+- __Netcraft__ provides a wealth of information about cetain domains 
 		     
 
 
-
-  &nbsp;
-  - __Infrastructure:__
+&nbsp;
+__Infrastructure:__
   
-  	- 
+- 
   
