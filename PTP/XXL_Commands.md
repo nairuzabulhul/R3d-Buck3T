@@ -29,7 +29,7 @@ __NSlookup:__
 &nbsp;
 &nbsp;
 
-__WHOIS:__
+__Whois:__
 
 - whois www.google.com  &nbsp; &nbsp; &nbsp; | __retreives information about the domain__
 
