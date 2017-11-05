@@ -391,11 +391,16 @@ __Note__: to use John with custom wordlist, save the words in the same file john
 
 > - John --wordlist=/usr/share/john/password.lst --formate=NT hashes.txt      | &nbsp; specify the hash formate __important__ 
 
+> - john --wordlist=/usr/share/john/password.lst  --format=RAW-MD5 /root/Desktop/hashes.txt
+
 
 &nbsp;
 ### Crunch 
 
-> - crunch 
+
+__Custom Wordlist with alpha characters at the beginning and numerics at the end 
+> - crunch 13 13 -f /usr/share/crunch/charset.lst numeric -t SKY-PWDS-@@@@ > /usr/share/john/password.lst
+
 
 
 
