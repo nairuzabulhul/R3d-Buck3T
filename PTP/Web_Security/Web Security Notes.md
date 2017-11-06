@@ -345,3 +345,26 @@ __Finding ISP organization__:
 	
 	- Does the applicaiton use JS or Ajax or Flash ?
 
+- Analyzing the header :
+
+	- Use Burp Proxy to analzye the get requests and responses 
+	
+
+- Mapping the application :
+
+	- __Client Side Validation__ : check user input validation against SQL, XSS, or general logical flaws. __Firebug__ is
+	                               recommended for the test 
+	
+	-__Database Interaction__ 
+	
+	- __File Uploading and Downloading__ 
+	
+	- __Display of User Spplied Data__ 
+	
+	- __Access Controls, Logins and protected Pages__
+	
+	- __Redirections__ : focus on the 300 status codes as they part of HTTP response manipulation 
+	
+	- __Error Messages__ 
+	
+	- __Charting__ 
