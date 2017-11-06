@@ -282,7 +282,15 @@ __Finding ISP organization__:
 - URL Write Rule on IIS: __Ionic Isapi Rewrite , Helicon Isapi Rewrite__
 
 
-- Enumerating Sub-domains
+- __Enumerating Sub-domains :__
 
+	- Search sub domain by using Netcraft Search Engine 
+	
+	- Google Operators: __site, &nbsp;  inurl, &nbsp; -site , &nbsp; -inurl , &nbsp; -inurl:www__ 
+	
+	Ex: site:microsoft  &nbsp; -site:subdomain1.microsoft.com  &nbsp; -site:subdomain2.microsot.com  &nbsp; 
+		 -inurl:subdomain3.microsot.com
+
+	- Enumeration with tools: __dnsrecon, &nbsp; dnsenum, &nbsp; subbrute, &nbsp; theHarvester, &nbsp;fierce, &nbsp; recon-ng, 					&nbsp; knock__
 
 - Finding Virtual hosts: 
