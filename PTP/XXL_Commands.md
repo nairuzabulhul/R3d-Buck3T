@@ -11,6 +11,8 @@
 
 ## Web Security : 
 
+### Information Gathering 
+
 __NSlookup:__
     
 - nslookup google.com   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  |  __forward lookup hostname to IP__ 
@@ -73,3 +75,48 @@ __Httprint:__
 &nbsp;
 &nbsp;
 ----------------------------------------------------------------------------------------------------------------------------------------
+
+### DNS Enumeration : 
+
+__subbrute:__
+
+
+- python &nbsp; subbrute.py  &nbsp; -h &nbsp; | &nbsp;Help
+
+- __name.txt__ &nbsp; |  &nbsp; the default wordlist for the script 
+
+- subbrtue &nbsp; microsoft &nbsp; 
+
+- subbrute &nbsp; -h &nbsp; -s &nbsp; [path ro the custom_wordlist.txt] &nbsp; | &nbsp; Use custom wordlist 
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+__dnsrecon:__
+
+- dnsrecon &nbsp; -d &nbsp; microsoft.com &nbsp; | &nbsp; perfroms a general enumeration  
+
+- dnsrecon &nbsp; -d &nbsp; microsoft &nbsp; -g &nbsp; | &nbsp; performs a Google search 
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+__theharvester:__
+
+- theharvester &nbsp; -d website  &nbsp; -b &nbsp; google &nbsp; -l &nbsp; 200 &nbsp; -f &nbsp; output.html 
+
+- d &nbsp; search the domain 
+
+- l &nbsp; limit the results to work with 
+
+- f &nbsp; output to HTML or XML file 
+
+- b &nbsp; data source (bing, google, linkedin, pgp, all..)
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+--------------------------------------------------------------------------------------------------------------------------------------
