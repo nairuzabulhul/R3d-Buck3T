@@ -15,16 +15,26 @@
 
 __NSlookup:__
     
-- nslookup google.com   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  |  __forward lookup hostname to IP__ 
+- nslookup &nbsp; google.com   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  |  __forward lookup hostname to IP__ 
 		
 		
-- nslookup -type=PTR 127.98.56.34 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; |  __reverse lookup IP to hostname__  
+- nslookup &nbsp; -type=PTR 127.98.56.34 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; |  __reverse lookup IP to hostname__  
 			
 			
-- nslookup -querytype =ANY  google.com  &nbsp;  &nbsp; &nbsp; &nbsp; |  __retrive all the records__ 
+- nslookup &nbsp; -querytype =ANY  google.com  &nbsp;  &nbsp; &nbsp; &nbsp; |  __retrive all the records__ 
 
 
-- nslookup -type=NS microsoft.com &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | __retrieves Name server information about the website__   
+- nslookup &nbsp; -type=NS microsoft.com &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | __retrieves Name server information about the website__   
+
+- nslookup &nbsp; -type=NS &nbsp; domain.com &nbsp; | &nbsp; Zone Transfer
+
+&nbsp;
+&nbsp;
+&nbsp;
+__dig:__
+
+- dig &nbsp; @nameserverofSite axfr &nbsp; domain.com  |  &nbsp; perform a zone transfer 
+
 
 
 &nbsp;
@@ -106,7 +116,9 @@ __dnsrecon:__
 
 __theharvester:__
 
-- theharvester &nbsp; -d website  &nbsp; -b &nbsp; google &nbsp; -l &nbsp; 200 &nbsp; -f &nbsp; output.html 
+- theharvester &nbsp; -d website  &nbsp; -b &nbsp; google &nbsp; -l &nbsp; 200 &nbsp; -f &nbsp; output.html &nbsp;|&nbsp; Google 
+
+- - theharvester &nbsp; -d website  &nbsp; -b &nbsp; linkedin &nbsp; -l &nbsp; 200 &nbsp; -f &nbsp; output.html &nbsp; |&nbsp; Linkedin
 
 - d &nbsp; search the domain 
 
