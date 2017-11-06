@@ -288,9 +288,60 @@ __Finding ISP organization__:
 	
 	- Google Operators: __site, &nbsp;  inurl, &nbsp; -site , &nbsp; -inurl , &nbsp; -inurl:www__ 
 	
-	Ex: site:microsoft  &nbsp; -site:subdomain1.microsoft.com  &nbsp; -site:subdomain2.microsot.com  &nbsp; 
+	  Ex: site:microsoft  &nbsp; -site:subdomain1.microsoft.com  &nbsp; -site:subdomain2.microsot.com  &nbsp; 
 		 -inurl:subdomain3.microsot.com
 
 	- Enumeration with tools: __dnsrecon, &nbsp; dnsenum, &nbsp; subbrute, &nbsp; theHarvester, &nbsp;fierce, &nbsp; recon-ng, 					&nbsp; knock__
+	
+	- __Zone Transfer:__ is the term used to refer to the process by which the contents of a DNS Zone file are copied
+			     from a primary DNS server to a secondary DNS server"
+			    
 
-- Finding Virtual hosts: 
+- __Finding Virtual hosts:__ 
+
+	- Virtual hosts is a website that shares an IP address with one or more virtual hosts . One server[one IP address] with multple 
+	 websites
+	 
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+--------------------------------------------------------------------------------------------------------------------------------------
+### Fingerprinting Frameworks and Application :
+
+- Common Applications :
+
+	- forums (phpBB, vBulletin)
+	
+	- CMS'S (Joomlam Drupal)
+	
+	- CRM'S, blogging platforms(WordPress, Movable)
+	
+- Web scripts are available at www.hostscripts.com 
+
+ - A basic step for pentesting a website, look at the website itself, its URLs. appearances and logic 
+ 
+ - Add-ons are very important to inspect as they might be vulnerable to certain common vulnerabilites 
+ 
+ 
+&nbsp;
+&nbsp;
+&nbsp;
+--------------------------------------------------------------------------------------------------------------------------------------
+### Fingerprinting Custom Applications:
+
+- Scoping the application :
+
+	- What is the applicaiton for ?
+	
+	- Does the application allow user registration ?
+	
+	- Does the applicaiton take input from the user?
+	
+	- What kind of input ?
+	
+	- Does the application accept file uploads?
+	
+	- Does the applicaiton use JS or Ajax or Flash ?
+
