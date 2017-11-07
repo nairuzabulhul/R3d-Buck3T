@@ -132,4 +132,17 @@ __theharvester:__
 &nbsp;
 &nbsp;
 &nbsp;
+__dnsenum:__
+
+- dnsenum &nbsp; -p &nbsp; 20 -s &nbsp; 100 &nbsp; --threads 5 &nbsp; website.com 
+
+- __s__ &nbsp; | &nbsp; maxium numbers of sub domains 
+
+- __threads__ &nbsp; | &nbsp; for speeding up the crawling process 
+
+- __p__ &nbsp; | &nbsp; for pages 
+
+&nbsp;
+&nbsp;
+&nbsp;
 --------------------------------------------------------------------------------------------------------------------------------------
