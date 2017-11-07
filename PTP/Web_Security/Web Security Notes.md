@@ -389,3 +389,33 @@ __Finding ISP organization__:
 - Directory listing, configuration files and logs are relevant in the process of enumeration 
 
 - File extension such &nbsp; .old, &nbsp; .bak, &nbsp; .php.old, &nbsp; .php.bak | &nbsp; can reveal infromation about the database 
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+--------------------------------------------------------------------------------------------------------------------------------------
+### Shodan :
+
+- Shodan is a search engine that probs ports and services on devices and serevrs 
+
+- Shodan uses:
+	- Devices with default usrername and passes
+	
+	- Viewing the configuration of devices
+	
+	- Detect server versions 
+	
+	
+- [__Shodan Filters:__](http://www.shodanhq.com/help/filters)
+
+- [Google Operaters](http://www.googleguide.com/advanced_operators.html)
+
+- [Google Operators 2](http://www.hackersforcharity.org/ghdb/)
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+--------------------------------------------------------------------------------------------------------------------------------------
+
