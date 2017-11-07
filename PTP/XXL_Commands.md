@@ -31,6 +31,7 @@ __NSlookup:__
 &nbsp;
 &nbsp;
 &nbsp;
+
 __dig:__
 
 - dig &nbsp; @nameserverofSite axfr &nbsp; domain.com  |  &nbsp; perform a zone transfer 
