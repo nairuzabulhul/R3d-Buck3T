@@ -378,7 +378,7 @@ __Finding ISP organization__:
 &nbsp;
 &nbsp;
 --------------------------------------------------------------------------------------------------------------------------------------
-__Enumerating Resources:__
+### Enumerating Resources:
 
 - Crawling website for different types of files . Crawling only shows publicly available files --> BurpSuite Spider 
 
