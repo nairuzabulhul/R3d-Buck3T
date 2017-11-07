@@ -331,7 +331,7 @@ __Finding ISP organization__:
 --------------------------------------------------------------------------------------------------------------------------------------
 ### Fingerprinting Custom Applications:
 
-- Scoping the application :
+- __Scoping the application :__
 
 	- What is the applicaiton for ?
 	
@@ -345,17 +345,17 @@ __Finding ISP organization__:
 	
 	- Does the applicaiton use JS or Ajax or Flash ?
 
-- Analyzing the header :
+- __Analyzing the header :__
 
 	- Use Burp Proxy to analzye the get requests and responses 
 	
 
-- Mapping the application :
+- __Mapping the application :__
 
 	- __Client Side Validation__ : check user input validation against SQL, XSS, or general logical flaws. __Firebug__ is
 	                               recommended for the test 
 	
-	-__Database Interaction__ 
+	 - __Database Interaction__ 
 	
 	- __File Uploading and Downloading__ 
 	
