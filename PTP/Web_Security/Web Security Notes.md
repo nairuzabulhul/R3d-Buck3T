@@ -216,6 +216,8 @@ __Finding ISP organization__:
 &nbsp;
 ---------------------------------------------------------------------------------------------------------------------------------
 ### Infrastructure:
+
+[infrastrcuture diagram] !!!
   
 - Web Servers behind hosting of web applications : Mirecosoft IIS, Apache 
 
@@ -331,6 +333,8 @@ __Finding ISP organization__:
 --------------------------------------------------------------------------------------------------------------------------------------
 ### Fingerprinting Custom Applications:
 
+[Web App Mapping diagram ] !!
+
 - __Scoping the application :__
 
 	- What is the applicaiton for ?
@@ -368,3 +372,20 @@ __Finding ISP organization__:
 	- __Error Messages__ 
 	
 	- __Charting__ 
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+--------------------------------------------------------------------------------------------------------------------------------------
+__Enumerating Resources:__
+
+- Crawling website for different types of files . Crawling only shows publicly available files --> BurpSuite Spider 
+
+- Finding hidden files such as backup or configuration files --> Dirbuster 
+
+- __Dirbuster__ can be customizable on what to search based on the wsbsite technologies 
+
+- Directory listing, configuration files and logs are relevant in the process of enumeration 
+
+- File extension such &nbsp; .old, &nbsp; .bak, &nbsp; .php.old, &nbsp; .php.bak | &nbsp; can reveal infromation about the database 
