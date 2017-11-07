@@ -111,6 +111,7 @@ __dnsrecon:__
 - dnsrecon &nbsp; -d &nbsp; microsoft &nbsp; -g &nbsp; | &nbsp; performs a Google search 
 
 
+
 &nbsp;
 &nbsp;
 &nbsp;
