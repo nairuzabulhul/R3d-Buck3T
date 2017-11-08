@@ -453,11 +453,12 @@ __Introduction:__
 __XSS Types:__
 
 - __Reflected XSS__: 
-		- the most common and visible XSS,as it echos back to the user the ouput of the injection. This type of vulnerability
-	          deals with the server side  
+	
+	- the most common and visible XSS,as it echos back to the user the ouput of the injection. This type of vulnerability
+	   deals with the server side  
 		
-		- The user brings the payload in their HTTP request to the vulnerable website. This payload will be executed on their 
-		  browser
+	- The user brings the payload in their HTTP request to the vulnerable website. This payload will be executed on their 
+	  browser
 		  
 		- 
 		
