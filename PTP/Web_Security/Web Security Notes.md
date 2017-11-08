@@ -181,19 +181,19 @@ Also, sessions expire shorter than cookies
  
  __NSlookup:__
     
-	- nslookup google.com   --> __forward lookup hostname to IP 
+    - nslookup google.com   --> __forward lookup hostname to IP 
 		
 		
-	- nslookup -type=PTR 127.98.56.34 --> __reverse lookup IP to hostname 
+    - nslookup -type=PTR 127.98.56.34 --> __reverse lookup IP to hostname 
 			
 			
-	- nslookup -querytype =ANY  google.com --> retrive all the records 
+    - nslookup -querytype =ANY  google.com --> retrive all the records 
 
 
-	- nslookup -type=NS microsoft.com  --> retrieves Name server information about the website   
+    - nslookup -type=NS microsoft.com  --> retrieves Name server information about the website   
 
 
-	- Check domain, per-domain, and sub-domians as sometimes they poin to different IP addresses
+    - Check domain, per-domain, and sub-domians as sometimes they poin to different IP addresses
 			
 		Ex: google.com --> Domain 
 			
