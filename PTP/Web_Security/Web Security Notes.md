@@ -108,13 +108,13 @@ The browser forces the cookie to be sent only through HTTPS. This prevents from 
  &nbsp;
 #### Session:
 
-	- Session IDs are sometimes determined by the platform :
+  - Session IDs are sometimes determined by the platform :
 	
-		- PHP ID 
+	- PHP ID 
 
-		- JS ID 
+	- JS ID 
 
-		- Session ID
+	- Session ID
 
 
 __Each development language has it own default session parameter name and ID__
@@ -128,10 +128,10 @@ __Each development language has it own default session parameter name and ID__
 #### The difference between Session and Cookie :
 
 
-	- Cookie : variables are stored on the client side
+    - Cookie : variables are stored on the client side
 
 
-	- Session: variabeles are stored on the server side
+    - Session: variabeles are stored on the server side
 
 
 
