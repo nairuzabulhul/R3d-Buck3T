@@ -460,12 +460,16 @@ __XSS Types:__
 	- The user brings the payload in their HTTP request to the vulnerable website. This payload will be executed on their 
 	  browser
 		  
-		- 
+	- Links in this type of attack are designed creatively [can send direct link or embded in services]
 		
 
-- __Stored XSS__ : it is also known as __persistent xss__, the malicious input is stored withinthe web application. once this occurs, 			  the web application will vulnerable to all users who access it . This type of attack does not require user
-		  interactions. it is deals directly with the website.
+- __Stored XSS__ : 
+
+	- it is also known as __persistent xss__, the malicious input is stored withinthe web application. once this occurs, 			  the web application will vulnerable to all users who access it . This type of attack does not require user
+	   interactions. it is deals directly with the website.
 		  
+	- The payload is saved on the web browser once the user accesed the vulnerable website. Itcan be rendered to one or muplitle
+	   pages in the same website
 
 - __DOM XSS__: is a client-side attack that infects the user's current page only and does not reach server-side code 
 
