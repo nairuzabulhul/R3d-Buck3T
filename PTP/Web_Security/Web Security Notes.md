@@ -128,10 +128,10 @@ __Each development language has it own default session parameter name and ID__
 #### The difference between Session and Cookie :
 
 
-    - Cookie : variables are stored on the client side
+   - Cookie : variables are stored on the client side
 
 
-    - Session: variabeles are stored on the server side
+   - Session: variabeles are stored on the server side
 
 
 
@@ -141,7 +141,7 @@ Also, sessions expire shorter than cookies
 
  &nbsp;	
  &nbsp;
- &nbsp
+ &nbsp;
 ------------------------------------------------------------------------------------------------------------------------
 
 ## Section 2: Gathering information :
