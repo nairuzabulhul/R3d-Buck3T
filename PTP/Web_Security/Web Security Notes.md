@@ -422,3 +422,31 @@ __Finding ISP organization__:
 &nbsp;
 --------------------------------------------------------------------------------------------------------------------------------------
 
+## Module 3: Cross Site Scripting:
+
+
+- __XSS__: Cross Site Scripting is an attack where the JavaScript is run on a web browser
+
+- XSS attacks can :
+
+	- Steal Cookies 
+	
+	- Inject a keylogger into the browser
+	
+	- Getting complete control over the browser 
+	
+	- Intiaite different types of attacks by injecting JS in plugin 
+
+- XSS checklist :
+
+	- check every user input for XSS vulnerability 
+	
+	- Once the fields are found, create the JS payload 
+	
+	- send it to the user 
+	
+&nbsp;
+&nbsp;
+&nbsp;
+
+__XSS Types:__
