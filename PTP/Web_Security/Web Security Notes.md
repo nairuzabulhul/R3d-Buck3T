@@ -149,7 +149,7 @@ Also, sessions expire shorter than cookies
 
 - Finding the target IP address, domain and emails :
 
-    - __Whois :__ 
+__Whois :__ 
     
          - lookups are used to look up domain ownership details from different databases. it uses WHOIS protocol. 
           
