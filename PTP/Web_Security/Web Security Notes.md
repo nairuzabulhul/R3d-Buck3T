@@ -151,15 +151,16 @@ Also, sessions expire shorter than cookies
 
 __Whois :__ 
     
-    - lookups are used to look up domain ownership details from different databases. it uses WHOIS protocol. 
+  - lookups are used to look up domain ownership details from different databases. it uses WHOIS protocol. 
           
-    -  There are web interface clients as well as command line. Ex: www.whois.com
+  -  There are web interface clients as well as command line. Ex: www.whois.com
                 
-    - The protocol runs on TCP PORT 43
+  - The protocol runs on TCP PORT 43
              
-    - __Whois command__: whois www.google.com\
+  - __Whois command__: whois www.google.com\
       
-    - __Web Interface:___ http://whois.domaintools.com/ 
+  - __Web Interface:___ http://whois.domaintools.com/ 
+  
 	      
  &nbsp;	
  &nbsp;
