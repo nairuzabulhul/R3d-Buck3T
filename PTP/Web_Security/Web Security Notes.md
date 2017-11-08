@@ -512,4 +512,8 @@ __XSS Types:__
 
 __Finding XSS:__
 
-- 
+- Test all points of input partially or totally in a website 
+
+- Test these points with HTML tags and JS tags as well
+
+
