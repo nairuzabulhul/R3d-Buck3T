@@ -143,13 +143,14 @@ Also, sessions expire shorter than cookies
  &nbsp;
  __DNS__:
     
-    	     - TLD : Top Level Domain: e.g --> com, net.gov, fri, uk, us
+    - TLD : Top Level Domain: e.g --> com, net.gov, fri, uk, us
 	     
-	     - DNS queries produce a list of records: A, AAAA, NS, SOA, CNAME, MX, PTR 
+    - DNS queries produce a list of records: A, AAAA, NS, SOA, CNAME, MX, PTR 
 	     
-	     - TTL [Time to Live]: is the minimum time determined in SOA record 
+
+     - TTL [Time to Live]: is the minimum time determined in SOA record 
 	     
-	     - DNS records :
+     - DNS records :
 	     
 	     	- __SOA:__ Start of Authority is a type of record that defined certain values like serial numbers, TTL values 
 		
@@ -475,3 +476,12 @@ __XSS Types:__
 
 
 
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+__Finding XSS:__
+
+- 
