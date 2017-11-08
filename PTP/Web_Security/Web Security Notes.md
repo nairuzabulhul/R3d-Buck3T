@@ -424,6 +424,7 @@ __Finding ISP organization__:
 
 ## Module 3: Cross Site Scripting:
 
+__Introduction:__
 
 - __XSS__: Cross Site Scripting is an attack where the JavaScript is run on a web browser
 
@@ -450,3 +451,22 @@ __Finding ISP organization__:
 &nbsp;
 
 __XSS Types:__
+
+- __Reflected XSS__: 
+		- the most common and visible XSS,as it echos back to the user the ouput of the injection. This type of vulnerability
+	          deals with the server side  
+		
+		- The user brings the payload in their HTTP request to the vulnerable website. This payload will be executed on their 
+		  browser
+		  
+		- 
+		
+
+- __Stored XSS__ : it is also known as __persistent xss__, the malicious input is stored withinthe web application. once this occurs, 			  the web application will vulnerable to all users who access it . This type of attack does not require user
+		  interactions. it is deals directly with the website.
+		  
+
+- __DOM XSS__: is a client-side attack that infects the user's current page only and does not reach server-side code 
+
+
+
