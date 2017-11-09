@@ -530,7 +530,7 @@ __XSS Types:__
 - __Comments__: commenting in SQL can be with __#__ or __--__
 
 &nbsp;
-&nbsp
+&nbsp;
 
 ### Testing DB for sql vulnerabilities :
 
