@@ -596,4 +596,14 @@ __Blind SQL Injection:__
 
 - SQL common characters: __', ", SELECT UNION, #, --__
 
+- Increasing the number of fields to know the number of columns in the db
 
+- Identify the type of fields: strings, int, etc. if the application retruns TRUE means that the inserted type is true, else the inserted type is False
+
+- 
+
+- Test against Blind SQL Injection through passign true/false conditions as testing parameters and check the application behavior 
+
+- Successful SQL injection is based on understanding the DB architecture .
+
+- 
