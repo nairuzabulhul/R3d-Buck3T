@@ -543,4 +543,58 @@ __SQL Testing:__
 - __UNION SELECT column1, Column2 WHERE 'a'='a';__
 
 
+&nbsp;
+&nbsp; 
+### Types of SQL injections:
 
+- In-band SQL Injection 
+
+- Error-based SQL injection
+
+- Blind SQL injection
+
+
+&nbsp;
+&nbsp;
+__In-band SQL Injection:__
+
+- leverages the same channel used to inject the SQL code
+
+- 
+
+- 
+
+&nbsp;
+&nbsp;
+
+__Error-based SQL Injection:__
+
+- Forcing the DBMS through a sql error that can be used for exploitation
+
+- 
+
+- 
+
+&nbsp;
+&nbsp;
+
+__Blind SQL Injection:__
+
+- Blind SQL injection is one of the most complex injections as it does not reflect an output.Every things occurs on the backend; nothing is shown to the end user
+
+
+- Blind injectios are based on True/False conditions. The output can be understood through stuyding the behavior of the web application
+
+&nbsp;
+&nbsp;
+
+### Finding SQL Injections 
+
+
+- Test every input on the website or web application with characters are known for SQL use 
+
+- Input parameter are carried through: __GET, POST, HEADER, COOKIE___
+
+- SQL common characters: __', ", SELECT UNION, #, --__
+
+- 
