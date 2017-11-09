@@ -527,7 +527,9 @@ __XSS Types:__
 
 - __UNION ALL__ prevent duplicates: <SELECT statement> UNION &nbsp; ALL &nbsp; <other SELECT statement>;
 
+
 - __Comments__: commenting in SQL can be with __#__ or __--__
+
 
 &nbsp;
 &nbsp;
