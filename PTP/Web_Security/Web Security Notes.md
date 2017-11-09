@@ -508,12 +508,15 @@ __XSS Types:__
 &nbsp;
 &nbsp;
 &nbsp;
+--------------------------------------------------------------------------------------------------------------------------------------
+
+## SQL Injection:
 
 
-__Finding XSS:__
+### SQL Injection Introduction:
 
-- Test all points of input partially or totally in a website 
+- SQL injections are SQL queries that manipulates the backend of the web application database 
 
-- Test these points with HTML tags and JS tags as well
+- Common SQLs are MySQL, SQL sever, PostSQL
 
-
+- 
