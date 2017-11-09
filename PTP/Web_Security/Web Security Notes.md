@@ -519,4 +519,26 @@ __XSS Types:__
 
 - Common SQLs are MySQL, SQL sever, PostSQL
 
+- __Basic Syntax:__ SELECT <column list> &nbsp; FROM &nbsp; <table> &nbsp; WHERE &nbsp; <condition>;
+
+- __UNION Statement:__ <SELECT statement> &nbsp; UNION &nbsp; <other SELECT statement>; 
+
+- Remove duplicates throuh : SELECT &nbsp; __DISTINKCT__ <field list> &nbsp; <remainder of the statement>;
+
+- __UNION ALL__ prevent duplicates: <SELECT statement> UNION &nbsp; ALL &nbsp; <other SELECT statement>;
+
+- __Comments__: commenting in SQL can be with __#__ or __--__
+
+&nbsp;
+&nbsp;
+### Testing DB for sql vulnerabilities :
+
+__SQL Testing:
+
+-  __' OR 'a'='a'__
+
+-  __' OR 1=1__
+
+- __UNION SELECT column1, Column2 WHERE 'a'='a';__
+
 - 
