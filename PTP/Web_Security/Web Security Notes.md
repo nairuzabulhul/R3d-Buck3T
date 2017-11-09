@@ -529,11 +529,13 @@ __XSS Types:__
 
 - __Comments__: commenting in SQL can be with __#__ or __--__
 
+
 &nbsp;
 &nbsp;
+
 ### Testing DB for sql vulnerabilities :
 
-__SQL Testing:
+__SQL Testing:__
 
 -  __' OR 'a'='a'__
 
@@ -541,4 +543,3 @@ __SQL Testing:
 
 - __UNION SELECT column1, Column2 WHERE 'a'='a';__
 
-- 
