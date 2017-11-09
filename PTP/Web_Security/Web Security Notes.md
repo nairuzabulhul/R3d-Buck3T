@@ -556,13 +556,12 @@ __SQL Testing:__
 
 &nbsp;
 &nbsp;
+
 __In-band SQL Injection:__
 
 - leverages the same channel used to inject the SQL code
 
-- 
 
-- 
 
 &nbsp;
 &nbsp;
@@ -571,9 +570,7 @@ __Error-based SQL Injection:__
 
 - Forcing the DBMS through a sql error that can be used for exploitation
 
-- 
 
-- 
 
 &nbsp;
 &nbsp;
@@ -597,4 +594,4 @@ __Blind SQL Injection:__
 
 - SQL common characters: __', ", SELECT UNION, #, --__
 
-- 
+
