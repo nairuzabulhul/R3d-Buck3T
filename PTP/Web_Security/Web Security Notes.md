@@ -606,4 +606,58 @@ __Blind SQL Injection:__
 
 - Successful SQL injection is based on understanding the DB architecture .
 
+
+### Testing SQL Injections:
+
+- MSSQL Injection Cheat Sheet
+
+- MySQL Injection Cheat Sheet
+
+- PostgresSQL Injection Cheat Sheet
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+--------------------------------------------------------------------------------------------------------------------------------------
+
+## Other Common Web Attacks
+
+
+- __HTTTP__ is a stateless protocol means the connection between the server and the browser terminates once the connection ends
+
+- __Sesson ID:__
+
+- __Session IDs__ can have different expiration times: valid for only a single session, time limited.
+
+- Session token should NOT be stored in __HTML, URL, __local storage, session storage__
+
+&nbsp;
+&nbsp;
+
+### Session Hijacking:
+
+- referes to the exploitation of a valid session assigned to a user. XSS is usually used in these types of attacks
+
+-  Session Hijacking can happen through :
+
+	- Exploiting an existing vulnerability 
+	
+	- Gaining a direct access
+	
+	- Packet Sniffing
+	
+	- Finding session IDs in logs or browser history (sessions carried throguh URL)
+	
+- Hijacking Sessions :
+
+	- XSS vulnerability exists and a payload can be executed
+	
+	- Session ID is sent through HTTP cookies
+	
+	- Cookies are readable by JS 
+	
+
+- __HTTPOnly__ is a simple way to prevent JS from stealing the session cookkie
+
 - 
