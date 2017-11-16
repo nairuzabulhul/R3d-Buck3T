@@ -24,6 +24,9 @@ __Basic Payloads___
     >> ') OR 1=1; --
     
     
-- 
+- __URL encodings__ are necessary whether you are editing the parameter’s  value directly from your browser, with an intercepting 
+                    proxy, or through any other means.
     
+    
+- 
 
