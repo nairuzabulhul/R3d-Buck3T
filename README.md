@@ -330,7 +330,7 @@ __C Programming:__
 
 #### Courses:
 
-- [PTP NOTES]()
+- [PTP NOTES](https://github.com/nairuzabulhul/RoadMap/tree/master/PTP/Web_Security)
  
 - [Web Pentesting by Zaid Sabih ]() __Udemy__
 
