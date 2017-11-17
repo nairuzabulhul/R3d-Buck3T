@@ -65,6 +65,10 @@ Automate the process of SQL blind
 
 - 1 or db_name()=1);
 
+- 1 or db_name(0)=1) | increase the number until the database does not show any errors
+
+- 
+
  
  &nbsp; 
  &nbsp; 
