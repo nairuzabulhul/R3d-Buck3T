@@ -412,3 +412,11 @@ __C Programming:__
 - [OSCP Survival Guide](https://github.com/frizb/OSCP-Survival-Guide)
 
 - [OSCP by John Kennedy](https://www.nebraskacert.org/csf/CSF-Oct2016.pdf)
+
+- [Abatchy Blog](http://www.abatchy.com/2017/03/how-to-prepare-for-pwkoscp-noob.html)
+
+- [OSCP by techexam](http://www.techexams.net/forums/security-certifications/127950-oscp-prep.html)
+
+- [OSCP Review](http://www.hackingtutorials.org/hacking-courses/offensive-security-certified-professional-oscp/)
+
+- []
