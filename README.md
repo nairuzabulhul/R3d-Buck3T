@@ -342,6 +342,8 @@ __C Programming:__
 
 - [SQL Injection by Tron Hunt](https://www.pluralsight.com/courses/ethical-hacking-sql-injection) __PluralSight__
 
+- [CompTIA SY0-401 Security+ Certification by Professor Messer](https://www.youtube.com/watch?v=dv7I0SkF6P8&list=PLG49S3nxzAnkcKd71N4OjSv4cUXNhoPlQ)
+
 
 &nbsp; 
 #### Hands-on:
