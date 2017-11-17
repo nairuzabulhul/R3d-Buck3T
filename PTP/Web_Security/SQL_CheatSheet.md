@@ -73,3 +73,7 @@ Automate the process of SQL blind
 ### SQLmap:
 
 - sqlmap  &nbsp; -u URL  &nbsp; -p search  &nbsp; --technique=U |  &nbsp; U for Union Selection
+
+
+
+## [PentesMonkey CheatSheet](http://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet)
