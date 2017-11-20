@@ -102,3 +102,19 @@ Automate the process of SQL blind
 
 
 ## [PentesMonkey CheatSheet](http://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet)
+
+ &nbsp; 
+ &nbsp; 
+ &nbsp; 
+------------------------------------------------------------------------------------------------------------------------------
+
+## [Notes from Udemy Course]
+
+>> http://www.site.com/news/php=7' order by 1 # |  &nbsp;  use order by 1 followed by # as a comment 
+
+__URL Encoding__:  http://www.site.com/news/php=7' order by 1 %23
+
+order by shows how many columns in the DB
+
+>>
+
