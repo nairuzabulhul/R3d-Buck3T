@@ -356,6 +356,9 @@ __C Programming:__
 
 #### Courses:
 
+- PTP
+
+- Network + by Professor Messer
 
 
 #### Hands-on:
