@@ -24,7 +24,7 @@
 ### Discovery
 
 
-__Type 1:Straightforward__
+__Type 1:Straightforward___
 
 
 1- Submit a single quotation mark as the item of data you are targeting.
@@ -73,7 +73,7 @@ __Note:__ It is always recommend to probe the applcation as Blind SQL injection,
 &nbsp;
 &nbsp;
 
-__Type 2:Bypass Filters __
+__Type 2:Bypass Filters__
 
 
 1- Use the above commands in encoding manner in order to bypass filters 
