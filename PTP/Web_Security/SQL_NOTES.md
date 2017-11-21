@@ -27,7 +27,6 @@
 __Type 1:Straightforward__
 
 
-
 1- Submit a single quotation mark as the item of data you are targeting.
 
 
@@ -54,23 +53,25 @@ Examples :
 
 
 
-2- It is important to keep in mind that not all vulnerabilities are straighforward. It is essential while testing to look for 
-   the behavior of the application:
+2- It is important to keep in mind that not all vulnerabilities are straighforward.
+   It is essential while testing to look for the behavior of the application:
 
 
-	- Error_based: the application shows the error to the end user 
+ - __Error_based:__ the application shows the error to the end user 
 
 
-	- Blind does not show any thing back to the user. It is mainly revolves on booleans of True or False (application behavior)
+- __Blind__ does not show any thing back to the user. It is mainly revolves on booleans
+	 of True or False (application behavior)
 
 
-	- Band
+- __Band__
 
 
 __Note:__ It is always recommend to probe the applcation as Blind SQL injection, if the basic payloads did not work 
 
 
-
+&nbsp;
+&nbsp;
 
 __Type 2:Bypass Filters __
 
@@ -102,50 +103,51 @@ __The UNION Operator__
 1- Easily extract arbitrary data from within
   the database
 
-
+&nbsp;
 2- UNION is supported by all major DBMS products.
 
-
+&nbsp;
 3- Your first task is to discover the number of columns returned by the original
   query being executed by the application. You can do this in two ways:
 
-
+&nbsp;
 4- You can exploit the fact that NULL can be converted to any data type to
   systematically inject queries with different numbers of columns until your
   injected query is executed
+  
 
-  __Ex: ‘ UNION SELECT NULL--
-      ‘ UNION SELECT NULL, NULL--
-      ‘ UNION SELECT NULL, NULL, NULL--__
+>>    ‘ UNION SELECT NULL--
+>>       ‘ UNION SELECT NULL, NULL--
+>>      ‘ UNION SELECT NULL, NULL, NULL--
 
-
+&nbsp;
 5- Having identified the required number of columns, your next task is to
   discover a column that has a string data type so that you can use this to
   extract arbitrary data from the database
 
 
-  __EX: ‘ UNION SELECT ‘a’, NULL, NULL--__
-      ‘ UNION SELECT NULL, ‘a’, NULL--
-      ‘ UNION SELECT NULL, NULL, ‘a’--__
+ >>    ‘ UNION SELECT ‘a’, NULL, NULL--
+ >>     ‘ UNION SELECT NULL, ‘a’, NULL--
+ >>     ‘ UNION SELECT NULL, NULL, ‘a’--
 
-
+&nbsp;
 6- In Oracle databases, every SELECT statement must include a FROM
   attribute, so injecting UNION SELECT NULL produces an error regardless of
  the number of columns. You can satisfy this requirement by selecting from the
  globally accessible table DUAL. For example:
 
 
-   __EX: ‘ UNION SELECT NULL FROM DUAL--__
+  >>>>  ‘ UNION SELECT NULL FROM DUAL--
 
 
-
+&nbsp;
 7- When you have identified the number of columns required in your injected
   query, and have found a column that has a string data type, you are in a position
   to extract arbitrary data.
 
-  __EX: ‘ UNION SELECT @@version,NULL,NULL--
+  >>  EX: ‘ UNION SELECT @@version,NULL,NULL--
 	
-     ‘ UNION SELECT banner,NULL,NULL FROM v$version-- | ORACLE__
+  >>   ‘ UNION SELECT banner,NULL,NULL FROM v$version-- | ORACLE
 
 
 
