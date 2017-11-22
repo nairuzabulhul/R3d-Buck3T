@@ -32,7 +32,10 @@
             another] __[IPsec by professor Messer](https://www.youtube.com/watch?v=QpRHJEwaAV0).__
             
             
-
+- __CGI:__ CGI (Common Gateway Interface) is a standard way of running programs from a Web server. Often, CGI programs are used to
+           generate pages dynamically or to perform some other tasks 
+           
+           
 ### Network Security :
 
 
