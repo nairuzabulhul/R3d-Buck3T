@@ -660,4 +660,46 @@ __Blind SQL Injection:__
 
 - __HTTPOnly__ is a simple way to prevent JS from stealing the session cookkie
 
-- 
+- __Session Fixation__ is a session hijacking attack where the attacker obtains the session ID and forces the user to stay logged in 
+
+
+### CSRF : Cross Site Forgery 
+
+
+- Cross-Site Request Forgery (CSRF) is an attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated
+
+- Preventing CSRF through generating a new token every session
+
+
+### Path Traversal :
+
+
+- is a type of attack that is used to access sensitive file in the system , such as the root files, or System32
+
+
+- __%00__ somtimes while crafting the the payload to remove excess commands that mix up when the payload  
+
+
+### Local File Inclusion :
+
+- Local File Inclusion depemds on path traversal :
+
+	- to check for the vulnerability, you have to test it 
+	
+	>> Ex: 
+
+
+
+### Remote File Inclusion 
+
+- Executing commands remotely 
+
+- To check for the vulnerability, test it by include the URL and check if it executes
+
+	>> EX: vul.php?page=http://www.google.com
+	
+- Exploiting RFI requires a PHP shell upload 
+
+
+	
+	
