@@ -328,21 +328,38 @@ __C Programming:__
 &nbsp; 
 ### Web Security :
 
+
+#### Books:
+
+- [The Web Application Hacker's Handbook Finding and Exploiting Security Flaws Kindle Edition by Dafydd Stuttard - 2011](https://github.com/nairuzabulhul/E-Books/blob/master/Security/%5BThe%20Web%20Application%20Hacker's%20Handbook%20Finding%20and%20Exploiting%20Security%20Flaws%20Kindle%20Edition%20by%20Dafydd%20Stuttard%20-%202011%5D.pdf) __Level:  Intermediate__ <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
+                   <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
+                    <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
+                    <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
+                    <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
+&nbsp; 
+   - [Chapter 9 Notes for SQL](https://github.com/nairuzabulhul/RoadMap/blob/master/PTP/Web_Security/SQL_NOTES.md)
+   
+   - [Chapter 12 Noted for XSS](https://github.com/nairuzabulhul/RoadMap/blob/master/PTP/Web_Security/XSS%20CheatSheet.md)
+
+&nbsp; 
+&nbsp; 
 #### Courses:
 
 - [PTP NOTES](https://github.com/nairuzabulhul/RoadMap/tree/master/PTP/Web_Security)
  
-- [Web Pentesting by Zaid Sabih ]() __Udemy__
+- [Learning Website Pentesting from scratch by Zaid Sabih ](https://www.udemy.com/learn-website-hacking-penetration-testing-from-scratch/learn/v4/t/lecture/5878098?start=0) __Udemy__ __Level: Beginners -- Intermediate__ <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
+                   <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
+                    <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
+                    <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
+                    <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
 
-   - [Course Notes](https://github.com/nairuzabulhul/RoadMap/blob/master/Web%20Applications/General%20Notes.md)
    
-- [Web Application Penetration Testing with Burp Suite By Sunny Wear](https://www.pluralsight.com/courses/web-application-penetrationtesting-with-burp-suite) __PluralSight__
+- [Web Application Penetration Testing with Burp Suite By Sunny Wear](https://www.pluralsight.com/courses/web-application-penetrationtesting-with-burp-suite) __PluralSight__ 
 
 - [CEH Web Security Section by ]()
 
 - [SQL Injection by Tron Hunt](https://www.pluralsight.com/courses/ethical-hacking-sql-injection) __PluralSight__
 
-- [CompTIA SY0-401 Security+ Certification by Professor Messer](https://www.youtube.com/watch?v=dv7I0SkF6P8&list=PLG49S3nxzAnkcKd71N4OjSv4cUXNhoPlQ)
 
 
 &nbsp; 
@@ -358,7 +375,8 @@ __C Programming:__
 
 - PTP
 
-- Network + by Professor Messer
+- [CompTIA SY0-401 Security+ Certification by Professor Messer](https://www.youtube.com/watch?v=dv7I0SkF6P8&list=PLG49S3nxzAnkcKd71N4OjSv4cUXNhoPlQ)
+
 
 
 #### Hands-on:
