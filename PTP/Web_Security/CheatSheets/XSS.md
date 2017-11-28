@@ -1,5 +1,5 @@
 
-### 10 Top XSS Payloads 
+### Top XSS Payloads 
 
 
 1- `<script>alert("1")</script>`  
