@@ -440,4 +440,4 @@ __C Programming:__
 
 - [OSCP Review](http://www.hackingtutorials.org/hacking-courses/offensive-security-certified-professional-oscp/)
 
-- []
+- [OSCP Prep](https://github.com/ihack4falafel/OSCP)
