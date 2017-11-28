@@ -345,7 +345,13 @@ __C Programming:__
 &nbsp; 
 #### Courses:
 
-- [PTP NOTES](https://github.com/nairuzabulhul/RoadMap/tree/master/PTP/Web_Security)
+- [PTP NOTES](https://github.com/nairuzabulhul/RoadMap/tree/master/PTP/Web_Security) 
+      
+     - [General Notes from PTP](https://github.com/nairuzabulhul/RoadMap/blob/master/PTP/Web_Security/Web%20Security%20Notes.md)
+
+     - [SQL Notes:](https://github.com/nairuzabulhul/RoadMap/blob/master/PTP/Web_Security/SQL_NOTES.md)
+     
+     - [XSS Notes:](https://github.com/nairuzabulhul/RoadMap/blob/master/PTP/Web_Security/XSS%20Notes.md) 
  
 - [Learning Website Pentesting from scratch by Zaid Sabih ](https://www.udemy.com/learn-website-hacking-penetration-testing-from-scratch/learn/v4/t/lecture/5878098?start=0) __Udemy__ __Level: Beginners -- Intermediate__ <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
                    <img src="https://s11.postimg.org/4xe7kokxf/star.pngg" width="10">
@@ -368,13 +374,23 @@ __C Programming:__
 - [Pentesterlab]() 
 
 
+&nbsp; 
+#### CheatSheet:
+
+- [XSS Payloads](https://github.com/nairuzabulhul/RoadMap/blob/master/PTP/Web_Security/CheatSheets/XSS.md)
+
+- [SQLInjections](https://github.com/nairuzabulhul/RoadMap/blob/master/PTP/Web_Security/CheatSheets/SQL.md)
+
+
 &nbsp;
+&nbsp;
+&nbsp;
+
 ### Network Security:
 
 #### Courses:
 
 - PTP
-
 - [CompTIA SY0-401 Security+ Certification by Professor Messer](https://www.youtube.com/watch?v=dv7I0SkF6P8&list=PLG49S3nxzAnkcKd71N4OjSv4cUXNhoPlQ)
 
 
