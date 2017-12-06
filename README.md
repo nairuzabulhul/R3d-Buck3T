@@ -470,3 +470,5 @@ __C Programming:__
 - [Infosec Review](http://www.pentest.guru/index.php/2016/04/07/cracking-infosec-interview-not-suck/)
 
 - [oscp Review](https://www.rcesecurity.com/2013/05/oscp-course-and-exam-review/)
+
+- [A Detailed Guide on OSCP Preparation – From Newbie to OSCP](http://niiconsulting.com/checkmate/2017/06/a-detail-guide-on-oscp-preparation-from-newbie-to-oscp/)
