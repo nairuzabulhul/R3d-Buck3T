@@ -435,6 +435,9 @@ __C Programming:__
 
 - [Pentester Academy]()
 
+- [eCPPT Review](https://www.doyler.net/security-not-included/ecppt-exam)
+
+- [eCPPT Review](https://www.rcesecurity.com/2012/03/ecppt-course-and-exam-review/)
 
 
 &nbsp;
@@ -463,3 +466,7 @@ __C Programming:__
 - [OSCP Review](http://www.hackingtutorials.org/hacking-courses/offensive-security-certified-professional-oscp/)
 
 - [OSCP Prep](https://github.com/ihack4falafel/OSCP)
+
+- [Infosec Review](http://www.pentest.guru/index.php/2016/04/07/cracking-infosec-interview-not-suck/)
+
+- [oscp Review](https://www.rcesecurity.com/2013/05/oscp-course-and-exam-review/)
