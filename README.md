@@ -389,7 +389,7 @@ __C Programming:__
 
 - [Extra Resources: Shell Uploads ](http://www.securityidiots.com/Web-Pentest/hacking-website-by-shell-uploading.html)
 
--[Extra Resources: Shell uploads](https://xapax.gitbooks.io/security/content/bypass_image_upload.html)
+- [Extra Resources: Shell uploads](https://xapax.gitbooks.io/security/content/bypass_image_upload.html)
 
 &nbsp;
 &nbsp;
