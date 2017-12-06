@@ -387,6 +387,9 @@ __C Programming:__
 
 - [SQLInjections](https://github.com/nairuzabulhul/RoadMap/blob/master/PTP/Web_Security/CheatSheets/SQL.md)
 
+- [Extra Resources: Shell Uploads ](http://www.securityidiots.com/Web-Pentest/hacking-website-by-shell-uploading.html)
+
+-[Extra Resources: Shell uploads](https://xapax.gitbooks.io/security/content/bypass_image_upload.html)
 
 &nbsp;
 &nbsp;
