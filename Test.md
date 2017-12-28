@@ -1,6 +1,6 @@
 ## Table of Contents:
 
-Introduction: Table of Contents
+### Introduction: Table of Contents
 
   - Level 1: Fundamentals
   
@@ -8,7 +8,6 @@ Introduction: Table of Contents
   
   - Level 1: Essential Commands
 
-&nbsp;
 ### Level 2: EJPT
   - Books
   - eJPT Reviews
