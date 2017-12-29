@@ -43,9 +43,12 @@ Summary
         
 * [Network Security](level-3/network-security.md)
     * [Network Security Notes ](level-3/network-security-notes.md)
-          * [Network: CheatSheets](level-3/network-cheatsheets.md)
-              * [DNS Enumeration](level-3/network-cheatsheets/dns.md)
-              * [WHOIS](level-3/network-cheatsheets/whois.md)
+    
+         * [Network: CheatSheets](level-3/network-cheatsheets.md)
+          
+         * [DNS Enumeration](level-3/network-cheatsheets/dns.md)
+              
+         * [WHOIS](level-3/network-cheatsheets/whois.md)
               
 * [NMAP](level-3/network-cheatsheets/nmap.md)
 * [NETCAT](level-3/network-cheatsheets/netcat.md)
