@@ -29,6 +29,8 @@ URL: https://nairuzabulhul.github.io/RoadMap/
 
 - [Ethical Hacking: Hacking Web Applications by Troy Hunt](https://app.pluralsight.com/library/courses/ethical-hacking-web-applications/table-of-contents) __Pluralsight - Theory__  
 
+&nbsp;
+&nbsp;
 
 `Pentesting Courses` :
 
