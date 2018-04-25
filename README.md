@@ -1,8 +1,7 @@
 URL: https://nairuzabulhul.github.io/RoadMap/
 
-## Online Courses
+### General Courses
 
-`General Courses`:
 
 - [ Volume I : The Complete Cyber Security Course by Nathan House](https://www.udemy.com/the-complete-internet-security-privacy-course-volume-1/) __Intermediate Level__ 
 
@@ -32,7 +31,7 @@ URL: https://nairuzabulhul.github.io/RoadMap/
 &nbsp;
 &nbsp;
 
-`Pentesting Courses` :
+ ### Pentesting Courses 
 
 - [Penetration Testing Student by elearningSecurity ](https://www.elearnsecurity.com/course/penetration_testing_student/)
 
