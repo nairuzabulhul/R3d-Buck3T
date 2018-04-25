@@ -1,5 +1,9 @@
 URL: https://nairuzabulhul.github.io/RoadMap/
 
+## Online Courses
+
+`General Courses`:
+
 - [ Volume I : The Complete Cyber Security Course by Nathan House](https://www.udemy.com/the-complete-internet-security-privacy-course-volume-1/) __Intermediate Level__ 
 
 
@@ -24,3 +28,11 @@ URL: https://nairuzabulhul.github.io/RoadMap/
 
 
 - [Ethical Hacking: Hacking Web Applications by Troy Hunt](https://app.pluralsight.com/library/courses/ethical-hacking-web-applications/table-of-contents) __Pluralsight - Theory__  
+
+
+`Pentesting Courses` :
+
+- [Penetration Testing Student by elearningSecurity ](https://www.elearnsecurity.com/course/penetration_testing_student/)
+
+
+- [Penetration Testing Professional by eLearningSecuirty PTPv4](https://www.elearnsecurity.com/course/penetration_testing/)
