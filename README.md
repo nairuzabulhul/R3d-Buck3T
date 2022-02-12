@@ -1,6 +1,6 @@
 Official Blog on https://medium.com/r3d-buck3t
 
-This wiki is a collection of tools and commands for pentesting and red teaming assessments
+This repo is a collection of tools and commands for pentesting and red teaming assessments
 
 ## Pentestinf/Red Team Wiki Index 
 + Web Application Security 
