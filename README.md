@@ -1,4 +1,4 @@
-Official Blog on https://medium.com/r3d-buck3t
+Official Blog on [R3d-Buck3t](https://medium.com/r3d-buck3t)
 
 This repo is a collection of tools and commands for pentesting and red teaming assessments
 
