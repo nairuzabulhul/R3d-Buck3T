@@ -1,210 +1,726 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Documentation </title>
-  <style>
-  /* Colors testingnnn*/
-$white: #ffffff;
-$black: #000000;
-$blue: #0ebeff;
-$darkgrey: #16171c;
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Another LFI explanation !!</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
 
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica, sans-serif;
+	line-height: 1.5;
+	white-space: pre-wrap;
 }
 
-#navbar {
-    z-index: 1;
-    position: fixed;
-    width: 300px;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    background-color: $darkgrey;
-    border-right: 2px solid lighten($black, 80%);
-    color: lighten($darkgrey, 50%);
-  
-  h1 {
-  text-align: center;
-  letter-spacing: 1px;
-  font-size: 20pt;
-  color: $blue;
-  }
-  a {
-    display: block;
-    padding: 15px 25px;
-    color: lighten($darkgrey, 50%);
-    text-decoration: none;
-    &:hover {
-    color: $white;
-    }
-  }
-  ul {
-    padding: 0;
-  }
-
-  li {
-    position: relative;
-    border-top: 1px solid lighten($darkgrey, 15%);
-    list-style: none;
-    width: 100%;
-  }
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
 }
 
-#main-doc {
-    z-index: 0;
-    display: block;
-    float: right;
-    width: calc(100% - 302px);
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: $white;
-    font-size: 11pt;
-    line-height: 2em;
-    color: lighten($black, 20%);
-  
-  header{
-  padding: 40px 0 20px 40px;
-  font-size: 24pt;
-  color: lighten($darkgrey, 15%);
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
 }
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+}
+
+.simple-table-header {
+	background: rgb(247, 246, 243);
+	color: black;
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
 p {
-  margin: 15px 20px 15px 60px;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
-ul,ol,li {
-  color: darken($blue, 20%);
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
 }
-li {
-  margin: 15px 20px 15px 60px;
-}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
 }
 
 code {
-  margin: 15px 20px 15px 60px;
-  padding: 10px;
-  background-color: lighten($black, 95%);
-  font-size: 10pt;
+	color: #eb5757;
 }
 
-/* Responsive */
-@media only screen and (max-width: 820px) {
-#navbar {
-    position: absolute;
-    width: 100%;
-    max-height: 300px;
-    margin: 0;
-    padding: 0;
-    top: 0;
+.code {
+	padding: 1.5em 1em;
 }
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
 }
- 
-  </style>
 
-</head>
-<body>
-  
-<!-- partial:index.partial.html -->
-<nav id="navbar">
-  <header><h1>JS Documentation</h1></header>
-    <ul>
-      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
-      <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
-      <li><a class="nav-link" href="#Javascript_and_Java">JavaScript and Java</a></li>
-      <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
-      <li><a class="nav-link" href="#Variables">Variables</a></li>
-      <li><a class="nav-link" href="#Declaring_variables">Declaring variables</a></li>
-      <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
-      <li><a class="nav-link" href="#umar">Umar Farooq</a></li>
-    </ul>
-  </nav>
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
 
-<div id="main-doc" class="main">
-  <section id="Introduction" class="main-section">
-    <header>Introduction</header>
-      <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
-      <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
-    <ul>
-      <li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</li>
-      <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.</li>
-    </ul>
-  </section>
-  
-  <section id="What_you_should_already_know" class="main-section">
-    <header>What you should already know</header>
-      <p>This guide assumes you have the following basic background:</p>
-    <ul>
-      <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
-      <li>Good working knowledge of HyperText Markup Language (HTML).</li>
-      <li>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.</li>
-    </ul>
-  </section>
-  
-  <section id="Javascript_and_Java" class="main-section">
-    <header>JavaScript and Java</header>
-      <p></p>
-      <p></p>
-  </section>
-  
-  <section id="Hello_world" class="main-section">
-    <header>Hello world</header>
-      <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
-     <code>function greetMe(yourName) { alert("Hello " + yourName);</code>
-      <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
-  </section>
-  
-   <section id="Variables" class="main-section">
-    <header>Variables</header>
-      <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
-      <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
-      <p>You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.</p>
-  </section>
-  
-   <section id="Declaring_variables" class="main-section">
-    <header>Declaring variables</header>
-      <p>You can declare a variable in three ways:</p>
-      <p>With the keyword var. For example,</p>
-     <code>var x = 42.</code>
-      <p>This syntax can be used to declare both local and global variables.</p>
-     <p>By simply assigning it a value. For example,</p>
-     <code>x = 42.</code>
-     <p>This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.</p>
-     <p>With the keyword let. For example,</p>
-     <code>let y = 13.</code>
-     <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
-  </section>
-  
-   <section id="Variable_scope" class="main-section">
-    <header>Variable scope</header>
-      <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function.</p>
-     <p>JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.</p>
-     <code>if (true) { var x = 5; } console.log(x); // 5</code>
-      <p>This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
-     <code>if (true) { let y = 5; } console.log(y); // </code>
-  </section>
-  <section id="umar" class="main-section">
-    <header>Umar Farooq</header>
-    <p>This Documentation page is designed by <b>Umar Farooq</b>.</p>
-    <p>I am a Computer Science and Cyber Security Student with Python and Machine Learning Enthusiam.</p>
-    <p>I am also intersted in Web Developing.</p>
-    <p>If you want to see my works, Visit the below links:</p>
-    <ul>
-      <li>twitter.com/umarcbs</li>
-      <li>github.com/umarcbs</li>
-      <li>medium.com/@umarcbs</li>
-      <li>codepen.io/umarcbs</li>
-      <li>stackoverflow.com/users/14335364/umar-farooq</li>
-      <li>pinterest.com/umarcbs</li>
-    </ul>
-      
-  </section>
-</div>
-<!-- partial -->
-  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-</body>
-</html>
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="b7c4faac-bbef-4d4e-888b-9f822a2ca0b7" class="page sans"><header><img class="page-cover-image" src="https://images.unsplash.com/photo-1541362036326-097742faf412?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1660&amp;q=80" style="object-position:center 50%"/><div class="page-header-icon page-header-icon-with-cover"><span class="icon">✏️</span></div><h1 class="page-title">Another LFI explanation !!</h1></header><div class="page-body"><p id="57a4c889-34c5-4670-a4ad-7c1bdaba5ee3" class="">This brief tutorial will go through ways to detect Local File Inclusion vulnerabilities when pentesting a web application </p><p id="98c27861-105d-48dd-9409-58e5f839b8e6" class="">
+</p><p id="0a35489d-29ea-4b6c-b3bb-17eeae3e2436" class="">Local File inclusion is a vulnerability in poorly written web application that takes advantage of improper implementation of inclusion functions in an application.</p><p id="1c23b5c1-7a78-417c-9941-c09dde77757e" class="">Most of modern programming languages have mechanism to prevent this type of vulnerability. However, old languages such Java, NET.ASP and our known friend PHP are still prone to produce this issue if implemented incorrectly.</p><p id="3d6bb074-b330-489d-be03-8546fc3ff668" class="">
+</p><p id="e2694ea5-b26d-4e3e-8ced-c6561c557f17" class="">[Diagram explaining the inclusion part]</p><p id="604cc805-707d-4a46-a9f6-0001ab729f32" class="">
+</p><p id="18f58afb-ff22-4254-bbf6-4e829f337509" class="">
+</p><p id="a394246c-0890-446b-8eac-2025159a920e" class="">Impact:</p><p id="fca38c22-c6e3-4d93-9c35-82a840a8e349" class="">A successful attack would expose sensitive information about the running web server such as configuration files, word readable files and ... . Also, in some cases this vulnerability can be escalated to remote code execution through upload a remote shell and compromising the entire web server.</p><p id="bd2828fd-2a21-47be-908f-e8805be9851e" class="">
+</p><p id="9fcc54c2-87ec-444e-acc4-c0027d09bc57" class="">[Scream Image]</p><p id="7aa4c981-3556-4ded-9df6-c27f2330e970" class="">
+</p><p id="9a033503-e7ea-4233-910d-ba7b40f229a1" class="">
+</p><p id="1e4b7238-4997-4dbe-b4fa-5b87b63231f2" class="">Example of a vulnerable Code</p><p id="ab10e893-8a22-451f-b713-855a723ef8cf" class="">[PHP]</p><p id="45872728-62ad-4d0f-abbf-6f69fe2e5b49" class="">
+</p><p id="d3b85a0c-203a-4a89-9997-fd99a4886651" class="">
+</p><p id="a9f007ca-07a4-4333-933b-8ee67af73223" class="">[Java] </p><p id="6fa0fc7f-508c-4a8d-9736-268fff7a4394" class="">
+</p><p id="92f2cb7d-b413-45ae-af17-7acf73c2f3f2" class="">
+</p><p id="205b9f7e-4930-4753-b335-57e2a277c1e5" class="">How to detect Local File Inclusion </p><p id="eeac8830-34cf-4eb5-b667-9d523fbcd6d0" class="">There are certain indicators to notice when conducting a penetration testing on  a web application that worth investing time on and might lead to detecting a Local file inclusion vulnerability </p><p id="f811ac8f-c0a5-467f-a6b9-b513ed8f2398" class="">Flag#1 Server-side languages that used on the server:<div class="indented"><p id="d3f5c324-3061-4db3-9331-affb9faeb7a6" class="">Java, PHP, .NET (ASP)</p><p id="16e58b13-a145-4629-92a8-10c2c16cf0ab" class="">Presence of server-side languages PHP, NET(ASP) , Java(JSP) spikes an interest of investigating further a possibility of finding a LFI vulnerability.</p><p id="faaa29a5-9119-474b-bcd5-c4cf04ee5afc" class="">Examples below of pages that used different server-side languages on web servers.</p></div></p><pre id="89dae3e9-3400-4805-b6c2-ea512bc6e651" class="code"><code>https://friendzone.red?dashboard.php
+https://commondomains.net?login.asp
+https://onlinebookstore.in?tracking.jsp
+</code></pre><p id="9bd95908-946c-4267-8ef8-d4892ff723bd" class="">Flag #2:  Visible Parameters <div class="indented"><p id="ddd88fa3-6f8b-4413-8b76-d956990ba5c7" class="">Search parameters or filename parameters are interesting endpoints to test as they can be exploited by including file paths in the URL and point to different pages on the server.</p><p id="59ac4ed7-12aa-4c9b-8cbe-7f8d4f0dc506" class="">
+</p><p id="89212f84-5fa4-4a79-a89c-c050582e6b94" class="">
+</p></div></p><p id="a3010c52-d249-40ce-81a0-ac0b75e97ac0" class="">Exploitation Time !!!</p><p id="f4e6bafa-027a-401c-a755-2780add9b5bf" class="">Step #0 : Manual Manipulation [THE DIRTY WORK] </p><p id="de4ee78a-6faf-4418-bdef-7a88685a8828" class="">[digging a hole image]</p><p id="2e88f766-df07-4fb8-81a9-983098479153" class="">In my testing, I start with manual URL manipulation to get a feel of the application and how it behaves.I break down the URL into different parts and test them separately first and then combined together before moving Burp Suite .</p><p id="2a3ac272-8423-4644-8b5c-c3a20fa573af" class="">
+</p><p id="043c32af-9fe1-4731-b55b-3d5ecb52a564" class="">Let&#x27;s take the above concept and apply it on the below URL. &quot;The URL is taken from Friend Zone machine on Hack The Box&quot;</p><pre id="f03acb02-a4d8-4f79-85d6-a68a859324ab" class="code"><code>http://friendzone.red/dashboard.php?image=ok.png&amp;pagename=cart [Full URL] </code></pre><p id="0a7c376f-d806-4fda-ae08-ad70876a41db" class="">#1 Break down the URL into 4 parts </p><pre id="80a3b0b9-dca9-479f-a8d6-5f207884c0b8" class="code"><code>http://amazon.com/dashboard.php  [1]
+
+http://amazon.com/dashboard.php?image=ok.png [2]
+
+http://amazon.com/dashboard.php?image=ok.png&amp;pagename=cart.php [3]
+
+http://amazon.com/dashboard.php?pagename=cart [4]
+</code></pre><p id="849d7fe0-e4bf-4fe4-8037-d8ecb2818dd0" class=""><em>While looking into checking the URL parts separately, you can either use Firefox or Chrome Developer Tools and monitor the requests and responses on the Network Tab or Burp Suite Proxy </em></p><p id="5d3eadae-aa62-4d72-abe1-aa1f554edc31" class="">
+</p><p id="8169f3c1-007c-4ceb-a79b-ba28b0be85c4" class="">#2 Manipulate the parameters values by changing the file extension remove it OR pass a new value for parameter while monitoring the errors and changes apply on the application </p><p id="4d5cf50d-a8e7-4d1c-afc4-4744baca26d2" class="">a. <strong>Remove the extension:</strong></p><pre id="5c20bfb1-310b-46e2-bffa-813e493668d6" class="code"><code>http://amazon.com/dashboard.php [1]                                 &gt;&gt;&gt;&gt;&gt;&gt; http://amazon.com/dashboard      
+
+http://amazon.com/dashboard.php?image=ok.png [2]                     &gt;&gt;&gt; http://amazon.com/dashboard.php?image=ok
+
+http://amazon.com/ok.png 
+
+http://amazon.com/dashboard.php?image=ok.png&amp;pagename=cart.php [3]  &gt;&gt;&gt;&gt;&gt; http://amazon.com/dashboard.php?image=ok.png&amp;pagename=cart
+
+http://amazon.com/dashboard.php?pagename=cart.php [4]                &gt;&gt;&gt;&gt;&gt; http://amazon.com/dashboard.php?pagename=cart</code></pre><p id="34e94329-fe54-40f2-ac90-2baab35d01b8" class="">
+</p><p id="08e6c11c-e1e0-4eca-b4ad-0a3ff7d859d4" class="">b. <strong>Change the file extension to different values [txt, php, jpg] to spot any changes that might occur when the application server processes newly modified
+requests</strong></p><pre id="5ec0a828-0ed0-4a1e-adb6-4a171bf17926" class="code"><code>http://amazon.com/dashboard.php [1]                                 &gt;&gt;&gt;&gt;&gt;&gt; http://amazon.com/dashboard.txt     
+
+http://amazon.com/dashboard.php?image=ok.png [2]                     &gt;&gt;&gt; http://amazon.com/dashboard.php?image=ok.jpg   
+
+http://amazon.com/dashboard.php?image=ok.png&amp;pagename=cart.php [3]  &gt;&gt;&gt;&gt;&gt; http://amazon.com/dashboard.php?image=ok.jpg&amp;pagename=cart.txt
+
+http://amazon.com/dashboard.php?pagename=cart.php [4]                &gt;&gt;&gt;&gt;&gt; http://amazon.com/dashboard.php?pagename=cart.txt</code></pre><p id="29d78bf2-9ae6-4573-84b1-ea2c991eb1ac" class="">
+</p><p id="b9f634d3-7117-4504-b0b2-0db0731e6b92" class="">c. Passing a new values to these parameters by including files </p><pre id="ccf75fc0-5c58-46d6-8aba-328c2723ba4d" class="code"><code>http://amazon.com/dashboard.php [1]                                  
+
+http://amazon.com/dashboard.php?image=dashboard.php   [try to include the same page to see if the server going to render the page] nothing happened 
+http://amazon.com/dashboard.php?image=dashboard
+
+http://amazon.com/dashboard.php?image=http://amazon.com/dashboard.php
+http://amazon.com/dashboard.php?image=http://amazon.com/dashboard 
+
+Nothing happen, the server did not retrun anything worth investigating further, we move on to second part of the URL
+
+
+http://amazon.com/dashboard.php?image=ok.png&amp;pagename=dashboar.php [No nothing]
+
+http://amazon.com/dashboard.php?image=ok.png&amp;pagename=dashboard  [BINGOOOOOOO, the sever icnluded the page and render the pages in a loop
+
+This indicated that parameter is vulnerable to local file inclusion 
+
+I kept testing with the same metholody for the sake of completeness 
+
+http://amazon.com/dashboard.php?image=ok.png&amp;pagename=http://amazon.com/dashboard.php [nothing happened]
+http://amazon.com/dashboard.php?image=ok.png&amp;pagename=http://amazon.com/dashboard     [nothin happened]</code></pre><p id="6bee947f-2017-4713-a973-d74974d43cf1" class="">
+</p><p id="ccc24e52-77b6-4b1b-95f1-efc80bf9dda2" class="">Now that we have got a vulnerable parameter we  move to exploit it by trying to first directory traverse and expose sensitive file like config.php, phpinfo.php  or world readable files like /etc/passwd, and /etc/ proc that enables us to understand what can and can&#x27;t do with the server as well gathering information about the server.</p><p id="416f01e5-d5bb-46c0-bef5-2e333820113f" class="">If nothing found with Directory traversal, we move to the second option which is finding an upload endpoint that you can upload the shell and compromise the server. this could be found as upload function on the application or leveraging SMB shares as the example of the Friend Zone machine [HTB] and upload the shell there and compromise the server</p><p id="93cd053e-24d9-450e-a2b7-00e467ba8565" class="">
+</p><p id="4a879907-2cdb-4769-9bfa-48f600a5693d" class="">
+</p><p id="fba8145f-e0ae-4152-820e-e92164fd8133" class="">
+</p><p id="ede0aeb0-6061-41a0-a1e1-b3033e77185f" class="">
+</p><p id="0d098c9f-0692-4493-bb93-83bb087bb7f3" class="">Note: All of the above work can be done with Burp Suite, Repeater Tab. I just wanted to explain the manual approach and mind set to adapt when testing for this type vulnerability. If you want to use Burp Suite, leverage the Repeater Tab to conduct repeatable and through testing. </p><p id="f286c171-07e7-44fd-8938-c18945c8e33c" class="">
+</p><p id="7d2cc489-85fc-480b-82db-b99a0a3a74e6" class="">
+</p></div></article></body></html>
