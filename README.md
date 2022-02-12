@@ -12,7 +12,7 @@ This wiki is a collection of tools and commands for pentesting and red teaming a
 
 
 
-to be update ...
+updating soon ...
 
 
 
