@@ -1,12 +1,195 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-    <title>TEST</title>
-</head>
-<body>
-	<h1 style="color:red; font-size:30px;">This is a heading</h1>
-	<p style="color:green; font-size:22px;">This is a paragraph.</p>
-	<div style="color:blue; font-size:14px;">This is some text content.</div>
-</body>
-</html>                            
+/* Colors */
+$white: #ffffff;
+$black: #000000;
+$blue: #0ebeff;
+$darkgrey: #16171c;
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+#navbar {
+    z-index: 1;
+    position: fixed;
+    width: 300px;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    background-color: $darkgrey;
+    border-right: 2px solid lighten($black, 80%);
+    color: lighten($darkgrey, 50%);
+  
+  h1 {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 20pt;
+  color: $blue;
+  }
+  a {
+    display: block;
+    padding: 15px 25px;
+    color: lighten($darkgrey, 50%);
+    text-decoration: none;
+    &:hover {
+    color: $white;
+    }
+  }
+  ul {
+    padding: 0;
+  }
+
+  li {
+    position: relative;
+    border-top: 1px solid lighten($darkgrey, 15%);
+    list-style: none;
+    width: 100%;
+  }
+}
+
+#main-doc {
+    z-index: 0;
+    display: block;
+    float: right;
+    width: calc(100% - 302px);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: $white;
+    font-size: 11pt;
+    line-height: 2em;
+    color: lighten($black, 20%);
+  
+  header{
+  padding: 40px 0 20px 40px;
+  font-size: 24pt;
+  color: lighten($darkgrey, 15%);
+}
+p {
+  margin: 15px 20px 15px 60px;
+}
+ul,ol,li {
+  color: darken($blue, 20%);
+}
+li {
+  margin: 15px 20px 15px 60px;
+}
+}
+
+code {
+  margin: 15px 20px 15px 60px;
+  padding: 10px;
+  background-color: lighten($black, 95%);
+  font-size: 10pt;
+}
+
+/* Responsive */
+@media only screen and (max-width: 820px) {
+#navbar {
+    position: absolute;
+    width: 100%;
+    max-height: 300px;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+}
+
+
+<nav id="navbar">
+  <header><h1>JS Documentation</h1></header>
+    <ul>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+      <li><a class="nav-link" href="#Javascript_and_Java">JavaScript and Java</a></li>
+      <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+      <li><a class="nav-link" href="#Variables">Variables</a></li>
+      <li><a class="nav-link" href="#Declaring_variables">Declaring variables</a></li>
+      <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
+      <li><a class="nav-link" href="#umar">Umar Farooq</a></li>
+    </ul>
+  </nav>
+
+<div id="main-doc" class="main">
+  <section id="Introduction" class="main-section">
+    <header>Introduction</header>
+      <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+      <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
+    <ul>
+      <li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</li>
+      <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.</li>
+    </ul>
+  </section>
+  
+  <section id="What_you_should_already_know" class="main-section">
+    <header>What you should already know</header>
+      <p>This guide assumes you have the following basic background:</p>
+    <ul>
+      <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+      <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+      <li>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.</li>
+    </ul>
+  </section>
+  
+  <section id="Javascript_and_Java" class="main-section">
+    <header>JavaScript and Java</header>
+      <p></p>
+      <p></p>
+  </section>
+  
+  <section id="Hello_world" class="main-section">
+    <header>Hello world</header>
+      <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+     <code>function greetMe(yourName) { alert("Hello " + yourName);</code>
+      <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
+  </section>
+  
+   <section id="Variables" class="main-section">
+    <header>Variables</header>
+      <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
+      <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
+      <p>You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.</p>
+  </section>
+  
+   <section id="Declaring_variables" class="main-section">
+    <header>Declaring variables</header>
+      <p>You can declare a variable in three ways:</p>
+      <p>With the keyword var. For example,</p>
+     <code>var x = 42.</code>
+      <p>This syntax can be used to declare both local and global variables.</p>
+     <p>By simply assigning it a value. For example,</p>
+     <code>x = 42.</code>
+     <p>This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.</p>
+     <p>With the keyword let. For example,</p>
+     <code>let y = 13.</code>
+     <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
+  </section>
+  
+   <section id="Variable_scope" class="main-section">
+    <header>Variable scope</header>
+      <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function.</p>
+     <p>JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.</p>
+     <code>if (true) { var x = 5; } console.log(x); // 5</code>
+      <p>This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
+     <code>if (true) { let y = 5; } console.log(y); // </code>
+  </section>
+  <section id="umar" class="main-section">
+    <header>Umar Farooq</header>
+    <p>This Documentation page is designed by <b>Umar Farooq</b>.</p>
+    <p>I am a Computer Science and Cyber Security Student with Python and Machine Learning Enthusiam.</p>
+    <p>I am also intersted in Web Developing.</p>
+    <p>If you want to see my works, Visit the below links:</p>
+    <ul>
+      <li>twitter.com/umarcbs</li>
+      <li>github.com/umarcbs</li>
+      <li>medium.com/@umarcbs</li>
+      <li>codepen.io/umarcbs</li>
+      <li>stackoverflow.com/users/14335364/umar-farooq</li>
+      <li>pinterest.com/umarcbs</li>
+    </ul>
+      
+  </section>
+</div>
