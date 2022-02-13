@@ -1,6 +1,6 @@
 :red_circle: Official Blog on [R3d-Buck3t](https://medium.com/r3d-buck3t)
 
-:red_circle: [View the Wiki on GitHub Page](https://nairuzabulhul.github.io/R3d-Buck3T/)
+:computer: [View the Wiki on GitHub Page](https://nairuzabulhul.github.io/R3d-Buck3T/)
 
 
 ## Pentestinf/Red Team Wiki Index 
