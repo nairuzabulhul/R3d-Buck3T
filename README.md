@@ -1,10 +1,6 @@
 🔴 Official Blog on [R3d-Buck3t](https://medium.com/r3d-buck3t)
 
-🔎 [View the Wiki on GitHub Page](https://nairuzabulhul.github.io/R3d-Buck3T/)
-
-test
-
-# Blog posts
+### Lastest posts
 <!-- BLOG-POST-LIST:START -->
 - [Attacking Kerberos Unconstrained Delegation](https://medium.com/r3d-buck3t/attacking-kerberos-unconstrained-delegation-ef77e1fb7203?source=rss----25eaa8551178---4)
 - [Attacking Service Accounts with Kerberoasting](https://medium.com/r3d-buck3t/attacking-service-accounts-with-kerberoasting-with-spns-de9894ca243f?source=rss----25eaa8551178---4)
@@ -13,7 +9,7 @@ test
 - [Enumerating Access Controls in Active Directory](https://medium.com/r3d-buck3t/enumerating-access-controls-in-active-directory-c06e2efa8b89?source=rss----25eaa8551178---4)
 <!-- BLOG-POST-LIST:END -->
 
-## Pentestinf/Red Team Wiki Index 
+### Pentestinf/Red Team Wiki Index 🔎 [View the Wiki on GitHub Page](https://nairuzabulhul.github.io/R3d-Buck3T/)
 This repo is a collection of tools and commands for pentesting and red teaming assessments
 
 + Web Application Security 
