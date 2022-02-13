@@ -14,7 +14,5 @@ This repo is a collection of tools and commands for pentesting and red teaming a
 
 updating soon ...
 
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
 
 
