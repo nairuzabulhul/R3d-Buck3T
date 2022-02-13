@@ -1,10 +1,11 @@
-Official Blog on [R3d-Buck3t](https://medium.com/r3d-buck3t)
+:red_circle: Official Blog on [R3d-Buck3t](https://medium.com/r3d-buck3t)
 
+:red_circle: [View the Wiki on GitHub Page](https://nairuzabulhul.github.io/R3d-Buck3T/)
 
-( https://nairuzabulhul.github.io/R3d-Buck3T/)
-This repo is a collection of tools and commands for pentesting and red teaming assessments
 
 ## Pentestinf/Red Team Wiki Index 
+This repo is a collection of tools and commands for pentesting and red teaming assessments
+
 + Web Application Security 
 + Window & Active Directory 
 + Cloud Security
