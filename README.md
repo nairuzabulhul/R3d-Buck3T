@@ -6,6 +6,11 @@ test
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Attacking Kerberos Unconstrained Delegation](https://medium.com/r3d-buck3t/attacking-kerberos-unconstrained-delegation-ef77e1fb7203?source=rss----25eaa8551178---4)
+- [Attacking Service Accounts with Kerberoasting](https://medium.com/r3d-buck3t/attacking-service-accounts-with-kerberoasting-with-spns-de9894ca243f?source=rss----25eaa8551178---4)
+- [Play with Hashes — Over Pass The Hash Attack](https://medium.com/r3d-buck3t/play-with-hashes-over-pass-the-hash-attack-2030b900562d?source=rss----25eaa8551178---4)
+- [Enumerating Domain Trusts in Active Directory](https://medium.com/r3d-buck3t/enumerating-domain-trusts-in-active-directory-series-c85205fc862f?source=rss----25eaa8551178---4)
+- [Enumerating Access Controls in Active Directory](https://medium.com/r3d-buck3t/enumerating-access-controls-in-active-directory-c06e2efa8b89?source=rss----25eaa8551178---4)
 <!-- BLOG-POST-LIST:END -->
 
 ## Pentestinf/Red Team Wiki Index 
