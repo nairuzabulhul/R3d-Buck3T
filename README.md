@@ -4,10 +4,9 @@
 
 test
 
-# StackOverflow Activity
-<!-- STACKOVERFLOW:START -->
-<!-- STACKOVERFLOW:END -->
-
+# Blog posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 ## Pentestinf/Red Team Wiki Index 
 This repo is a collection of tools and commands for pentesting and red teaming assessments
