@@ -11,10 +11,8 @@
 - [Pwning Printers with LDAP Pass-Back Attack](https://medium.com/r3d-buck3t/pwning-printers-with-ldap-pass-back-attack-a0d8fa495210?source=rss----25eaa8551178---4)
 - [RCE with Server-Side Template Injection](https://medium.com/r3d-buck3t/rce-with-server-side-template-injection-b9c5959ad31e?source=rss----25eaa8551178---4)
 <!-- BLOG-POST-LIST:END -->
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+
+<p>&nbsp;</p>
 
 ## Pentestinf/Red Team Wiki Index 
 This repo is a collection of tools and commands for pentesting and red teaming assessments 
