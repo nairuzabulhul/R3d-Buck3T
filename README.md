@@ -10,6 +10,11 @@ This repo is a collection of tools and commands for pentesting and red teaming a
 + Window & Active Directory 
 + Cloud Security
 + Netowrk Security
++ Wireless Security
++ Vulnerability Research
++ Misc
++ Resources
++ Training
 
 
 updating soon ...
