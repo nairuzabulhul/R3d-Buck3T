@@ -15,3 +15,4 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@master
         with:
           feed_list: "https://medium.com/feed/r3d-buck3t"
+          max_post_count: 8
