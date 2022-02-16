@@ -2,15 +2,16 @@
 
 ### Lastest posts
 <!-- BLOG-POST-LIST:START -->
-- [Attacking Kerberos Unconstrained Delegation](https://medium.com/r3d-buck3t/attacking-kerberos-unconstrained-delegation-ef77e1fb7203?source=rss----25eaa8551178---4)
-- [Attacking Service Accounts with Kerberoasting](https://medium.com/r3d-buck3t/attacking-service-accounts-with-kerberoasting-with-spns-de9894ca243f?source=rss----25eaa8551178---4)
-- [Play with Hashes — Over Pass The Hash Attack](https://medium.com/r3d-buck3t/play-with-hashes-over-pass-the-hash-attack-2030b900562d?source=rss----25eaa8551178---4)
-- [Enumerating Domain Trusts in Active Directory](https://medium.com/r3d-buck3t/enumerating-domain-trusts-in-active-directory-series-c85205fc862f?source=rss----25eaa8551178---4)
-- [Enumerating Access Controls in Active Directory](https://medium.com/r3d-buck3t/enumerating-access-controls-in-active-directory-c06e2efa8b89?source=rss----25eaa8551178---4)
-- [Things I learned this week about Log4JShell Vulnerability](https://medium.com/r3d-buck3t/things-i-learned-this-week-about-log4jshell-vulnerability-c4199e7d194b?source=rss----25eaa8551178---4)
-- [Pwning Printers with LDAP Pass-Back Attack](https://medium.com/r3d-buck3t/pwning-printers-with-ldap-pass-back-attack-a0d8fa495210?source=rss----25eaa8551178---4)
-- [RCE with Server-Side Template Injection](https://medium.com/r3d-buck3t/rce-with-server-side-template-injection-b9c5959ad31e?source=rss----25eaa8551178---4)
-<!-- BLOG-POST-LIST:END -->
+ - 💯 Attacking Kerberos Unconstrained Delegation
+ - 🔥 Attacking Service Accounts with Kerberoasting
+ - 💫 Play with Hashes — Over Pass The Hash Attack
+ - 💯 Enumerating Domain Trusts in Active Directory
+ - 🔥 Enumerating Access Controls in Active Directory
+ - 💫 Things I learned this week about Log4JShell Vulnerability
+ - 💯 Pwning Printers with LDAP Pass-Back Attack
+ - 🔥 RCE with Server-Side Template Injection
+ - 💫 Eval&lpar;“console.log&lpar;‘RCE Warning’&rpar;”&rpar;
+ - 💯 Privilege Escalation with MySQL User Defined Functions<!-- BLOG-POST-LIST:END -->
 
 <p>&nbsp;</p>
 
