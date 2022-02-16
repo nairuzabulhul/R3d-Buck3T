@@ -16,7 +16,7 @@ jobs:
         with:
           feed_names: "R3d Buck3T"
           feed_list: "https://medium.com/feed/r3d-buck3t"
-          template: title
+          template: "$title]($url)"
           max_post_count: 10
           
    
