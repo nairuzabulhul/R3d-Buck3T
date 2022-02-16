@@ -14,6 +14,9 @@ jobs:
       - name: Pull in dev.to posts
         uses: gautamkrishnar/blog-post-workflow@master
         with:
+          feed_names: "R3d Buck3T"
           feed_list: "https://medium.com/feed/r3d-buck3t"
-          max_post_count: 8
+          template: title
+          max_post_count: 10
+          
    
