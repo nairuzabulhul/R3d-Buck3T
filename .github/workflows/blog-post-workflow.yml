@@ -17,7 +17,7 @@ jobs:
           feed_names: "R3d Buck3T"
           feed_list: "https://medium.com/feed/r3d-buck3t"
           date_format: 	"UTC:ddd mmm dd yyyy h:MM TT"
-          template: "$title $date $newline"
+          template: "[$title]($url) $description"
           max_post_count: 10
           
    
