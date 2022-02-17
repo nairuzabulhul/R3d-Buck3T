@@ -214,7 +214,7 @@
 
 **The command returns all of the available organizational units**
 
-> **Get-ADOrganizationalUnit -Filter * -Properties * **
+> **Get-ADOrganizationalUnit -Filter * -Properties&nbsp;***
 
 
 <p>&nbsp;</p>
