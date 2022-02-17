@@ -10,6 +10,8 @@
 
 🔔**`Domain enumeration can be done with unprivileged user`** 
 
+<p>&nbsp;</p>
+
 # Import Modules
 
 **`Import Microsoft Active Directory Management DLL`**
@@ -21,6 +23,8 @@
 
 > **Import-Module  C:\Active-Directory-Module\ActiveDirectory\ActiveDirectory.psd1**
 > 
+
+<p>&nbsp;</p>
 
 # Domain Enumeration
 
@@ -44,6 +48,8 @@
 > **(Get-ADDomain).DomainSID**
 > 
 
+<p>&nbsp;</p>
+
 ### **Domain Controller Information**
 
 **`The command shows information about the domain controller`**
@@ -54,7 +60,9 @@
 `**Get domain controllers for another domain**`
 
 > **Get-ADDomainController -DomainName megabank.local -Discover**
-> 
+
+
+<p>&nbsp;</p>
 
 ### **User Enumeration**
 
@@ -97,6 +105,8 @@
 - `**Always choose the user that has a reasonable logon count to create a Golden Ticket**`
 - `**Decoy users either have very high *logoncount* or very low**`
 
+<p>&nbsp;</p>
+
 ### Properties Enumeration
 
 **`The command searches for all users and returns all of the users and the last time their password were reset`**
@@ -111,7 +121,9 @@
 `**The badpwdcount property can show active users from the non-active or decoy accounts. The higher the number of bad password counts, the chances that the account is real, and the lower is a decoy or not active.**`
 
 > **Get-ADUser -Filter * -Properties * | select Name,badpwdcount**
-> 
+
+
+<p>&nbsp;</p>
 
 ### **Computer Enumeration**
 
@@ -146,7 +158,9 @@
 > 
 
 > **GetADComputer -Filter * -Properties ***
-> 
+
+
+<p>&nbsp;</p>
 
 ### Group Enumeration
 
@@ -163,6 +177,8 @@
 
 > **Get-ADGroup -Filter * | where {$_.Name -like '**admin**'} | select Name**
 > 
+
+<p>&nbsp;</p>
 
 ### **Group Members**
 
@@ -192,16 +208,20 @@
 > 
 - **`Get the forest name by running Get-AdDomain | select forest`**
 
+<p>&nbsp;</p>
+
 # Enumerating Organizational Units [OU]
 
 **The command returns all of the available organizational units**
 
-> **Get-ADOrganizationalUnit -Filter * -Properties ***
-> 
+> **Get-ADOrganizationalUnit -Filter * -Properties * **
 
----
+
+<p>&nbsp;</p>
 
 ### 🔔 Follow R3d Buck3t Publication on Medium - [https://medium.com/r3d-buck3t](https://medium.com/r3d-buck3t)
+
+<p>&nbsp;</p>
 
 # 📚$_Resources
 
