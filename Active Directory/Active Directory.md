@@ -15,7 +15,11 @@
 
 ## Kerberos Attacks 
 
+<p>&nbsp;</p>
+
 ## Domain/Local Privilege Escalation
+
+<p>&nbsp;</p>
 
 ## Lateral Movement
 
