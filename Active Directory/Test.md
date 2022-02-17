@@ -4,7 +4,7 @@
 
 - Microsoft Active Directory Management DLL
 - PowerShell Active Directory module ***[ActiveDirectory.psd1](https://github.com/samratashok/ADModule/blob/master/ActiveDirectory/ActiveDirectory.psd1)***
-- ***[ActiveDirectory.Format.ps1xm***l](https://github.com/samratashok/ADModule/blob/master/ActiveDirectory/ActiveDirectory.Format.ps1xml) file from
+- [ActiveDirectory.Format.ps1xm](https://github.com/samratashok/ADModule/blob/master/ActiveDirectory/ActiveDirectory.Format.ps1xml) file from
 
 **📍 *No Admin Privileges needed to import the DLL or use it***
 
