@@ -8,21 +8,20 @@
 
 **📍 *No Admin Privileges needed to import the DLL or use it***
 
-🔔**`Domain enumeration can be done with unprivileged user`** 
+🔔**Domain enumeration can be done with unprivileged user** 
 
 <p>&nbsp;</p>
 
 # Import Modules
 
-**`Import Microsoft Active Directory Management DLL`**
+- **Import Microsoft Active Directory Management DLL**
 
-> **Import-Module C:\Active-Directory-Module\Microsoft.ActiveDirectory.Management.dll**
-> 
+- **Import-Module C:\Active-Directory-Module\Microsoft.ActiveDirectory.Management.dll**
 
-**`Import PowerShell Active Directory module *[ActiveDirectory.psd1](https://github.com/samratashok/ADModule/blob/master/ActiveDirectory/ActiveDirectory.psd1)*`**
+- **Import PowerShell Active Directory module[ActiveDirectory.psd1](https://github.com/samratashok/ADModule/blob/master/ActiveDirectory/ActiveDirectory.psd1)**
 
-> **Import-Module  C:\Active-Directory-Module\ActiveDirectory\ActiveDirectory.psd1**
-> 
+-  **Import-Module  C:\Active-Directory-Module\ActiveDirectory\ActiveDirectory.psd1**
+
 
 <p>&nbsp;</p>
 
