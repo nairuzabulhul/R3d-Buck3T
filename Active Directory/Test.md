@@ -1,10 +1,14 @@
 # Domain Enumeration with PowerShell Active Directory Module
+### 🔎 View in Notion [Link](https://r3dbuck3t.notion.site/Domain-Enumeration-with-PowerShell-Active-Directory-Module-a6d901bd09ce46f9a4be4bcb85b9d6df)
+
+
+<p>&nbsp;</p>
 
 # 🛠️$_Perquisites
 
 - Microsoft Active Directory Management DLL
 - PowerShell Active Directory module ***[ActiveDirectory.psd1](https://github.com/samratashok/ADModule/blob/master/ActiveDirectory/ActiveDirectory.psd1)***
-- [ActiveDirectory.Format.ps1xm](https://github.com/samratashok/ADModule/blob/master/ActiveDirectory/ActiveDirectory.Format.ps1xml) file from
+- [ActiveDirectory.Format.ps1xm](https://github.com/samratashok/ADModule/blob/master/ActiveDirectory/ActiveDirectory.Format.ps1xml) file from GitHub
 
 **📍 *No Admin Privileges needed to import the DLL or use it***
 
