@@ -1,6 +1,7 @@
 # Domain Trusts - Forging Trust Tickets
 
 🔎 View in Notion [Link](https://r3dbuck3t.notion.site/Domain-Trusts-Forging-Trust-Tickets-cad847c5afb8447cac284ae5c97ed38e)
+
 📖 Related Article on R3d-Bucket: [Breaking Domain Trusts with Forged Trust Tickets]()
 
 # Escalation Requirement 🚩
