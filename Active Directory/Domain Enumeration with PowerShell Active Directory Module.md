@@ -1,6 +1,6 @@
 # Domain Enumeration with PowerShell Active Directory Module
 ### 🔎 View in Notion [Link](https://r3dbuck3t.notion.site/Domain-Enumeration-with-PowerShell-Active-Directory-Module-a6d901bd09ce46f9a4be4bcb85b9d6df)
-### 📖 Related Article on R3d-Bucket: [Domain Enumeration with PowerShell Active Directory Module](https://medium.com/r3d-buck3t/domain-enumeration-with-active-directory-powershell-module-7ce4fcfe91d3)
+### 📖 Blog Post: [Domain Enumeration with PowerShell Active Directory Module](https://medium.com/r3d-buck3t/domain-enumeration-with-active-directory-powershell-module-7ce4fcfe91d3)
 
 
 <p>&nbsp;</p>
