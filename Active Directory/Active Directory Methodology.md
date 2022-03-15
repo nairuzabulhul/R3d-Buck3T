@@ -1,5 +1,7 @@
 # Active Directory Attack Methodology
 
+Notion link: https://r3dbuck3t.notion.site/Active-Directory-Attack-Methodology-2ca1e61c714542fb9830860eb25160a7
+
 # **Scanning**
 
 **🛠️ Tools:**
