@@ -2,6 +2,7 @@
 
 ### Lastest posts
 <!-- BLOG-POST-LIST:START -->
+- [DLL Injection Over SMB Service](https://medium.com/r3d-buck3t/dll-injection-over-smb-service-892abe89766e?source=rss----25eaa8551178---4)
 - [Domain Takeover with PetitPotam Exploit](https://medium.com/r3d-buck3t/domain-takeover-with-petitpotam-exploit-3900f89b38f7?source=rss----25eaa8551178---4)
 - [Attacking Kerberos Constrained Delegation](https://medium.com/r3d-buck3t/attacking-kerberos-constrained-delegations-4a0eddc5bb13?source=rss----25eaa8551178---4)
 - [Breaking Domain Trusts with Forged Trust Tickets](https://medium.com/r3d-buck3t/breaking-domain-trusts-with-forged-trust-tickets-5f03fb71cd72?source=rss----25eaa8551178---4)
@@ -11,7 +12,6 @@
 - [Enumerating Domain Trusts in Active Directory](https://medium.com/r3d-buck3t/enumerating-domain-trusts-in-active-directory-series-c85205fc862f?source=rss----25eaa8551178---4)
 - [Enumerating Access Controls in Active Directory](https://medium.com/r3d-buck3t/enumerating-access-controls-in-active-directory-c06e2efa8b89?source=rss----25eaa8551178---4)
 - [Things I learned this week about Log4JShell Vulnerability](https://medium.com/r3d-buck3t/things-i-learned-this-week-about-log4jshell-vulnerability-c4199e7d194b?source=rss----25eaa8551178---4)
-- [Pwning Printers with LDAP Pass-Back Attack](https://medium.com/r3d-buck3t/pwning-printers-with-ldap-pass-back-attack-a0d8fa495210?source=rss----25eaa8551178---4)
 <!-- BLOG-POST-LIST:END -->
 
 <p>&nbsp;</p>
