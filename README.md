@@ -2,6 +2,7 @@
 
 ### Lastest posts
 <!-- BLOG-POST-LIST:START -->
+- [Domain Escalation with Token Impersonation](https://medium.com/r3d-buck3t/domain-escalation-with-token-impersonation-bc577db55a0f?source=rss----25eaa8551178---4)
 - [DLL Injection Over SMB Service](https://medium.com/r3d-buck3t/dll-injection-over-smb-service-892abe89766e?source=rss----25eaa8551178---4)
 - [Domain Takeover with PetitPotam Exploit](https://medium.com/r3d-buck3t/domain-takeover-with-petitpotam-exploit-3900f89b38f7?source=rss----25eaa8551178---4)
 - [Attacking Kerberos Constrained Delegation](https://medium.com/r3d-buck3t/attacking-kerberos-constrained-delegations-4a0eddc5bb13?source=rss----25eaa8551178---4)
@@ -11,7 +12,6 @@
 - [Play with Hashes — Over Pass The Hash Attack](https://medium.com/r3d-buck3t/play-with-hashes-over-pass-the-hash-attack-2030b900562d?source=rss----25eaa8551178---4)
 - [Enumerating Domain Trusts in Active Directory](https://medium.com/r3d-buck3t/enumerating-domain-trusts-in-active-directory-series-c85205fc862f?source=rss----25eaa8551178---4)
 - [Enumerating Access Controls in Active Directory](https://medium.com/r3d-buck3t/enumerating-access-controls-in-active-directory-c06e2efa8b89?source=rss----25eaa8551178---4)
-- [Things I learned this week about Log4JShell Vulnerability](https://medium.com/r3d-buck3t/things-i-learned-this-week-about-log4jshell-vulnerability-c4199e7d194b?source=rss----25eaa8551178---4)
 <!-- BLOG-POST-LIST:END -->
 
 <p>&nbsp;</p>
