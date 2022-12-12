@@ -2,6 +2,7 @@
 
 ### Lastest posts
 <!-- BLOG-POST-LIST:START -->
+- [Building an Active Directory Lab &lpar;Part 1&rpar; — Windows Server 2022 Setup](https://medium.com/r3d-buck3t/building-an-active-directory-lab-part-1-windows-server-2022-setup-7dfaf0dafd5c?source=rss----25eaa8551178---4)
 - [Domain Escalation with Token Impersonation](https://medium.com/r3d-buck3t/domain-escalation-with-token-impersonation-bc577db55a0f?source=rss----25eaa8551178---4)
 - [DLL Injection Over SMB Service](https://medium.com/r3d-buck3t/dll-injection-over-smb-service-892abe89766e?source=rss----25eaa8551178---4)
 - [Domain Takeover with PetitPotam Exploit](https://medium.com/r3d-buck3t/domain-takeover-with-petitpotam-exploit-3900f89b38f7?source=rss----25eaa8551178---4)
@@ -11,7 +12,6 @@
 - [Attacking Service Accounts with Kerberoasting](https://medium.com/r3d-buck3t/attacking-service-accounts-with-kerberoasting-with-spns-de9894ca243f?source=rss----25eaa8551178---4)
 - [Play with Hashes — Over Pass The Hash Attack](https://medium.com/r3d-buck3t/play-with-hashes-over-pass-the-hash-attack-2030b900562d?source=rss----25eaa8551178---4)
 - [Enumerating Domain Trusts in Active Directory](https://medium.com/r3d-buck3t/enumerating-domain-trusts-in-active-directory-series-c85205fc862f?source=rss----25eaa8551178---4)
-- [Enumerating Access Controls in Active Directory](https://medium.com/r3d-buck3t/enumerating-access-controls-in-active-directory-c06e2efa8b89?source=rss----25eaa8551178---4)
 <!-- BLOG-POST-LIST:END -->
 
 <p>&nbsp;</p>
