@@ -2,6 +2,7 @@
 
 ### Lastest posts
 <!-- BLOG-POST-LIST:START -->
+- [External Penetration Testing Methodology](https://medium.com/r3d-buck3t/external-penetration-testing-methodology-8ea5a69a9e68?source=rss----25eaa8551178---4)
 - [Active Directory Lab &lpar;Part 2&rpar; — Configuring Active Directory Services](https://medium.com/r3d-buck3t/active-directory-lab-part-2-configuring-active-directory-services-1a46817e123e?source=rss----25eaa8551178---4)
 - [Building an Active Directory Lab &lpar;Part 1&rpar; — Windows Server 2022 Setup](https://medium.com/r3d-buck3t/building-an-active-directory-lab-part-1-windows-server-2022-setup-7dfaf0dafd5c?source=rss----25eaa8551178---4)
 - [Domain Escalation with Token Impersonation](https://medium.com/r3d-buck3t/domain-escalation-with-token-impersonation-bc577db55a0f?source=rss----25eaa8551178---4)
@@ -11,7 +12,6 @@
 - [Breaking Domain Trusts with Forged Trust Tickets](https://medium.com/r3d-buck3t/breaking-domain-trusts-with-forged-trust-tickets-5f03fb71cd72?source=rss----25eaa8551178---4)
 - [Attacking Kerberos Unconstrained Delegation](https://medium.com/r3d-buck3t/attacking-kerberos-unconstrained-delegation-ef77e1fb7203?source=rss----25eaa8551178---4)
 - [Attacking Service Accounts with Kerberoasting](https://medium.com/r3d-buck3t/attacking-service-accounts-with-kerberoasting-with-spns-de9894ca243f?source=rss----25eaa8551178---4)
-- [Play with Hashes — Over Pass The Hash Attack](https://medium.com/r3d-buck3t/play-with-hashes-over-pass-the-hash-attack-2030b900562d?source=rss----25eaa8551178---4)
 <!-- BLOG-POST-LIST:END -->
 
 <p>&nbsp;</p>
