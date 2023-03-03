@@ -2,6 +2,7 @@
 
 ### Lastest posts
 <!-- BLOG-POST-LIST:START -->
+- [Cross-Origin Resource Sharing &lpar;CORS&rpar; Testing Guide](https://medium.com/r3d-buck3t/cross-origin-resource-sharing-cors-testing-guide-29616c225a0a?source=rss----25eaa8551178---4)
 - [External Penetration Testing Methodology](https://medium.com/r3d-buck3t/external-penetration-testing-methodology-8ea5a69a9e68?source=rss----25eaa8551178---4)
 - [Active Directory Lab &lpar;Part 2&rpar; — Configuring Active Directory Services](https://medium.com/r3d-buck3t/active-directory-lab-part-2-configuring-active-directory-services-1a46817e123e?source=rss----25eaa8551178---4)
 - [Building an Active Directory Lab &lpar;Part 1&rpar; — Windows Server 2022 Setup](https://medium.com/r3d-buck3t/building-an-active-directory-lab-part-1-windows-server-2022-setup-7dfaf0dafd5c?source=rss----25eaa8551178---4)
@@ -11,7 +12,6 @@
 - [Attacking Kerberos Constrained Delegation](https://medium.com/r3d-buck3t/attacking-kerberos-constrained-delegations-4a0eddc5bb13?source=rss----25eaa8551178---4)
 - [Breaking Domain Trusts with Forged Trust Tickets](https://medium.com/r3d-buck3t/breaking-domain-trusts-with-forged-trust-tickets-5f03fb71cd72?source=rss----25eaa8551178---4)
 - [Attacking Kerberos Unconstrained Delegation](https://medium.com/r3d-buck3t/attacking-kerberos-unconstrained-delegation-ef77e1fb7203?source=rss----25eaa8551178---4)
-- [Attacking Service Accounts with Kerberoasting](https://medium.com/r3d-buck3t/attacking-service-accounts-with-kerberoasting-with-spns-de9894ca243f?source=rss----25eaa8551178---4)
 <!-- BLOG-POST-LIST:END -->
 
 <p>&nbsp;</p>
