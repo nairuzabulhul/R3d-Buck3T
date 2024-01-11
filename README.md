@@ -2,6 +2,7 @@
 
 ### Lastest posts
 <!-- BLOG-POST-LIST:START -->
+- [Red Teaming in Cloud: Leverage Azure FrontDoor CDN for C2 Redirectors](https://medium.com/r3d-buck3t/red-teaming-in-cloud-leverage-azure-frontdoor-cdn-for-c2-redirectors-79dd9ca98178?source=rss----25eaa8551178---4)
 - [Abusing Dynamic Groups in AzureAD [Part 1]](https://medium.com/r3d-buck3t/abusing-dynamic-groups-in-azuread-part-1-ff12e328c8c0?source=rss----25eaa8551178---4)
 - [Red Teaming in the Cloud: Installing Mythic C2 on Azure VM](https://medium.com/r3d-buck3t/red-teaming-in-the-cloud-installing-mythic-c2-on-azure-vm-35ef762e61b6?source=rss----25eaa8551178---4)
 - [Red Teaming in the Cloud: Deploying Azure VMs for C2 Infrastructure](https://medium.com/r3d-buck3t/red-teaming-in-the-cloud-deploying-azure-vms-for-c2-infrastructure-c4819d843b72?source=rss----25eaa8551178---4)
@@ -11,7 +12,6 @@
 - [Privilege Escalation with Insecure Windows Service Permissions](https://medium.com/r3d-buck3t/privilege-escalation-with-insecure-windows-service-permissions-5d97312db107?source=rss----25eaa8551178---4)
 - [Certificate-based Authentication over WinRM](https://medium.com/r3d-buck3t/certificate-based-authentication-over-winrm-13197265c790?source=rss----25eaa8551178---4)
 - [How to Abuse Resource-Based Constrained Delegation to Gain Unauthorized Access](https://medium.com/r3d-buck3t/how-to-abuse-resource-based-constrained-delegation-to-gain-unauthorized-access-36ac8337dd5a?source=rss----25eaa8551178---4)
-- [Cross-Origin Resource Sharing &lpar;CORS&rpar; Testing Guide](https://medium.com/r3d-buck3t/cross-origin-resource-sharing-cors-testing-guide-29616c225a0a?source=rss----25eaa8551178---4)
 <!-- BLOG-POST-LIST:END -->
 
 <p>&nbsp;</p>
