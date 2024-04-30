@@ -2,6 +2,7 @@
 
 ### Lastest posts
 <!-- BLOG-POST-LIST:START -->
+- [Adding Certificates to Postman &amp; Burp Suite for API Testing](https://medium.com/r3d-buck3t/adding-certificates-to-postman-burp-suite-for-api-testing-06339a6d072a?source=rss----25eaa8551178---4)
 - [Red Teaming in Cloud: Leverage Azure FrontDoor CDN for C2 Redirectors](https://medium.com/r3d-buck3t/red-teaming-in-cloud-leverage-azure-frontdoor-cdn-for-c2-redirectors-79dd9ca98178?source=rss----25eaa8551178---4)
 - [Abusing Dynamic Groups in AzureAD [Part 1]](https://medium.com/r3d-buck3t/abusing-dynamic-groups-in-azuread-part-1-ff12e328c8c0?source=rss----25eaa8551178---4)
 - [Red Teaming in the Cloud: Installing Mythic C2 on Azure VM](https://medium.com/r3d-buck3t/red-teaming-in-the-cloud-installing-mythic-c2-on-azure-vm-35ef762e61b6?source=rss----25eaa8551178---4)
@@ -11,7 +12,6 @@
 - [CrackMapExec in Action: Enumerating Windows Networks &lpar;Part 1&rpar;](https://medium.com/r3d-buck3t/crackmapexec-in-action-enumerating-windows-networks-part-1-3a6a7e5644e9?source=rss----25eaa8551178---4)
 - [Privilege Escalation with Insecure Windows Service Permissions](https://medium.com/r3d-buck3t/privilege-escalation-with-insecure-windows-service-permissions-5d97312db107?source=rss----25eaa8551178---4)
 - [Certificate-based Authentication over WinRM](https://medium.com/r3d-buck3t/certificate-based-authentication-over-winrm-13197265c790?source=rss----25eaa8551178---4)
-- [How to Abuse Resource-Based Constrained Delegation to Gain Unauthorized Access](https://medium.com/r3d-buck3t/how-to-abuse-resource-based-constrained-delegation-to-gain-unauthorized-access-36ac8337dd5a?source=rss----25eaa8551178---4)
 <!-- BLOG-POST-LIST:END -->
 
 <p>&nbsp;</p>
