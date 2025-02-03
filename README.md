@@ -2,6 +2,7 @@
 
 ### Lastest posts
 <!-- BLOG-POST-LIST:START -->
+- [Stealing Cloud Function Access Tokens with Misconfigured IAM Policy [GCP]](https://medium.com/r3d-buck3t/stealing-cloud-function-access-tokens-with-misconfigured-iam-policy-gcp-5e79538e88ac?source=rss----25eaa8551178---4)
 - [Payload Delivery with Azure Static Website and IPFS Dropper](https://medium.com/r3d-buck3t/payload-delivery-with-azure-static-website-and-ipfs-dropper-3de6a09ad1f3?source=rss----25eaa8551178---4)
 - [Configure Fireprox for IP Rotation using AWS API Gateway](https://medium.com/r3d-buck3t/configure-fireprox-for-ip-rotation-using-aws-api-gateway-b37ff3523e36?source=rss----25eaa8551178---4)
 - [Adding Certificates to Postman &amp; Burp Suite for API Testing](https://medium.com/r3d-buck3t/adding-certificates-to-postman-burp-suite-for-api-testing-06339a6d072a?source=rss----25eaa8551178---4)
@@ -11,7 +12,6 @@
 - [Red Teaming in the Cloud: Deploying Azure VMs for C2 Infrastructure](https://medium.com/r3d-buck3t/red-teaming-in-the-cloud-deploying-azure-vms-for-c2-infrastructure-c4819d843b72?source=rss----25eaa8551178---4)
 - [Virtual Host Enumeration for Uncovering Hidden Subdomains](https://medium.com/r3d-buck3t/virtual-host-enumeration-for-uncovering-hidden-subdomains-e800625c2b8f?source=rss----25eaa8551178---4)
 - [CrackMapExec in Action: Enumerating Windows Networks &lpar;Part 2&rpar;](https://medium.com/r3d-buck3t/crackmapexec-in-action-enumerating-windows-networks-part-2-c61dfb7cd88e?source=rss----25eaa8551178---4)
-- [CrackMapExec in Action: Enumerating Windows Networks &lpar;Part 1&rpar;](https://medium.com/r3d-buck3t/crackmapexec-in-action-enumerating-windows-networks-part-1-3a6a7e5644e9?source=rss----25eaa8551178---4)
 <!-- BLOG-POST-LIST:END -->
 
 <p>&nbsp;</p>
