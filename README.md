@@ -2,6 +2,7 @@
 
 ### Lastest posts
 <!-- BLOG-POST-LIST:START -->
+- [GCP Privilege Escalation: Abusing Function Admin Role for Full Project Takeover](https://medium.com/r3d-buck3t/gcp-privilege-escalation-abusing-function-admin-role-for-full-project-takeover-4be96a951ddc?source=rss----25eaa8551178---4)
 - [Abusing Compute Instance IAM Misconfigurations to Gain Privileges in GCP](https://medium.com/r3d-buck3t/abusing-compute-instance-iam-misconfigurations-to-gain-privileges-in-gcp-c0371280f21d?source=rss----25eaa8551178---4)
 - [Stealing Cloud Function Access Tokens with Misconfigured IAM Policy [GCP]](https://medium.com/r3d-buck3t/stealing-cloud-function-access-tokens-with-misconfigured-iam-policy-gcp-5e79538e88ac?source=rss----25eaa8551178---4)
 - [Payload Delivery with Azure Static Website and IPFS Dropper](https://medium.com/r3d-buck3t/payload-delivery-with-azure-static-website-and-ipfs-dropper-3de6a09ad1f3?source=rss----25eaa8551178---4)
@@ -11,7 +12,6 @@
 - [Abusing Dynamic Groups in AzureAD [Part 1]](https://medium.com/r3d-buck3t/abusing-dynamic-groups-in-azuread-part-1-ff12e328c8c0?source=rss----25eaa8551178---4)
 - [Red Teaming in the Cloud: Installing Mythic C2 on Azure VM](https://medium.com/r3d-buck3t/red-teaming-in-the-cloud-installing-mythic-c2-on-azure-vm-35ef762e61b6?source=rss----25eaa8551178---4)
 - [Red Teaming in the Cloud: Deploying Azure VMs for C2 Infrastructure](https://medium.com/r3d-buck3t/red-teaming-in-the-cloud-deploying-azure-vms-for-c2-infrastructure-c4819d843b72?source=rss----25eaa8551178---4)
-- [Virtual Host Enumeration for Uncovering Hidden Subdomains](https://medium.com/r3d-buck3t/virtual-host-enumeration-for-uncovering-hidden-subdomains-e800625c2b8f?source=rss----25eaa8551178---4)
 <!-- BLOG-POST-LIST:END -->
 
 <p>&nbsp;</p>
