@@ -2,6 +2,7 @@
 
 ### Lastest posts
 <!-- BLOG-POST-LIST:START -->
+- [ADCS Attack Series: Abusing ESC10 for Privilege Escalation via Misconfigured Registries](https://medium.com/r3d-buck3t/adcs-attack-series-abusing-esc10-for-privilege-escalation-via-misconfigured-registries-a8c6edf07d9e?source=rss----25eaa8551178---4)
 - [ADCS Attack Series: Abusing ESC4 via Template ACLs for Privilege Escalation](https://medium.com/r3d-buck3t/adcs-attack-series-abusing-esc4-via-template-acls-for-privilege-escalation-98320f0da59a?source=rss----25eaa8551178---4)
 - [ADCS Attack Series: Abusing ESC9 for Privilege Escalation via Weak Certificate Mapping](https://medium.com/r3d-buck3t/adcs-attack-series-abusing-esc9-for-privilege-escalation-via-weak-certificate-mapping-d625aceb5942?source=rss----25eaa8551178---4)
 - [GCP Privilege Escalation: Abusing Function Admin Role for Full Project Takeover](https://medium.com/r3d-buck3t/gcp-privilege-escalation-abusing-function-admin-role-for-full-project-takeover-4be96a951ddc?source=rss----25eaa8551178---4)
@@ -11,7 +12,6 @@
 - [Configure Fireprox for IP Rotation using AWS API Gateway](https://medium.com/r3d-buck3t/configure-fireprox-for-ip-rotation-using-aws-api-gateway-b37ff3523e36?source=rss----25eaa8551178---4)
 - [Adding Certificates to Postman &amp; Burp Suite for API Testing](https://medium.com/r3d-buck3t/adding-certificates-to-postman-burp-suite-for-api-testing-06339a6d072a?source=rss----25eaa8551178---4)
 - [Red Teaming in Cloud: Leverage Azure FrontDoor CDN for C2 Redirectors](https://medium.com/r3d-buck3t/red-teaming-in-cloud-leverage-azure-frontdoor-cdn-for-c2-redirectors-79dd9ca98178?source=rss----25eaa8551178---4)
-- [Abusing Dynamic Groups in AzureAD [Part 1]](https://medium.com/r3d-buck3t/abusing-dynamic-groups-in-azuread-part-1-ff12e328c8c0?source=rss----25eaa8551178---4)
 <!-- BLOG-POST-LIST:END -->
 
 <p>&nbsp;</p>
